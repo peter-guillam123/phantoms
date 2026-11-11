@@ -4,8 +4,17 @@ The one place for everything learned about the style of the stories.
 Read it before writing or changing a story. Add to it every time Chris
 reacts to one, in his words where possible, with the date.
 
-The evidence behind these rules (what was read, the counts, the gaps) is
-in `research/period-style.md`. Each writer's own voice is in `personas/`.
+There are two layers, and a story needs both:
+
+1. **General: this file.** What every story of the period does, what the
+   magazines' house styles were, and the modern habits to keep out.
+2. **Author-specific: the writer's file in `personas/`.** That writer's
+   voice rules, plus a "Period notes" section written after reading real
+   stories from their own magazines. Tugwell and Trembath have theirs.
+   The other eight do not, and must before they write.
+
+The evidence behind the general rules (what was read, the counts, the
+gaps) is in `research/period-style.md`.
 
 ## Who decides
 
@@ -95,6 +104,37 @@ Both of ours are light on dashes. Tugwell's and Trembath's middle
 sentences are now nearly the same length, so what separates them is
 person, paragraph length and how much speech there is. Watch that the
 next writer differs on more than one count.
+
+## What a detector made of them
+
+On 11 November 2026 Chris ran the opening of each published story
+through Pangram, a tool that guesses whether text was written by a
+machine. It is a smoke alarm, not a judge, and 180 words is a small
+sample. The target is still a believable object of 1900, not a score.
+
+- "The Diary at Direction Island" (Trembath): 100% human.
+- "The Reader" (Tugwell): 100% AI. Which version he tested is not yet
+  confirmed.
+
+My guesses at why, to be tested and not yet rules:
+
+- Trembath is a plain man giving evidence. He hedges, interrupts himself
+  and tacks on afterthoughts ("is thought, I know, to be a poor thing").
+  His sentences trail. Tugwell's narrator is poised and ironic, with
+  balanced clauses that each close neatly, and that poise is what a
+  model produces by default when asked for good prose.
+- Every detail in the opening of "The Reader" is well chosen and a
+  little funny (the perambulator, the foot-rule). Trembath's opening
+  has throat-clearing in it that does no work.
+- First person in a working voice may simply be further from a model's
+  habits than polished third person.
+
+If these hold, the general lesson is to allow clumsiness: afterthoughts,
+hedges, a sentence that says a thing twice. And Tugwell's irony, which
+is her whole voice, is the hardest of the ten to make sound unmachined.
+
+Not yet done: run a passage from a real 1900 story through the same
+tool, to see what it makes of the genuine article.
 
 ## Showing and publishing
 
