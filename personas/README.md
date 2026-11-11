@@ -6,18 +6,62 @@ how well each fact has been checked.
 
 ## At a glance
 
-| # | Writer | Dates | From | Trade | A ghost is... |
-|---|---|---|---|---|---|
-| 1 | [Alfred Staniforth](01-alfred-staniforth.md) | 1858–1931 | Sheffield, then London | Reporter and sub-editor | a device for one clean fright |
-| 2 | [Harriet Tugwell](02-harriet-tugwell.md) | 1852–1921 | Somerset border, then Wells | Vicar's daughter | what a household will not say |
-| 3 | [Thomas Lovegrove](03-thomas-lovegrove.md) | 1858–1927 | Berkshire downs, then Reading | Private soldier to quartermaster | a man still on the strength |
-| 4 | [Hester Charlton](04-hester-charlton.md) | 1862–1938 | Hexham, then Egham | Classics lecturer | an ancient debt, unpaid |
-| 5 | [Eli Kenworthy](05-eli-kenworthy.md) | 1857–1929 | Mossley | Cotton spinner | a wage owing |
-| 6 | [Nora Tobin](06-nora-tobin.md) | 1866–1943 | Clonmel | Draper's daughter | a neighbour in need of a favour |
-| 7 | [Andrew Dalgleish](07-andrew-dalgleish.md) | 1854–1926 | Edinburgh | Solicitor | a witness nobody can cross-examine |
-| 8 | [Rachel Protheroe](08-rachel-protheroe.md) | 1868–1947 | Teifi valley | Schoolmistress | a warning that comes first |
-| 9 | [Winifred Gadd](09-winifred-gadd.md) | 1894–1971 | Ilford | Shorthand-typist | a wish with nowhere to go |
-| 10 | [John Trembath](10-john-trembath.md) | 1866–1934 | St Just, then the cable stations | Telegraph operator | a message that outlived its sender |
+| # | Writer | Dates | From | Trade |
+|---|---|---|---|---|
+| 1 | [Alfred Staniforth](01-alfred-staniforth.md) | 1858–1931 | Sheffield, then London | Reporter and sub-editor |
+| 2 | [Harriet Tugwell](02-harriet-tugwell.md) | 1852–1921 | Somerset border, then Wells | Vicar's daughter |
+| 3 | [Thomas Lovegrove](03-thomas-lovegrove.md) | 1858–1927 | Berkshire downs, then Reading | Private soldier to quartermaster |
+| 4 | [Hester Charlton](04-hester-charlton.md) | 1862–1938 | Hexham, then Egham | Classics lecturer |
+| 5 | [Eli Kenworthy](05-eli-kenworthy.md) | 1857–1929 | Mossley | Cotton spinner |
+| 6 | [Nora Tobin](06-nora-tobin.md) | 1866–1943 | Clonmel | Draper's daughter |
+| 7 | [Andrew Dalgleish](07-andrew-dalgleish.md) | 1854–1926 | Edinburgh | Solicitor |
+| 8 | [Rachel Protheroe](08-rachel-protheroe.md) | 1868–1947 | Teifi valley | Schoolmistress |
+| 9 | [Winifred Gadd](09-winifred-gadd.md) | 1894–1971 | Ilford | Shorthand-typist |
+| 10 | [John Trembath](10-john-trembath.md) | 1866–1934 | St Just, then the cable stations | Telegraph operator |
+
+## What a ghost is, to each of them
+
+Each has a one-line idea and a complication under it. The line is what
+they would say. The complication is what the stories show. A story should
+serve both. The fullest version of each is on the site, in
+`content/writers/`, under "What a ghost was to him" or "to her".
+
+1. **Staniforth: a device for one clean fright.** He says he believes
+   nothing and writes for money. But his ghosts always appear before a
+   crowd and somebody always makes a list: the flood claims of his
+   childhood. Fear, for him, is public and has a price.
+2. **Tugwell: what a household will not say.** The dead are with God, so
+   what walks is shared, unspoken knowledge. She is not simply for
+   speaking out. Silence also holds a house up, and her outsiders leave
+   without exposing anything.
+3. **Lovegrove: a man still on the strength.** No malice, only a soldier
+   nobody stood down. Underneath is survivor's arithmetic: he was counted
+   in at Kandahar, and his stories keep putting the numbers right.
+4. **Charlton: an ancient debt, unpaid.** Not moral: the dead want what is
+   due, in the proper form. She half envies the ancients, who knew the
+   form. A woman denied her degree knows about dues withheld, though she
+   would wave that away.
+5. **Kenworthy: a wage owing.** The boggart as the poor man's magistrate.
+   But the claims are small (sixpence, a week's pay), the ghost does what
+   a chapel-going spinner would not dare, and it is funny, and company.
+6. **Tobin: a neighbour in need of a favour.** The dead are harmless and
+   are owed prayers. The fear is the living, once they are sure. After
+   1895 she can neither mock the old beliefs nor romanticise them.
+7. **Dalgleish: a witness nobody can cross-examine.** He asks what it
+   proves, not whether it is true. Underneath is the manse: fear of an
+   exact record of himself. His worst apparitions are doubles of the
+   living. He leaves cases open because a verdict would be on someone.
+8. **Protheroe: a warning that comes first.** The omen comes before the
+   death. The old story calls it a mercy, so people can prepare. In hers
+   nobody prepares: there is only knowing, and watching, as a district
+   once watched Sarah Jacob.
+9. **Gadd: a wish with nowhere to go.** The living send for the dead and
+   something answers. She cannot settle whether it is inside the wanter
+   or outside. Her second fear is her own mind produced as evidence, as
+   Edith Thompson's letters were.
+10. **Trembath: a message that outlived its sender.** Not souls, only
+    traffic that persists. The tapping is neutral, and the terrible part
+    is that a trained man cannot help reading it. He finds this steadying.
 
 Five women, five men. One journalist, one soldier, one academic. Two with
 no schooling past 13 (Kenworthy, Lovegrove), and three more who learned
@@ -82,16 +126,23 @@ its own.
 - Gadd died in 1971. She is the only one of the ten a living person could
   have met.
 
-## One idea you did not ask for (optional)
+## The editor
 
-Give all ten the same editor. An invented sixpenny monthly, founded about
-1893 and dead by 1926, whose editor bought from every one of them and
-kept a ledger: date received, title, word count, what he paid, and a
-line of comment. The compendium then becomes his slush pile, the ledger
-becomes the contents page, and his comments ("too quiet", "the Welsh
-woman again, take it", "pay him and tell him no more tramcars") give you
-a second voice and a way into the larger story if you want one. It would
-need its own research, into how a magazine office of the time ran.
+Chris took up the idea of a shared editor, with two changes: he works for
+a real magazine, and the ten did not write only for him. He commissioned
+each of them at some point.
+
+He is [George Ormiston](00-george-ormiston.md) (1862–1934), invented,
+assistant editor of the real *Chambers's Journal* in Edinburgh from 1896
+to 1929. That file has his life, his taste, the story he took first from
+each writer, and the real facts about the magazine.
+
+## Story titles used on the site
+
+The biographies name two stories for each writer: the one the specimen
+paragraph comes from, and the first one Ormiston took. All twenty titles
+are invented and are now promises. The full list is in
+[00-george-ormiston.md](00-george-ormiston.md).
 
 ## Open questions for Chris
 
