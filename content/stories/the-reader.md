@@ -6,7 +6,6 @@ byline: By H. L. T.
 venue: Chambers’s Journal
 year: 1900
 order: 1
-draft: yes
 summary: A paid companion reads aloud each evening to an old lady, and is stopped each evening at the same line, for leaving out a passage that is not in the book.
 note: First printed in *Chambers’s Journal*, 1900, signed “H. L. T.” The *Journal*’s spelling and punctuation are kept: single quotation marks, “Mr” and “Mrs” without a point, “to-night”, “any one”.
 ---
