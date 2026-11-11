@@ -132,7 +132,32 @@ For "The Diary at Direction Island" (Trembath, *Chambers's Journal*,
   middle; 12 semicolons and 4 dashes per 1,000 words; almost no speech.
   The dashes are low for the magazine, on purpose: he is a plain man.
 
-## Still to do before each of the other eight writes
+## The third story: what was read, and what was not
+
+For "The Last Car but One" (Staniforth, *Pearson's Magazine*, 1899):
+
+- Read: *Pearson's Magazine*, volume 6, July to December 1898 (Archive
+  identifier `pearsonsmagazine0006unse`), for house style and for how
+  its stories are paced and ended. Counted: "Mr." 241 to 1 against "Mr";
+  double quotation marks; "grey" 44 to 0.
+- Read: Samuel Harrison, *A Complete History of the Great Flood at
+  Sheffield* (1864), identifier `acompletehistor00harrgoog`. The drowning
+  in the story is invented, but its parts are from Harrison: Neepsend
+  Lane under water, people at upper windows in their night-clothes, a
+  man clinging to a lamp-post, onlookers by gaslight, the dead laid out
+  at the Workhouse, and more than a score never recovered.
+- Checked earlier: horse trams ran to Nether Edge from the 1870s, the
+  Corporation took the system over in 1896, and electric cars came in
+  1899. The story is set in 1893 for that reason.
+- Not found: any ghost story in the *Pearson's* volume read. The streets
+  the Nether Edge car took, its fare and its layout are plausible, not
+  sourced. Nor is the place where Sheffield inquests were held.
+- A surprise: real *Pearson's* stories moralise. One ends with a
+  villain dropping dead and a character saying "It is the finger of
+  God." Staniforth's rule against a moral is his own, not the
+  magazine's.
+
+## Still to do before each of the other seven writes
 
 The same reading, for that writer's own magazines. In order of need:
 
@@ -148,7 +173,6 @@ The same reading, for that writer's own magazines. In order of need:
 4. **Tobin.** *The Irish Monthly* and a Rosa Mulholland story.
 5. **Dalgleish, Lovegrove, Trembath, Charlton.** *Blackwood's* and *The
    Cornhill*, both of which the Archive appears to have.
-6. **Staniforth.** *Pearson's* and *The Strand*, 1897–1902.
 
 Two limits. The Archive's text is machine-read and full of small errors,
 so it is good for style and poor for exact quotation. And I have read

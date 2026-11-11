@@ -45,6 +45,10 @@ House style belongs to the magazine, not the writer.
   "bookcase", "firelight". Long unspaced dashes. Stories signed, 3,200 to
   4,300 words, complete in one number. First word or two in capitals.
 - ***Temple Bar*, 1890–91:** double quotation marks; "Mrs." with a point.
+- ***Pearson's Magazine*, 1898:** double quotation marks; "Mr." with a
+  point; "grey"; "anyone"; "to-day"; "-ise". Short paragraphs, about
+  two-fifths speech, far fewer semicolons than *Chambers's* (5 or 6 per
+  1,000 words), and hard endings.
 - Other magazines: not read yet. Read them first.
 
 ## What the prose of the time does
@@ -74,7 +78,18 @@ confirmed this list ("that's pretty much the list", 11 Nov 2026).
 
 Quick check: no paragraph of narration under nine words.
 
+**These are not the same for every writer.** Staniforth writes for the
+popular press, where the short paragraph and the sting in the last line
+are the house manner, and real *Pearson's* stories are full of both.
+For him they stay. Chris: "Don't worry about the style - go with what
+you have." (11 Nov 2026) The list above is for the writers whose
+magazines did not do it.
+
 ## What Chris has liked
+
+- He loved the first two "for their delicacy", and then asked for "a
+  more traditionally scary one". So the set should vary in how hard it
+  frightens, and delicate is not the only register he wants.
 
 - The structure and the idea of "The Reader": "well structured and a
   lovely idea." (11 Nov 2026)
@@ -99,8 +114,11 @@ Quick check: no paragraph of narration under nine words.
 | Real: "A New Sensation", Temple Bar, 1891 | 6,179 | 23 / 18 | 12 | 7 |
 | "The Reader" (Tugwell), as published | 3,961 | 21 / 16 | 12 | 4 |
 | "The Diary at Direction Island" (Trembath) | 3,317 | 22 / 17 | 12 | 4 |
+| Real: a *Pearson's* story, 1898 | 4,751 | 20 / 16 | 7 | 12 |
+| Real: Cutcliffe Hyne in *Pearson's*, 1898 | 7,001 | 18 / 14 | 5 | 3 |
+| "The Last Car but One" (Staniforth) | 2255 | 13 / 10 | 5 | 10 |
 
-Both of ours are light on dashes. Tugwell's and Trembath's middle
+Staniforth's sentences are shorter than the real *Pearson's* ones, because so much of his story is question and answer. The first two of ours are light on dashes. Tugwell's and Trembath's middle
 sentences are now nearly the same length, so what separates them is
 person, paragraph length and how much speech there is. Watch that the
 next writer differs on more than one count.
