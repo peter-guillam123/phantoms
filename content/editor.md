@@ -44,7 +44,7 @@ That would explain the oddest thing about his list, which is how little the ten 
 | 1907 | [Thomas Lovegrove](../writers/thomas-lovegrove/) | “The Parade State” | Sent in by a retired colonel |
 | 1909 | [Rachel Protheroe](../writers/rachel-protheroe/) | “Tolaeth” | Asked her to turn an article into a story |
 | 1911 | [John Trembath](../writers/john-trembath/) | “The Diary at Direction Island” | A postscript to an acceptance |
-| 1925 | [Winifred Gadd](../writers/winifred-gadd/) | “An Unexposed Plate” | Came in with the post, addressed as “Mr.” |
+| 1925 | [Winifred Gadd](../writers/winifred-gadd/) | “An Unexposed Plate” | Came in with the post; he replied to “Mr. Gadd” |
 
 ## After
 
