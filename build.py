@@ -63,7 +63,10 @@ def markdown(body):
         if not lines:
             continue
         first = lines[0]
-        if first.startswith("## "):
+        if block.strip() == "* * *":
+            out.append('<p class="break" role="separator" aria-label="Break">* &nbsp; * &nbsp; *</p>')
+            first_para_done = True
+        elif first.startswith("## "):
             title = first[3:].strip()
             out.append(f'<h2 id="{slugify(title)}">{inline(title)}</h2>')
             # A heading may be followed directly by a paragraph.
@@ -125,7 +128,6 @@ def layout(title, body, root, description, page_class="", style=""):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{html.escape(full_title)}</title>
 <meta name="description" content="{html.escape(description)}">
-<meta name="robots" content="noindex">
 <meta name="color-scheme" content="light dark">
 <link rel="preload" href="{root}static/fonts/libre-caslon-text-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="{root}static/fonts/libre-caslon-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
@@ -189,7 +191,7 @@ def accent_style(meta):
     return f' style="--accent:{meta["accent"]};--accent-night:{meta["accent_night"]}"'
 
 
-def writer_page(meta, body, prev, nxt):
+def writer_page(meta, body, prev, nxt, stories=()):
     n = int(meta["order"])
     numerals = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"]
     ghost = (
@@ -212,6 +214,10 @@ def writer_page(meta, body, prev, nxt):
             f'<span class="pager-label">{label}</span>'
             f'<span class="pager-name">{html.escape(w["name"])}</span></a>'
         )
+
+    if stories:
+        block = '<h2 id="read">Read</h2>\n' + story_links(stories, "../../")
+        content = content.replace('<h2 id="further-reading">', block + '\n<h2 id="further-reading">')
 
     return f"""<article class="entry">
   <header class="entry-head">
@@ -236,6 +242,43 @@ def writer_page(meta, body, prev, nxt):
 </article>"""
 
 
+def story_page(meta, body, author):
+    content = markdown(body)
+    # Set the first word or two in capitals, as the magazines did.
+    content = re.sub(
+        r'<p class="opening">([A-Z][A-Z’\' ]+)\b',
+        lambda m: f'<p class="opening"><span class="lead-in">{m.group(1).title()}</span>',
+        content, count=1,
+    )
+    draft = '<p class="draft-flag">Preview. Not yet published.</p>' if meta.get("draft") else ""
+    return f"""<article class="story">
+  <header class="story-head">
+    {draft}
+    <p class="eyebrow"><a href="../../#stories">The stories</a> <span aria-hidden="true">·</span> {inline(meta["venue"])}, {meta["year"]}</p>
+    <h1>{html.escape(meta["title"])}</h1>
+    <p class="byline">{inline(meta["byline"])}</p>
+  </header>
+  <div class="prose story-text">
+{content}
+  </div>
+  <footer class="story-foot">
+    <p>{inline(meta["note"])}</p>
+    <p>“{html.escape(meta["byline"].replace("By ", ""))}” was <a href="../../writers/{author["slug"]}/">{html.escape(author["name"])}</a> ({author["dates"]}).</p>
+  </footer>
+</article>"""
+
+
+def story_links(stories, prefix):
+    items = []
+    for st in stories:
+        flag = ' <span class="draft-flag">Preview</span>' if st.get("draft") else ""
+        items.append(
+            f'<li><a href="{prefix}stories/{st["slug"]}/">{html.escape(st["title"])}</a>'
+            f' <span class="row-meta">{inline(st["venue"])}, {st["year"]}</span>{flag}</li>'
+        )
+    return '<ul class="story-list">\n' + "\n".join(items) + "\n</ul>"
+
+
 def simple_page(meta, body, side=""):
     eyebrow = f'<p class="eyebrow">{inline(meta["eyebrow"])}</p>' if meta.get("eyebrow") else ""
     dates = f'<p class="dates">{inline(meta["dates"])}</p>' if meta.get("dates") else ""
@@ -255,7 +298,25 @@ def simple_page(meta, body, side=""):
 </article>"""
 
 
-def index_page(meta, body, writers, editor):
+def index_page(meta, body, writers, editor, stories=()):
+    by_slug = {w["slug"]: w for w in writers}
+    if stories:
+        lis = []
+        for st in stories:
+            w = by_slug[st["author"]]
+            flag = ' <span class="draft-flag">Preview</span>' if st.get("draft") else ""
+            lis.append(f"""    <li class="row row-story" style="--accent:{w['accent']};--accent-night:{w['accent_night']}">
+      <span class="row-no" aria-hidden="true">{st['year']}</span>
+      <div class="row-who">
+        <h3><a href="stories/{st['slug']}/">{html.escape(st['title'])}</a>{flag}</h3>
+        <p class="row-meta">{html.escape(w['name'])}<br>{inline(st['venue'])}, {st['year']}</p>
+      </div>
+      <div class="row-ghost"><p class="row-nuance">{inline(st['summary'])}</p></div>
+    </li>""")
+        stories_html = '<ol class="rows">\n' + "\n".join(lis) + "\n  </ol>"
+    else:
+        stories_html = '<p class="empty">None yet. The first of them is being written, and will appear here.</p>'
+
     phrases = "\n".join(
         f'      <li data-by="{html.escape(w["name"])}, {html.escape(w["trade"].lower())}" '
         f'data-accent="{w["accent"]}" data-accent-night="{w["accent_night"]}">'
@@ -311,9 +372,9 @@ def index_page(meta, body, writers, editor):
     <p>{inline(editor['teaser'])}</p>
   </div>
 </section>
-<section class="stories" aria-labelledby="stories-title">
+<section class="stories" id="stories" aria-labelledby="stories-title">
   <h2 id="stories-title">The stories</h2>
-  <p class="empty">None yet. The first of them is being written, and will appear here.</p>
+  {stories_html}
 </section>"""
 
 
@@ -386,11 +447,32 @@ def build():
         writers.append(meta)
     writers.sort(key=lambda w: int(w["order"]))
 
+    # A story marked "draft: yes" is left out of the public site and shown
+    # only in the private preview.
+    stories = []
+    for path in sorted((CONTENT / "stories").glob("*.md")):
+        meta, body = read_page(path)
+        if meta.get("draft") and not ARTIFACT:
+            continue
+        meta["body"] = body
+        stories.append(meta)
+    stories.sort(key=lambda st: int(st["order"]))
+    by_slug = {w["slug"]: w for w in writers}
+    for st in stories:
+        author = by_slug[st["author"]]
+        write(OUT / "stories" / st["slug"] / "index.html", layout(
+            st["title"], story_page(st, st["body"], author), "../../",
+            f'{st["title"]}, a ghost story. {st["summary"]}',
+            "page-story", accent_style(author),
+        ))
+
     for i, w in enumerate(writers):
         prev = writers[i - 1] if i > 0 else None
         nxt = writers[i + 1] if i < len(writers) - 1 else None
         page = layout(
-            w["name"], writer_page(w, w["body"], prev, nxt), "../../",
+            w["name"],
+            writer_page(w, w["body"], prev, nxt, [st for st in stories if st["author"] == w["slug"]]),
+            "../../",
             f'{w["name"]} ({w["dates"]}): {w["summary"]}',
             "page-writer", accent_style(w),
         )
@@ -416,10 +498,10 @@ def build():
 
     home, home_body = read_page(CONTENT / "index.md")
     write(OUT / "index.html", layout(
-        SITE_TITLE, index_page(home, home_body, writers, editor), "",
+        SITE_TITLE, index_page(home, home_body, writers, editor, stories), "",
         home["summary"], "page-home",
     ))
-    print(f"Built {len(writers) + 3} pages in {OUT}")
+    print(f"Built {len(writers) + len(stories) + 3} pages in {OUT}")
 
 
 if __name__ == "__main__":
