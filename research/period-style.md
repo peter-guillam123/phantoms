@@ -89,7 +89,56 @@ enough to withdraw a claim on the editor's page that the Journal printed
   servant tell the history, and has a closing paragraph saying what
   became of everybody.
 
-## Still to do before each of the other nine writes
+## Tells to keep out
+
+Chris read "The Reader" and liked it, but said some things in it still
+felt "a little modern or classic Claude". He did not list them. These
+are my own guesses at what he meant, from rereading it against the real
+stories, and they are the checklist for every story after it:
+
+- **The one-line kicker.** A short paragraph that lands a point and
+  stops: "Nobody sat by it." "Hannah took the cup." Period stories let
+  the paragraph run on.
+- **The aphorism.** "A vicarage belongs to the vicar." "It was not a
+  house where things were said." One is character. Five is a habit.
+- **Threes.** "She sold the piano, gave the cat to the sexton, and
+  answered an advertisement."
+- **"Not this, but that."** "Not as one who asks a favour, but as one
+  who states the terms of a situation."
+- **Motifs that pay off too neatly.** Every detail in "The Reader" comes
+  back: the lamp, "attending", the sugar. Real magazine stories carry
+  dead weight: scenery, a digression, an opinion.
+- **Unbroken restraint.** Nobody in it says a foolish or a pious thing,
+  and the author never addresses the reader. That evenness is modern.
+- **Modern idiom.** "Every chair is a kind of statement."
+
+"The Reader" has not been changed. If Chris points at lines, change
+those.
+
+## The second story: what was read, and what was not
+
+For "The Diary at Direction Island" (Trembath, *Chambers's Journal*,
+1911):
+
+- Read: Frederic Wood-Jones, *Coral and Atolls* (1910), Archive
+  identifier `coralatollshisto00jone`. He was the cable station's doctor
+  on Cocos for fifteen months. Everything in the story about the island
+  comes from him: the three cable routes, "Pulu Tikus", the rats in the
+  palms, the absence of fresh water, the tennis court, the crabs, Mr
+  Ross and his parchment money.
+- Checked by arithmetic: the island's distance from Java and Batavia,
+  and the six and a half hours between Greenwich and Cocos time.
+- Not found: any issue of *Chambers's* for 1910–11 (the Archive has
+  1899–1900 and the 1950s), so the house style is assumed unchanged. Nor
+  the routine of a cable station: how the watches ran, what the log was
+  called, how often the steamer came. Those parts are plausible, not
+  sourced. The site `atlantic-cable.com` and the Porthcurno museum
+  archive would settle them.
+- Measured: 3,330 words; 22 words per sentence on average, 17 in the
+  middle; 12 semicolons and 4 dashes per 1,000 words; almost no speech.
+  The dashes are low for the magazine, on purpose: he is a plain man.
+
+## Still to do before each of the other eight writes
 
 The same reading, for that writer's own magazines. In order of need:
 

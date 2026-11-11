@@ -93,6 +93,32 @@ once in six weeks.
 - **Never:** quaint Cornish colour, an exclamation mark, a woman on the
   station, a lesson.
 
+## Period notes
+
+Added after reading *Coral and Atolls* (1910) by Frederic Wood-Jones,
+who was doctor at the Cocos cable station in 1905–06. See
+`research/period-style.md`.
+
+- The Cocos station belonged to the Eastern Extension company, a sister
+  of the Eastern. Its three cables ran to Perth, Batavia and Rodriguez.
+- Direction Island is "Pulu Tikus", Rat Island, to the Malays. The rats
+  nest in the crowns of the palms. There is no drinkable ground water,
+  an asphalt tennis court, and hermit crabs in armies on the beaches.
+  The Clunies-Ross family own the atoll and pay in their own parchment
+  notes.
+- He writes a first-person "narrative": a preamble saying he is no
+  writer, a plain account of the place and the work for the lay reader,
+  then events in order of date. Sentences run longer than Tugwell's (a
+  middle length of 17 words to her 13), in long paragraphs, with almost
+  no speech.
+- He gives no supernatural explanation, and says outright that he saw
+  nothing. He offers a comparison from his trade and withdraws it.
+- Not checked: how watches were divided, whether stations kept an
+  "office diary" under that name, how often the steamer called, and
+  *Chambers's* house style for 1911 (the Archive has 1899–1900 only).
+- His story for Ormiston is written:
+  `content/stories/the-diary-at-direction-island.md`.
+
 ## Specimen
 
 > The night traffic at Ascension is nothing to speak of. After St. Helena

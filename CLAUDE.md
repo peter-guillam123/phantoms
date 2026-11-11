@@ -66,6 +66,16 @@ It may grow into a meta narrative or ARG later. Nothing is decided.
   in (see `research/period-style.md` for how, and what is still unread),
   set it in that magazine's house style, and check it against the
   measurements in that file.
+- Chris finds some of the story prose "a little modern or classic
+  Claude" (said of "The Reader", 11 November 2026). Before showing him a
+  story, check it against the "Tells to keep out" list in
+  `research/period-style.md`. That list is a guess at what he meant, so
+  ask him to point at lines when he next reads one.
+- Narration is fixed per writer and is part of what tells them apart:
+  first person for Lovegrove, Charlton, Tobin and Trembath; close third
+  for Tugwell, Protheroe and Gadd; a pressman's third for Staniforth; a
+  teller with listeners for Kenworthy; a file of documents for
+  Dalgleish. Do not change it without saying so.
 - Before writing a story, read the persona's file in full, and the
   comparison table in `personas/README.md`, so the voice stays distinct
   from the other nine.
