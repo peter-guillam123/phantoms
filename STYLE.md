@@ -113,8 +113,18 @@ machine. It is a smoke alarm, not a judge, and 180 words is a small
 sample. The target is still a believable object of 1900, not a score.
 
 - "The Diary at Direction Island" (Trembath): 100% human.
-- "The Reader" (Tugwell): 100% AI. Which version he tested is not yet
-  confirmed.
+- "The Reader" (Tugwell), the opening as first published, before the
+  rewrite: 100% AI. The rewritten opening has not been tested.
+- A real passage, the opening of "The Chaperon" by R. Ramsay
+  (*Chambers's Journal*, January 1900): 100% human. So the tool does
+  recognise the genuine article, at least once.
+
+Chris's view, in his words: "my aim is NOT to explicitly trick Pangram",
+and "I don't fully trust Pangram, but I do see it as a positive sign
+that a persona combined with attention to historic writing styles might
+outfox something like Pangram." He is not concerned about the result for
+"The Reader". So: never write to the detector. Note what it says when he
+offers it, and no more.
 
 My guesses at why, to be tested and not yet rules:
 
@@ -133,8 +143,10 @@ If these hold, the general lesson is to allow clumsiness: afterthoughts,
 hedges, a sentence that says a thing twice. And Tugwell's irony, which
 is her whole voice, is the hardest of the ten to make sound unmachined.
 
-Not yet done: run a passage from a real 1900 story through the same
-tool, to see what it makes of the genuine article.
+One thing the two tests suggest: the story written after reading the
+real magazines passed, and the opening written before the rewrite did
+not. That is two samples, and proves little, but it points the same way
+as everything else in this file.
 
 ## Showing and publishing
 
