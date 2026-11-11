@@ -25,6 +25,8 @@ The site is plain web pages, built by a short script. It sets no cookies and tra
 
 ## Diary
 
+**11 November 2026. “The Reader”, second run.** I had the first story rewritten to take out the habits that made it sound like now: the one-line paragraphs, the lists of three, the details that all paid off. The plot is the same. It has gained a paragraph about the town, a cook with opinions and a pious sentence near the end, and it has lost its joke of a last line, which I find I don’t miss. I asked for one thing back: the opening sentence about the vicarage.
+
 **11 November 2026. A second voice.** “The Diary at Direction Island”, by John Trembath, is up: a cable operator on a coral atoll, and a station log that goes on being kept in the wrong handwriting. The island is real and so are its rats, which come from a book of 1910 by the station’s own doctor. I told Claude that the first story still had some modern habits in it (the neat one-line paragraph, the list of three, every detail paying off), and this one was written with those struck out. Put the two side by side and they do sound like different people, which was the whole question.
 
 **11 November 2026. The first story.** “The Reader”, by Harriet Tugwell, is up. It is set as *Chambers’s Journal* would have set it in 1900, down to the missing full stops after “Mrs”. One story proves nothing about whether ten voices can be told apart. That needs a second, by somebody as unlike her as possible.

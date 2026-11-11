@@ -67,10 +67,12 @@ It may grow into a meta narrative or ARG later. Nothing is decided.
   set it in that magazine's house style, and check it against the
   measurements in that file.
 - Chris finds some of the story prose "a little modern or classic
-  Claude" (said of "The Reader", 11 November 2026). Before showing him a
-  story, check it against the "Tells to keep out" list in
-  `research/period-style.md`. That list is a guess at what he meant, so
-  ask him to point at lines when he next reads one.
+  Claude" (said of "The Reader", 11 November 2026). The habits he means
+  are listed under "Tells to keep out" in `research/period-style.md`, and
+  he has confirmed that list. Check every story against it before
+  showing it to him.
+- A change to a story that is already public is shown to Chris in the
+  preview first, and merged only when he says so.
 - Narration is fixed per writer and is part of what tells them apart:
   first person for Lovegrove, Charlton, Tobin and Trembath; close third
   for Tugwell, Protheroe and Gadd; a pressman's third for Staniforth; a
