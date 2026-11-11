@@ -1,9 +1,9 @@
 # Phantoms
 
 A compendium of short ghost stories, each in the voice of an invented
-writer of roughly 1880–1925. The stories are not written yet. So far
-there is a website with a biography of each writer and of the editor who
-links them.
+writer of roughly 1880–1925. The site is live at
+https://peter-guillam123.github.io/phantoms/ with a biography of each
+writer and of the editor who links them. The stories are being written.
 
 To see the site:
 
