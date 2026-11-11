@@ -92,9 +92,9 @@ enough to withdraw a claim on the editor's page that the Journal printed
 ## Tells to keep out
 
 Chris read "The Reader" and liked it, but said some things in it still
-felt "a little modern or classic Claude". He did not list them. These
-are my own guesses at what he meant, from rereading it against the real
-stories, and they are the checklist for every story after it:
+felt "a little modern or classic Claude". I guessed at what he meant by
+rereading it against the real stories, and he confirmed the list ("pretty
+much"). It is the checklist for every story:
 
 - **The one-line kicker.** A short paragraph that lands a point and
   stops: "Nobody sat by it." "Hannah took the cup." Period stories let
@@ -112,8 +112,17 @@ stories, and they are the checklist for every story after it:
   and the author never addresses the reader. That evenness is modern.
 - **Modern idiom.** "Every chair is a kind of statement."
 
-"The Reader" has not been changed. If Chris points at lines, change
-those.
+"The Reader" was then rewritten against this list, at his request. The
+plot, the scenes and nearly all the speech are unchanged. What changed:
+the short punch-line paragraphs are folded into their neighbours; the
+lists of three are broken up; the opening aphorism and the two "not
+this, but that" sentences are gone; "attending" is said once, not three
+times, and the last line no longer has a twist. In their place are
+things a story of 1900 would have had: a paragraph on the town, an
+address to the reader, the cook's foolish opinions, a burnt letter, a
+prayer, and a pious sentence at the end. Its middle sentence went from
+13 words to 16, and no paragraph of narration is now shorter than nine
+words.
 
 ## The second story: what was read, and what was not
 
