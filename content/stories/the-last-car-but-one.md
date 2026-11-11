@@ -6,7 +6,6 @@ byline: By A. Staniforth
 venue: Pearson’s Magazine
 year: 1899
 order: 3
-draft: yes
 summary: A late tram leaves the terminus with three passengers and reaches the town with four. One of the three is dead in his seat, and the inquest has to decide what sat beside him.
 note: First printed in *Pearson’s Magazine*, 1899. The magazine’s spelling and punctuation are kept: double quotation marks, “Mr.” with a point, “grey”, “anyone”. Questions and answers are joined by a dash, as inquests were reported in the newspapers.
 ---
