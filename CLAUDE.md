@@ -26,6 +26,8 @@ It may grow into a meta narrative or ARG later. Nothing is decided.
 - `content/stories/` - the stories. One marked `draft: yes` appears only
   in the private preview, never on the public site. Remove that line to
   publish it, and only when Chris has read it and said so.
+- `images/PROMPTS.md` - a prompt for each picture named in a biography's
+  caption, for an AI image maker. No pictures are on the site yet.
 - `static/` - the stylesheet, one small script and the fonts.
 - `build.py` - turns `content/` into web pages in `_site/` (not kept in
   git). `python3 build.py --serve` builds and serves at localhost:8000.
