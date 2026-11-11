@@ -6,7 +6,6 @@ byline: By John Trembath
 venue: Chambers’s Journal
 year: 1911
 order: 2
-draft: yes
 summary: A cable operator takes over the night watch on a coral island, reads back through the station’s log, and finds it has been kept for three weeks in the handwriting of a man he saw board a ship for England.
 note: First printed in *Chambers’s Journal*, 1911. The *Journal*’s spelling and punctuation are kept: single quotation marks, “Mr” without a point, “cocoa-nut”, “any one”.
 ---

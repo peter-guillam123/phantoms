@@ -5,7 +5,7 @@ summary: What this is, what is real and what is not, and how it is being made.
 
 ## What this is
 
-Phantoms is going to be a collection of short ghost stories, each written in the voice of a different writer from the years between about 1880 and 1925. The stories are only beginning: there is one so far. Around it are the ten writers, and the editor who published them.
+Phantoms is going to be a collection of short ghost stories, each written in the voice of a different writer from the years between about 1880 and 1925. The stories are only beginning: there are two so far. Around it are the ten writers, and the editor who published them.
 
 I got the idea from the British Library’s collections of forgotten ghost stories, which dig through old magazines for work by people nobody remembers. Thousands of these stories were printed, most of them by amateurs. I wondered what would happen if you invented ten of those people in enough detail (where they grew up, what they did for a living, which local murder they heard about as children) and then asked each of them to write. Would the stories come out different from one another? Would any of them be good? This site is the experiment.
 
@@ -24,6 +24,8 @@ I am not a programmer or a historian. I describe what I want and an AI, Anthropi
 The site is plain web pages, built by a short script. It sets no cookies and tracks nobody. The typeface is Libre Caslon, a free revival of the letter most Victorian printers reached for.
 
 ## Diary
+
+**11 November 2026. A second voice.** “The Diary at Direction Island”, by John Trembath, is up: a cable operator on a coral atoll, and a station log that goes on being kept in the wrong handwriting. The island is real and so are its rats, which come from a book of 1910 by the station’s own doctor. I told Claude that the first story still had some modern habits in it (the neat one-line paragraph, the list of three, every detail paying off), and this one was written with those struck out. Put the two side by side and they do sound like different people, which was the whole question.
 
 **11 November 2026. The first story.** “The Reader”, by Harriet Tugwell, is up. It is set as *Chambers’s Journal* would have set it in 1900, down to the missing full stops after “Mrs”. One story proves nothing about whether ten voices can be told apart. That needs a second, by somebody as unlike her as possible.
 
