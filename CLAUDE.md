@@ -14,6 +14,10 @@ It may grow into a meta narrative or ARG later. Nothing is decided.
 - `personas/` - working briefs, one per invented writer, plus the editor
   (`00-george-ormiston.md`) and `README.md`, which compares them side by
   side. These hold the voice rules and the checks on what is real.
+- `STYLE.md` - how the stories are written: the period's habits, the
+  magazine house styles, the modern tells to keep out, and what Chris has
+  said he likes. Read it before touching a story. Add to it whenever he
+  reacts to one.
 - `research/` - the real history the personas rest on, with sources, and
   a list of gaps.
 - `content/` - what readers see: a biography per writer in
@@ -66,11 +70,9 @@ It may grow into a meta narrative or ARG later. Nothing is decided.
   in (see `research/period-style.md` for how, and what is still unread),
   set it in that magazine's house style, and check it against the
   measurements in that file.
-- Chris finds some of the story prose "a little modern or classic
-  Claude" (said of "The Reader", 11 November 2026). The habits he means
-  are listed under "Tells to keep out" in `research/period-style.md`, and
-  he has confirmed that list. Check every story against it before
-  showing it to him.
+- Chris finds some story prose "a little modern or classic Claude". The
+  habits he means, and the things he has said he likes, are in
+  `STYLE.md`. Check every story against it before showing it to him.
 - A change to a story that is already public is shown to Chris in the
   preview first, and merged only when he says so.
 - Narration is fixed per writer and is part of what tells them apart:

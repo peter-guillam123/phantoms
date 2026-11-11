@@ -91,6 +91,35 @@ the personal effects of the deceased.
 - **Never:** landscape, reflection, doubt about whether it happened, a
   moral.
 
+## Period notes
+
+Added after reading a volume of *Pearson's Magazine* for July to December
+1898, and Samuel Harrison's history of the Sheffield flood (1864). See
+`STYLE.md` and `research/period-style.md`.
+
+- *Pearson's* house style: double quotation marks, "Mr." with a point,
+  "grey", "anyone", "to-day".
+- Real *Pearson's* stories have short paragraphs (26 to 39 words on
+  average, a third of them 12 words or fewer), are about two-fifths
+  speech, and end hard. One closes: "When they lifted him he was dead."
+  So the short paragraph and the sting, which are struck out of the other
+  writers, are right for him.
+- But their sentences are not clipped: the middle one is 14 to 16 words.
+  His should not fall far below that in narration. Keep the punch for
+  the places that need it.
+- He reports evidence as the newspapers did: question and answer joined
+  by a dash, the witness's longer statements in reported speech, and
+  "Sensation" noted.
+- The flood detail is real: Neepsend Lane flooded "to a great height",
+  people at chamber windows in their night-clothes, a man clinging to a
+  lamp-post, crowds watching by gaslight, and more than a score of
+  bodies never found.
+- Not checked: the streets of the Nether Edge tram route, the fare, the
+  layout of a Sheffield horse car, where Sheffield inquests were held.
+  The volume read contains no ghost story at all.
+- "The Last Car but One" is written:
+  `content/stories/the-last-car-but-one.md`.
+
 ## Specimen
 
 > At ten minutes past eleven on the night of the fourteenth of November,
