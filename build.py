@@ -4,8 +4,10 @@
 Reads the text in content/ and writes finished pages to _site/.
 No dependencies beyond Python 3.
 
-    python3 build.py          build once
-    python3 build.py --serve  build, then serve at http://localhost:8000
+    python3 build.py             build once
+    python3 build.py --serve     build, then serve at http://localhost:8000
+    python3 build.py --artifact  build a self-contained copy in _artifact/
+                                 for a private preview page on claude.ai
 """
 import html
 import re
@@ -317,17 +319,65 @@ def index_page(meta, body, writers, editor):
 
 # ------------------------------------------------------------------ build
 
+ARTIFACT = "--artifact" in sys.argv
+GOOGLE_FONTS = (
+    '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?'
+    "family=Libre+Caslon+Display&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400"
+    '&display=swap">'
+)
+
+
+def for_artifact(page, is_main):
+    """The preview host has stricter rules than a normal web server: styles
+    and scripts must sit inside each page, fonts come from Google, and
+    links must name the file. The main page is given without its outer
+    shell, which the host adds."""
+    css = (STATIC / "style.css").read_text(encoding="utf-8")
+    css = re.sub(r"@font-face\s*\{.*?\}\s*", "", css, flags=re.S)
+    js = (STATIC / "site.js").read_text(encoding="utf-8")
+    page = re.sub(r'<link rel="(?:preload|icon)"[^>]*>\n', "", page)
+    page = re.sub(r'<meta name="robots"[^>]*>\n', "", page)
+    page = re.sub(
+        r'<link rel="stylesheet" href="[^"]*static/style.css">',
+        lambda m: GOOGLE_FONTS + "\n<style>\n" + css + "</style>", page,
+    )
+    page = re.sub(
+        r'<script src="[^"]*static/site.js" defer></script>',
+        lambda m: "<script>\n" + js + "</script>", page,
+    )
+
+    def name_the_file(m):
+        path, anchor = m.group(1), m.group(2) or ""
+        if path == "" or path.endswith("/"):
+            path += "index.html"
+        return f'href="{path}{anchor}"'
+
+    page = re.sub(r'href="(?!https?:|#)([^"#]*)(#[^"]*)?"', name_the_file, page)
+    if is_main:
+        title = re.search(r"<title>.*?</title>", page).group(0)
+        head = re.search(r"(<link rel=\"stylesheet\".*?</style>)", page, flags=re.S).group(1)
+        body = re.search(r"<body[^>]*>(.*)</body>", page, flags=re.S).group(1)
+        page = f"{title}\n{head}\n{body}"
+    return page
+
+
 def write(path, text):
+    if ARTIFACT:
+        text = for_artifact(text, path == OUT / "index.html")
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(text, encoding="utf-8")
 
 
 def build():
+    global OUT
+    if ARTIFACT:
+        OUT = ROOT / "_artifact"
     if OUT.exists():
         shutil.rmtree(OUT)
     OUT.mkdir()
-    shutil.copytree(STATIC, OUT / "static")
-    (OUT / ".nojekyll").write_text("")
+    if not ARTIFACT:
+        shutil.copytree(STATIC, OUT / "static")
+        (OUT / ".nojekyll").write_text("")
 
     writers = []
     for path in sorted((CONTENT / "writers").glob("*.md")):

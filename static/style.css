@@ -49,20 +49,32 @@
   --display: "Libre Caslon Display", "Libre Caslon Text", Georgia, serif;
   --gutter: clamp(1rem, 5vw, 3.5rem);
   --wide: 68rem;
-  color-scheme: light dark;
+  color-scheme: light;
 }
 body, .row, .turn { --a: var(--accent); }
 
+/* Dark values, twice: once for a dark system setting, once for a viewer
+   that sets data-theme itself. An explicit choice wins either way. */
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
     --paper: #14120e;
     --paper-deep: #1d1a15;
     --ink: #e8dfcd;
     --ink-soft: #b3a893;
     --rule: #3b352b;
+    color-scheme: dark;
   }
-  body, .row, .turn { --a: var(--accent-night); }
+  :root:not([data-theme="light"]) :is(body, .row, .turn) { --a: var(--accent-night); }
 }
+:root[data-theme="dark"] {
+  --paper: #14120e;
+  --paper-deep: #1d1a15;
+  --ink: #e8dfcd;
+  --ink-soft: #b3a893;
+  --rule: #3b352b;
+  color-scheme: dark;
+}
+:root[data-theme="dark"] :is(body, .row, .turn) { --a: var(--accent-night); }
 
 *, *::before, *::after { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }

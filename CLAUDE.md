@@ -33,7 +33,11 @@ It may grow into a meta narrative or ARG later. Nothing is decided.
   links go only to real sources about real things. Never invent an
   archive reference, a shelfmark or a citation.
 - Pages carry `noindex` until Chris decides to launch. Nothing is
-  deployed yet.
+  deployed publicly yet.
+- Chris views the site through a private preview page on claude.ai:
+  https://claude.ai/artifact/URcMQYgf26vUQDk712TmPx. After a change he
+  should see, run `python3 build.py --artifact` and republish
+  `_artifact/index.html` with the other twelve pages to that address.
 - Each writer has one colour, light and dark, set in the header of their
   content file. Any new colour must pass 4.5:1 contrast on both papers.
 - The About page diary is in Chris's voice, newest first. Add an entry
