@@ -115,8 +115,9 @@ much"). It is the checklist for every story:
 "The Reader" was then rewritten against this list, at his request. The
 plot, the scenes and nearly all the speech are unchanged. What changed:
 the short punch-line paragraphs are folded into their neighbours; the
-lists of three are broken up; the opening aphorism and the two "not
-this, but that" sentences are gone; "attending" is said once, not three
+lists of three are broken up; the two "not this, but that" sentences
+are gone (the opening aphorism about the vicarage went too, and Chris
+asked for it back); "attending" is said once, not three
 times, and the last line no longer has a twist. In their place are
 things a story of 1900 would have had: a paragraph on the town, an
 address to the reader, the cook's foolish opinions, a burnt letter, a
