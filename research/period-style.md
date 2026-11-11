@@ -93,24 +93,8 @@ enough to withdraw a claim on the editor's page that the Journal printed
 
 Chris read "The Reader" and liked it, but said some things in it still
 felt "a little modern or classic Claude". I guessed at what he meant by
-rereading it against the real stories, and he confirmed the list ("pretty
-much"). It is the checklist for every story:
-
-- **The one-line kicker.** A short paragraph that lands a point and
-  stops: "Nobody sat by it." "Hannah took the cup." Period stories let
-  the paragraph run on.
-- **The aphorism.** "A vicarage belongs to the vicar." "It was not a
-  house where things were said." One is character. Five is a habit.
-- **Threes.** "She sold the piano, gave the cat to the sexton, and
-  answered an advertisement."
-- **"Not this, but that."** "Not as one who asks a favour, but as one
-  who states the terms of a situation."
-- **Motifs that pay off too neatly.** Every detail in "The Reader" comes
-  back: the lamp, "attending", the sugar. Real magazine stories carry
-  dead weight: scenery, a digression, an opinion.
-- **Unbroken restraint.** Nobody in it says a foolish or a pious thing,
-  and the author never addresses the reader. That evenness is modern.
-- **Modern idiom.** "Every chair is a kind of statement."
+rereading it against the real stories, and he confirmed the list. The
+list itself now lives in `STYLE.md`, so that there is one copy.
 
 "The Reader" was then rewritten against this list, at his request. The
 plot, the scenes and nearly all the speech are unchanged. What changed:
