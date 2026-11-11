@@ -6,4 +6,4 @@ Between about 1880 and 1925 the magazines of Britain and Ireland printed ghost s
 
 Here are ten of them. They never met. They had nothing in common but an editor in Edinburgh, and the fact that each had worked out, from the place they came from and the life they led, a quite different idea of what a ghost is.
 
-Their lives come first. The stories will follow.
+Their lives come first. The first of the stories is further down, and the rest will follow.
