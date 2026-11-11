@@ -11,10 +11,33 @@ It may grow into a meta narrative or ARG later. Nothing is decided.
 
 ## Where things are
 
-- `personas/` - one file per invented writer, plus `README.md`, which
-  compares them side by side.
+- `personas/` - working briefs, one per invented writer, plus the editor
+  (`00-george-ormiston.md`) and `README.md`, which compares them side by
+  side. These hold the voice rules and the checks on what is real.
 - `research/` - the real history the personas rest on, with sources, and
   a list of gaps.
+- `content/` - what readers see: a biography per writer in
+  `content/writers/`, the editor, the home page text and the About page.
+  Plain text with a short header. Curly quotes are typed in by hand.
+- `static/` - the stylesheet, one small script and the fonts.
+- `build.py` - turns `content/` into web pages in `_site/` (not kept in
+  git). `python3 build.py --serve` builds and serves at localhost:8000.
+
+## The site
+
+- Each biography is written in-world, as a present-day researcher would
+  write it. Invented and real are woven together on purpose.
+- Honesty lives in three places, and all three stay unless Chris says
+  otherwise: the About page says plainly that the writers and the editor
+  are invented; every page footer says so in one line; "Further reading"
+  links go only to real sources about real things. Never invent an
+  archive reference, a shelfmark or a citation.
+- Pages carry `noindex` until Chris decides to launch. Nothing is
+  deployed yet.
+- Each writer has one colour, light and dark, set in the header of their
+  content file. Any new colour must pass 4.5:1 contrast on both papers.
+- The About page diary is in Chris's voice, newest first. Add an entry
+  with each significant change.
 
 ## Rules for this project
 
@@ -33,5 +56,5 @@ It may grow into a meta narrative or ARG later. Nothing is decided.
   from the other nine.
 - A fact marked "unverified" in `research/` must be checked before a story
   leans on it.
-- When the site is built it needs an About page with a diary, as on every
-  project.
+- A story that could be moved from one writer to another is not
+  finished. That is George Ormiston's test, and the project's.
