@@ -19,6 +19,9 @@ It may grow into a meta narrative or ARG later. Nothing is decided.
 - `content/` - what readers see: a biography per writer in
   `content/writers/`, the editor, the home page text and the About page.
   Plain text with a short header. Curly quotes are typed in by hand.
+- `content/stories/` - the stories. One marked `draft: yes` appears only
+  in the private preview, never on the public site. Remove that line to
+  publish it, and only when Chris has read it and said so.
 - `static/` - the stylesheet, one small script and the fonts.
 - `build.py` - turns `content/` into web pages in `_site/` (not kept in
   git). `python3 build.py --serve` builds and serves at localhost:8000.
@@ -32,8 +35,9 @@ It may grow into a meta narrative or ARG later. Nothing is decided.
   are invented; every page footer says so in one line; "Further reading"
   links go only to real sources about real things. Never invent an
   archive reference, a shelfmark or a citation.
-- Pages carry `noindex` until Chris decides to launch. Nothing is
-  deployed publicly yet.
+- The site is public at https://peter-guillam123.github.io/phantoms/.
+  Anything merged to `main` is built and published by
+  `.github/workflows/pages.yml`.
 - Chris views the site through a private preview page on claude.ai:
   https://claude.ai/artifact/URcMQYgf26vUQDk712TmPx. After a change he
   should see, run `python3 build.py --artifact` and republish
@@ -49,12 +53,19 @@ It may grow into a meta narrative or ARG later. Nothing is decided.
   file ends with a "What is real" list. Keep the two apart: never present
   an invented writer, story or magazine as historical fact in research
   notes, and never invent a quote, figure or source for the real history.
-- A persona's voice rules beat the house style inside that persona's
-  stories: period spelling, long sentences and dialect are all allowed
-  there if the persona would use them. The one exception is the em dash,
-  which stays banned in stories too unless Chris lifts it. Everything else
-  (notes, About page, UI copy, commit messages) follows Chris's house
-  style.
+- Chris's general instructions on writing (Orwell's rules, British house
+  style, no em dashes) do not apply to the stories, or to lines quoted
+  from them. He said so on 11 November 2026. Inside a story the only
+  authorities are the writer's brief and the practice of the time and the
+  magazine. Em dashes, long sentences, semicolons, dialect, sentiment and
+  stated feelings are all in. The house style still governs everything
+  written in the present day: the biographies, the About page, notes and
+  commit messages.
+- A story must be believable as an object of its time. Before writing
+  one, read real stories from the magazine it is meant to have appeared
+  in (see `research/period-style.md` for how, and what is still unread),
+  set it in that magazine's house style, and check it against the
+  measurements in that file.
 - Before writing a story, read the persona's file in full, and the
   comparison table in `personas/README.md`, so the voice stays distinct
   from the other nine.

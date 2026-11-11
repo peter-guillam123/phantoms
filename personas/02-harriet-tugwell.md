@@ -82,6 +82,24 @@ wrong initials, a dog that will not go upstairs.
 - **Never:** blood, dates, midnight, an explanation, an exclamation
   mark.
 
+## Period notes
+
+Added after reading real issues of *Temple Bar* (1890–91) and
+*Chambers's Journal* (1899–1900). See `research/period-style.md`.
+
+- Her punctuation changes with the magazine. In *Temple Bar*: double
+  quotation marks and "Mrs." In *Chambers's*: single marks and "Mrs".
+- The rule above against explanation is hers, but a magazine story of
+  her day still owed the reader the history. She gives it through a
+  servant, in reported speech, and lets the drawing-room say nothing.
+- She may open on the heroine's circumstances and close with a paragraph
+  on what became of everyone. Both were expected.
+- Semicolons at about 15 per 1,000 words, dashes at about 5. No
+  exclamation marks, which is unusual for the time and is one of the few
+  ways she stands out from it.
+- Her story for Ormiston, "The Reader", is written:
+  `content/stories/the-reader.md`.
+
 ## Specimen
 
 > It was understood at Combe Leigh that the morning-room was not used in
