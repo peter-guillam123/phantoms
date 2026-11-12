@@ -10,13 +10,16 @@ nuance: The dead never frighten her. What frightens her is a kitchen full of the
 summary: A shopkeeper’s daughter from Clonmel, schooled by the Ursulines, who wrote for the Catholic monthlies about the people who came to her father’s counter, one of whom was Bridget Cleary.
 accent: #7a5310
 accent_night: #deb566
-plate: A studio portrait was taken at Clonmel for her wedding in 1898. It was lost in a house move in the 1950s.
+plate: A studio portrait was taken at Clonmel for her wedding in 1898. It was lost in a house move in the 1950s. The family album still has the space where it sat.
 born: 1866, Clonmel, Co. Tipperary
 died: 1943, Clonmel
 work: Kept the books of her father’s drapery; from 1898 a schoolmaster’s wife
 wrote: About forty stories and sketches, 1888–1920
 signed: “Nora Tobin”, her maiden name, throughout
 sold: *The Irish Monthly*, the *Weekly Freeman*, *The Lamp*, *Chambers’s Journal*
+image: nora-tobin.webp
+image_size: 933x1400
+image_alt: Part of a page from an old photograph album, dark green with gilt-edged windows. Three windows hold faded studio portraits, of a man with a watch-chain, an old woman in a shawl, and two children. The fourth window is empty, showing pale card with the faint outline of a photograph that is gone and a torn scrap in one corner.
 ---
 
 ## Life

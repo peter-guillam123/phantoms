@@ -17,6 +17,9 @@ work: Soldier, 1877–1906, 66th Foot, later 2nd Battalion Royal Berkshire Regim
 wrote: About twenty stories, 1906–1924
 signed: “T. L., late 66th”, later his own name
 sold: The regimental journal, *Chambers’s Journal*, *Blackwood’s*
+image: thomas-lovegrove.webp
+image_size: 1400x933
+image_alt: A brown photograph on a card mount. Eighteen soldiers in dark tunics with sergeants’ stripes and sashes, all with heavy moustaches and small round caps, sit and stand in rows outside a stone barrack building. Two recline on the gravel in front, with a small rough-haired terrier sitting between them.
 ---
 
 ## Life

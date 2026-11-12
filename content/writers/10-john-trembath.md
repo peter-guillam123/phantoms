@@ -17,6 +17,9 @@ work: Operator, Eastern Telegraph Company, 1882–1921
 wrote: About twenty stories, 1907–1930
 signed: “J. T.” in the staff magazine; his own name elsewhere
 sold: *The Zodiac*, *Chambers’s Journal*, *Blackwood’s*
+image: john-trembath.webp
+image_size: 1400x933
+image_alt: A faded, mould-spotted photograph on a worn card mount with a broken corner. Nine men in white tropical clothes sit and stand on the verandah of a wooden bungalow, some in cane chairs with sun helmets on their knees, and one on the steps with a dog. Beyond them is bare dark ground, a hill and a flagstaff.
 ---
 
 ## Life

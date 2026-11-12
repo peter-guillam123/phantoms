@@ -17,6 +17,9 @@ work: Cotton mill, from the age of eight
 wrote: About eighty sketches and tales, 1886–1920, a third of them uncanny
 signed: “Eli o’ Betty’s”
 sold: *Cotton Factory Times*, *Ben Brierley’s Journal*, *Teddy Ashton’s Northern Weekly*, *Chambers’s Journal*
+image: eli-kenworthy.webp
+image_size: 1400x933
+image_alt: A brown photograph on a buff card mount. A brass band of about two dozen men in braided uniforms and peaked caps poses in a steep cobbled street with their instruments and a bass drum. Women in shawls and children watch from both sides. Behind are stone terraces, a mill with a tall chimney, and a bare hillside.
 ---
 
 ## Life

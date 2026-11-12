@@ -17,6 +17,9 @@ work: Schoolmistress; resident lecturer in classics, Royal Holloway College, 188
 wrote: Twelve stories, 1896–1914
 signed: “H. C.”
 sold: Her college magazine, *The Cornhill*, *Blackwood’s*, *Chambers’s Journal*
+image: hester-charlton.webp
+image_size: 1400x933
+image_alt: A grey photograph on a grey card mount. Fourteen women in dark academic gowns, in two rows, in front of an ornate brick and stone building. Three wear large flowered hats. In the back row, towards the right, one woman is almost wholly hidden behind the hat of the woman seated in front of her.
 ---
 
 ## Life
