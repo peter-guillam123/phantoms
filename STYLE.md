@@ -210,6 +210,13 @@ magazines did not do it.
   other writers "more in terms of vocabulary than position". "The voice
   is good." (12 Nov 2026)
 
+- **A figure that is the writer's own.** "He gave his evidence as though
+  every word of it were coming out of his own pocket." Chris, 12 Nov
+  2026: "I actually like this sentence. It's a nice, characterful
+  detail." It works because it holds when pushed (a man paying out his
+  own money is slow and gives no more than he must) and because it is in
+  Staniforth's coin: he puts everything in terms of money.
+
 ## What Chris has not liked
 
 - **Detachment.** On rereading "The Last Car but One" (12 Nov 2026) he
