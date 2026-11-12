@@ -72,8 +72,6 @@ She did not answer, and the question had to be put to her again.
 
 “Why did you not leave the car?”—“I should have had to go past them.”
 
-I have tried since then, in the way of trade, to get as much as that into eight words of my own, and I have not managed it.
-
 The third passenger was a clerk of nineteen named Wragg, who was sulky, I think because the father of a certain young lady was in court and now knew where he had been until eleven at night. He had been sitting by the door, with his back to the horses, and he had seen the man’s face when the car went under the gas-lamp at the Cemetery gates. He said that it was the colour of a candle. He said that the eyes were open, and that he had watched them, and that they never shut, not once, from the Cemetery gates to the bottom of the hill; and that there was mud in the corners of the mouth.
 
 “Did you hear anything said?”—“Mr. Marples spoke. Twice.”
