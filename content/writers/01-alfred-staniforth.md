@@ -10,13 +10,16 @@ nuance: He said he believed in nothing and wrote for the money. But his ghosts a
 summary: A Sheffield file-cutter’s son who learned his trade at inquests, went to Fleet Street in the year of the Whitechapel murders, and for twenty years sold frights to the sixpenny magazines at so much a thousand words.
 accent: #4a4640
 accent_night: #c4bcae
-plate: No photograph is known. A sketch of the sub-editors’ room at his paper, drawn in 1904, shows eleven men in shirtsleeves. None is named.
+plate: No photograph is known. A sketch of the sub-editors’ room at his paper, drawn in 1904, shows ten men in shirtsleeves. None is named.
 born: January 1858, Neepsend, Sheffield
 died: 1931, Herne Hill, London
 work: Compositor’s apprentice, reporter, sub-editor
 wrote: About sixty stories, 1892–1914
 signed: “A. Staniforth”, and “Paul Vane” for the ones he thought beneath him
 sold: *The Idler*, *Pearson’s*, *The Royal*, *The Novel Magazine*, *Chambers’s Journal*
+image: alfred-staniforth.webp
+image_size: 1400x933
+image_alt: A pen-and-ink newspaper drawing on yellowed, folded newsprint. Ten men in shirtsleeves and waistcoats read proofs round a long table under hanging lamps, among paste-pots, scissors and spikes of paper. A wall clock shows eleven, and the dome of St Paul’s is in the window.
 ---
 
 ## Life

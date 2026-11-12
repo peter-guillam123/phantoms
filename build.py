@@ -171,6 +171,25 @@ PLATE = """<figure class="plate">
 </figure>"""
 
 
+def picture(meta, root):
+    """The picture for a biography. Returns two pieces: one to sit above
+    the text (a wide picture) and one for the side column (a tall picture,
+    or the empty oval frame when there is no picture yet)."""
+    caption = inline(meta["plate"])
+    if not meta.get("image"):
+        return "", PLATE.format(caption=caption)
+    src = f'{root}static/images/{meta["image"]}'
+    w, h = meta.get("image_size", "1400x933").split("x")
+    img = (
+        f'<a href="{src}" aria-label="Open the picture at full size">'
+        f'<img src="{src}" width="{w}" height="{h}" loading="lazy" decoding="async" '
+        f'alt="{html.escape(meta.get("image_alt", ""))}"></a>'
+    )
+    if int(w) >= int(h):
+        return f'<figure class="photo photo-wide">{img}<figcaption>{caption}</figcaption></figure>', ""
+    return "", f'<figure class="photo photo-tall">{img}<figcaption>{caption}</figcaption></figure>'
+
+
 def facts_list(meta, keys):
     rows = []
     for label, key in keys:
@@ -219,6 +238,7 @@ def writer_page(meta, body, prev, nxt, stories=()):
         block = '<h2 id="read">Read</h2>\n' + story_links(stories, "../../")
         content = content.replace('<h2 id="further-reading">', block + '\n<h2 id="further-reading">')
 
+    wide, side_pic = picture(meta, "../../")
     return f"""<article class="entry">
   <header class="entry-head">
     <p class="eyebrow"><a href="../../#writers">The writers</a> <span aria-hidden="true">·</span> No. {numerals[n-1]} of ten</p>
@@ -226,9 +246,10 @@ def writer_page(meta, body, prev, nxt, stories=()):
     <p class="dates">{meta["dates"]} <span aria-hidden="true">·</span> {inline(meta["trade"])}, {inline(meta["place"])}</p>
     <p class="standfirst">{inline(meta["summary"])}</p>
   </header>
+  {wide}
   <div class="entry-body">
-    <aside class="entry-side" aria-label="At a glance">
-      {PLATE.format(caption=inline(meta["plate"]))}
+    <aside class="entry-side{' entry-side-plain' if wide else ''}" aria-label="At a glance">
+      {side_pic}
       {facts_list(meta, FACT_KEYS)}
     </aside>
     <div class="prose">
@@ -439,6 +460,8 @@ def build():
     if not ARTIFACT:
         shutil.copytree(STATIC, OUT / "static")
         (OUT / ".nojekyll").write_text("")
+    elif (STATIC / "images").exists():
+        shutil.copytree(STATIC / "images", OUT / "static" / "images")
 
     writers = []
     for path in sorted((CONTENT / "writers").glob("*.md")):
@@ -481,7 +504,7 @@ def build():
     editor, editor_body = read_page(CONTENT / "editor.md")
     side = (
         '<aside class="entry-side" aria-label="At a glance">'
-        + PLATE.format(caption=inline(editor["plate"]))
+        + picture(editor, "../")[1]
         + facts_list(editor, [("Born", "born"), ("Died", "died"), ("Work", "work"), ("Wrote", "wrote")])
         + "</aside>"
     )
