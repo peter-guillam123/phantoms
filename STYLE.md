@@ -80,15 +80,23 @@ confirmed this list ("that's pretty much the list", 11 Nov 2026).
   it is a consistent tell of your natural speaking voice. It reads like
   someone trying to turn a straightforward sentence into a more
   interesting one, and failing." Put the sentence in its plain order.
-- **The trailing clause of vague weight.** "...the only one that I ever
-  got for nothing, and have never been able to do anything with since."
-  Chris, 12 Nov 2026: "This kind of construction always feels a little
-  synthetic. It feels like an attempt to add profundity to a sentence
-  but without any real weight. And it can be confusing. Reading it cold,
-  I find myself consuming it and then going back to it to clarify it."
-  It also contradicted the story, in which he is paid. Say the plain
-  thing the clause was hinting at, and check it against the facts of the
-  story.
+- **The tail that adds weight but no content.** A last clause that
+  sounds like a point being made and is not one. Two kinds so far, both
+  from "The Last Car but One", both caught by Chris on 12 Nov 2026.
+  - The vague one: "...the only one that I ever got for nothing, and
+    have never been able to do anything with since." Chris: "It feels
+    like an attempt to add profundity to a sentence but without any real
+    weight. And it can be confusing. Reading it cold, I find myself
+    consuming it and then going back to it to clarify it." It also
+    contradicted the story, in which he is paid.
+  - The echo: "...and fifty people were standing round to watch it do
+    so." Chris: "That final leg actually only contains one new thing
+    (the number of the crowd) and then repeats the fact that the crowd
+    were looking. It feels like an important or profound point being
+    added, but the content isn't."
+  The test for the end of any sentence: what does this clause tell the
+  reader that they did not already have? If one fact, put the fact where
+  it belongs and stop. If nothing, cut it.
 - **A plain thing said in a tortuous way.** "I began my report of it
   with a certain sentence; and as I have not been able to better that
   sentence in thirteen years, I shall begin with it again." Chris,
