@@ -15,15 +15,15 @@
   var timer = null;
   var paused = false;
 
-  // The pale picture behind the title changes with the line. Two layers
-  // take turns, so no more than two pictures are ever held at once.
-  var layers = Array.prototype.slice.call(document.querySelectorAll("[data-turn-faint] img"));
+  // The dark picture behind the title changes with the line. Two layers
+  // take turns, so no more than two pictures are ever held at once. A
+  // writer with no picture yet leaves the plate plain.
+  var layers = Array.prototype.slice.call(document.querySelectorAll("[data-turn-plate] img"));
   var front = 0;
 
   function showPicture(i) {
     if (layers.length < 2) return;
-    var src = items[i].getAttribute("data-faint");
-    if (!src) return;
+    var set = items[i].getAttribute("data-ghost");
     var incoming = layers[1 - front];
     var outgoing = layers[front];
     front = 1 - front;
@@ -32,9 +32,13 @@
       incoming.classList.add("is-shown");
       outgoing.classList.remove("is-shown");
     }
-    incoming.classList.toggle("is-drawing", items[i].getAttribute("data-kind") === "drawing");
+    if (!set) {
+      incoming.classList.remove("is-shown");
+      outgoing.classList.remove("is-shown");
+      return;
+    }
     incoming.onload = swap;
-    incoming.setAttribute("src", src);
+    incoming.setAttribute("srcset", set);
     if (incoming.complete && incoming.naturalWidth) swap();
   }
 

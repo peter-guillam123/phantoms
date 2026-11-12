@@ -331,11 +331,21 @@ def faint(meta, slug):
             f'aria-hidden="true" loading="lazy" decoding="async">')
 
 
+def ghost(slug):
+    """The dark picture that sits behind the title while a writer's line is
+    showing: a wide copy and a small one for phones. Empty if that writer
+    has no picture yet, and the plate then stays plain."""
+    if not (STATIC / "images" / "ghosts" / f"{slug}.webp").exists():
+        return ""
+    base = f"static/images/ghosts/{slug}"
+    return f"{base}-small.webp 760w, {base}.webp 1200w"
+
+
 def index_page(meta, body, writers, editor, stories=()):
     phrases = "\n".join(
         f'      <li data-by="{html.escape(w["name"])}, {html.escape(w["trade"].lower())}" '
         f'data-accent="{w["accent"]}" data-accent-night="{w["accent_night"]}" '
-        f'data-faint="static/images/faint/{w["slug"]}.webp" data-kind="{w.get("image_kind", "photograph")}">'
+        f'data-ghost="{ghost(w["slug"])}">'
         f'{inline(w["theme"])}</li>'
         for w in writers
     )
@@ -384,9 +394,9 @@ def index_page(meta, body, writers, editor, stories=()):
       </div>
     </li>""")
     return f"""<section class="hero" aria-labelledby="hero-title">
-  <div class="hero-faint" data-turn-faint aria-hidden="true">
-    <img src="static/images/faint/{first['slug']}.webp" alt="" class="is-shown{' is-drawing' if first.get('image_kind') == 'drawing' else ''}" decoding="async">
-    <img alt="" decoding="async">
+  <div class="hero-plate" data-turn-plate aria-hidden="true">
+    <img {f'srcset="{ghost(first["slug"])}" class="is-shown"' if ghost(first["slug"]) else ''} sizes="(min-width: 68rem) 68rem, 100vw" alt="" decoding="async">
+    <img sizes="(min-width: 68rem) 68rem, 100vw" alt="" decoding="async">
   </div>
   <p class="eyebrow">{SITE_TAGLINE}</p>
   <h1 id="hero-title">Phantoms</h1>

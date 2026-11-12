@@ -140,34 +140,50 @@ p { margin: 0 0 1.1em; text-wrap: pretty; }
 main { max-width: var(--wide); margin: 0 auto; padding: 0 var(--gutter); }
 
 /* ---------------------------------------------------------------- hero */
-.hero { position: relative; isolation: isolate; padding: clamp(2.5rem, 9vw, 6rem) 0 clamp(2rem, 6vw, 4rem); }
-
-/* The biography pictures, very pale, behind the title. Each one comes up
-   with its writer's line and goes again, like print showing through from
-   the other side of the page. Kept pale enough that text over the
-   darkest part of a picture still passes 4.5:1. In the dark they are
-   shown as negatives, so that the paper of a drawing does not glare. */
-.hero-faint {
-  position: absolute; z-index: -1; pointer-events: none;
+/* The top of the front page is a dark plate, whatever the theme: night
+   at the head of the page and paper below. Behind the title sits a dark
+   picture for each writer's idea of a ghost, which changes with the
+   line. The words keep to the left, where a shade is laid over the
+   picture so that they stay readable. */
+.hero {
+  --plate: #0f0d0a; --plate-ink: #e8dfcd; --plate-soft: #b3a893; --plate-rule: #4a4337;
+  position: relative; isolation: isolate; color: var(--plate-ink);
+  padding: clamp(2.5rem, 9vw, 6rem) 0 clamp(2rem, 6vw, 4rem);
+}
+.hero-plate {
+  position: absolute; z-index: -1; pointer-events: none; overflow: hidden;
   top: 0; bottom: 0; left: calc(-1 * var(--gutter)); right: calc(-1 * var(--gutter));
-  -webkit-mask-image: linear-gradient(to bottom, #000 35%, transparent 78%);
-  mask-image: linear-gradient(to bottom, #000 35%, transparent 78%);
+  background: var(--plate);
 }
-.hero-faint img {
-  position: absolute; inset: 0; width: 100%; height: 100%;
-  object-fit: cover; object-position: 50% 30%;
-  opacity: 0; transition: opacity 1.8s ease;
+.hero-plate::after {
+  content: ""; position: absolute; inset: 0;
+  background:
+    linear-gradient(to right, rgb(15 13 10 / 0.82), rgb(15 13 10 / 0.4) 45%, transparent 72%),
+    linear-gradient(to top, rgb(15 13 10 / 0.7), transparent 45%);
 }
-.hero-faint img.is-shown { opacity: var(--faint); }
-.hero-faint img:not([src]) { visibility: hidden; }
-@media (min-width: 52rem) {
-  .hero-faint {
-    left: 34%;
-    -webkit-mask-image: linear-gradient(to right, transparent, #000 45%, #000 80%, transparent), linear-gradient(to bottom, #000 45%, transparent 92%);
-    mask-image: linear-gradient(to right, transparent, #000 45%, #000 80%, transparent), linear-gradient(to bottom, #000 45%, transparent 92%);
-    -webkit-mask-composite: source-in; mask-composite: intersect;
+/* On a phone the small line above the title runs the full width, so the
+   top of the picture is shaded as well. */
+@media (max-width: 51.99rem) {
+  .hero-plate::after {
+    background:
+      linear-gradient(to right, rgb(15 13 10 / 0.82), rgb(15 13 10 / 0.4) 45%, transparent 72%),
+      linear-gradient(to top, rgb(15 13 10 / 0.7), transparent 45%),
+      linear-gradient(to bottom, rgb(15 13 10 / 0.85), rgb(15 13 10 / 0.6) 22%, transparent 38%);
   }
 }
+.hero-plate img {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  object-fit: cover; object-position: 85% 40%;
+  opacity: 0; transition: opacity 1.8s ease;
+}
+.hero-plate img.is-shown { opacity: 0.55; }
+.hero-plate img:not([srcset]) { visibility: hidden; }
+.hero .eyebrow, .hero .turn-lead, .hero .turn-by { color: var(--plate-soft); }
+.hero .turn { --a: var(--accent-night); border-top-color: var(--plate-rule); }
+.hero .turn-toggle { color: var(--plate-soft); border-color: var(--plate-rule); }
+.hero .turn-toggle:hover { color: var(--a); border-color: var(--a); }
+.hero :focus-visible { outline-color: var(--plate-ink); }
+.hero ::selection { background: var(--plate-ink); color: var(--plate); }
 .eyebrow { color: var(--ink-soft); margin: 0 0 1rem; }
 .eyebrow a { text-decoration: none; display: inline-block; padding: 0.85rem 0; margin: -0.85rem 0; }
 .hero h1 {
@@ -194,7 +210,7 @@ main { max-width: var(--wide); margin: 0 auto; padding: 0 var(--gutter); }
 .turn-toggle:hover { color: var(--a); border-color: var(--a); }
 @media (min-width: 44rem) { .turn-line { min-height: 4.2em; } }
 
-.intro { max-width: 36rem; padding-bottom: clamp(2rem, 6vw, 4rem); }
+.intro { max-width: 36rem; padding: clamp(2rem, 6vw, 4rem) 0; }
 .intro p:first-child { font-size: 1.18em; line-height: 1.5; }
 
 /* ------------------------------------------------------- list of writers */
@@ -403,6 +419,7 @@ td:first-child { white-space: nowrap; }
 @keyframes draw { from { transform: scaleX(0); } }
 
 @media print {
-  .masthead nav, .pager, .turn-toggle, .skip, .hero-faint, .row-faint { display: none; }
+  .masthead nav, .pager, .turn-toggle, .skip, .hero-plate, .row-faint { display: none; }
+  .hero, .hero .eyebrow, .hero .turn-lead, .hero .turn-by, .hero .turn-phrase, .hero .turn-stop { color: #000; }
   body { background: #fff; color: #000; }
 }

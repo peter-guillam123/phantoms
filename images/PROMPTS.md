@@ -124,3 +124,107 @@ A photograph of about 1903, a gelatin silver print on a card mount that has been
 ```
 A close photograph, taken from above in low raking daylight, of part of a handwritten manuscript page from about 1900: a contributor's story in black ink, in a neat sloping hand, on cream foolscap paper with a ruled left margin. The handwriting looks real but is too small and cursive to read. Down the left margin, in a different, upright hand in soft pencil, run an editor's marks: a vertical stroke beside one paragraph, a word struck through, a small query mark, and at the foot of the margin the initials "G. O." with a short line under them. Those initials are the only writing in the picture that can be read. A rusty pin-hole and the stain of a paper-clip at the top corner, a faint ring left by a cup, slight foxing. Shallow depth of field, with the initials in sharp focus. Nothing modern. Portrait format, 2:3.
 ```
+
+# The ghost pictures
+
+Ten dark pictures for the plate at the top of the home page, one for
+each writer's idea of a ghost. Each shows behind the title while that
+writer's line is up. Chris makes them in one ChatGPT thread, in a style
+he worked out there (dense, dark, engraved, nearly all black with one
+small light). So these give only the subject, the date and where things
+go. The style is his and is not written down here.
+
+The originals go in `images/ghosts/`, named after the writer
+(`harriet-tugwell.webp`). Then run `python3 images/make_faint.py`,
+`python3 build.py` and `node images/check_plate.js`.
+
+## Placement, the same for all ten
+
+The title and the line sit on the left of the plate, and a phone shows
+only the right-hand part of the picture. So:
+
+- Landscape, 3:2.
+- One small bright thing, in the right-hand third, between a quarter
+  and two-thirds of the way down. Nothing else bright.
+- The left two-thirds dark and quiet: no highlights, no pale shapes.
+- Nothing that matters in the top or bottom tenth, which wide screens
+  cut off, or in the left third, which phones cut off.
+- Nobody in it, and no reflection or shadow of anybody.
+- No lettering that can be read.
+
+## The ten
+
+Seven of these stories are not written yet. Their pictures are drawn
+from the writer's idea of a ghost and from the titles and one-line
+summaries already on the biography pages, and they should not be taken
+as fixing anything in a story.
+
+### 1. Alfred Staniforth: a device for one clean fright (done)
+
+The far corner of an empty horse tram at night, Sheffield, 1886. An oil
+lamp above the corner seat, upper right. Two pennies on the seat under
+it. From "The Last Car but One".
+
+### 2. Harriet Tugwell: what a household will not say
+
+```
+Same style. Subject: the drawing-room of an English country house in Somerset on a winter evening, about 1895. A low upholstered chair stands empty beside a small round table. On the table is a little oil reading-lamp with a shade, lit, and it is the only light in the picture. A small thick book lies closed on the seat of the low chair. Facing the chair across a hearth-rug, and almost lost in the dark, is a large high-backed armchair, also empty, with a shawl over one arm. Heavy curtains, a glimpse of a bookcase. Nobody in the room.
+Placement: the little lamp and the low chair in the right-hand third of the picture, about halfway down. The lamp is the one bright thing and it is small. The left two-thirds, with the big armchair, stays very dark and quiet. Landscape, 3:2. No people, no lettering.
+```
+
+### 3. Thomas Lovegrove: a man still on the strength
+
+```
+Same style. Subject: a corner of a British Army barrack yard at night, in the 1880s. A wooden sentry-box stands empty beside the barred and padlocked door of a low brick store. A single lantern hangs from an iron bracket over the door, lit, and it is the only light. Wet cobbles, a high brick wall, a water-butt. The sentry-box is empty: no soldier, no rifle, no shadow of anyone.
+Placement: the lantern, the door and the sentry-box in the right-hand third, with the lantern about a third of the way down. The lantern is the one bright thing and it is small. The left two-thirds is the dark yard and wall, with nothing bright in it. Landscape, 3:2. No people, no lettering.
+```
+
+### 4. Hester Charlton: an ancient debt, unpaid
+
+```
+Same style. Subject: an archaeological dig on Hadrian's Wall in Northumberland at dusk, in 1903. The round mouth of a stone-lined Roman well, newly cleared, in a trench cut through turf. A workman's lantern has been left on the stone rim, lit, and it is the only light. Beside it on the wet rim lie three or four penny coins. A rope goes down into the well from a simple wooden windlass, and a bucket and a spade lie by it. Behind, a few courses of squared Roman stones and bare moor. Nobody there.
+Placement: the well, the lantern and the coins in the right-hand third, with the lantern about halfway down. The lantern is the one bright thing and it is small. The left two-thirds is dark trench, turf and sky with nothing bright in it. Landscape, 3:2. No people, no lettering.
+```
+
+### 5. Eli Kenworthy: a wage owing
+
+```
+Same style. Subject: the spinning room of a Lancashire cotton mill, about 1895, empty, with the machines stopped. A long spinning mule runs away into the dark: hundreds of upright spindles in a row on a low wheeled carriage, over bare oily floorboards, with iron pillars holding up the ceiling. One gas jet burns on a wall bracket, and it is the only light. Under it, set neatly against the wall, is a small pair of child's wooden-soled clogs, and on the floor beside the machine lies a short hand-brush. Nobody in the room.
+Placement: the gas jet, the clogs and the brush in the right-hand third, with the gas jet about a third of the way down. The gas jet is the one bright thing and it is small. The long row of spindles runs off to the left into darkness, with nothing bright in it. Landscape, 3:2. No people, no lettering.
+```
+
+### 6. Nora Tobin: a neighbour in need of a favour
+
+```
+Same style. Subject: the inside of a draper's shop in a country town in Ireland, after closing, about 1893. A long wooden counter with a large account book lying open on it, a pen beside the book, and a single candle in a brass candlestick, lit, which is the only light. Bolts of cloth on shelves behind the counter. Beyond the end of the counter the back door of the shop stands a little way open on to complete darkness. Nobody in the shop.
+Placement: the candle, the open book and the back door in the right-hand third, with the candle about halfway down. The candle is the one bright thing and it is small. The counter and the shelves run off to the left into the dark, with nothing bright there. The pages of the book are in shadow and nothing on them can be read. Landscape, 3:2. No people, no lettering.
+```
+
+### 7. Andrew Dalgleish: a witness nobody can cross-examine
+
+```
+Same style. Subject: a room in an Edinburgh house in 1897, being cleared after a death. The furniture has been pushed together and roped for the sale room, and the pictures are stacked against the wall. Apart from the rest, a tall looking-glass in a dark wooden frame leans against the bare wall, with a blank paper lot-ticket tied to it by a string. On a lawyer's black tin deed-box in front of it stands one candle, lit, which is the only light. The glass shows the candle flame and the empty room, and nobody.
+Placement: the looking-glass and the candle in the right-hand third, with the flame about halfway down. The flame and its reflection are the only bright things and both are small. The left two-thirds is the roped furniture in deep shadow. Landscape, 3:2. No people, no reflection of anyone, no lettering.
+```
+
+### 8. Rachel Protheroe: a warning that comes first
+
+```
+Same style. Subject: a narrow sunken lane between high hedge-banks in the hills of west Wales, on a moonless night, about 1896. Some way down the lane, low over the mud and about the height of a hand, a single small pale flame is moving along by itself. Nobody is carrying it and it lights almost nothing. A field gate, bare thorn trees, and far off the dark shape of a farmhouse with no light in it.
+Placement: the small flame in the right-hand third, a little below halfway down. It is the one bright thing and it is very small. The left two-thirds is hedge-bank and black sky with nothing bright in it. Landscape, 3:2. No people, no lettering.
+```
+
+### 9. Winifred Gadd: a wish with nowhere to go
+
+```
+Same style. Subject: a clerk's desk in the office of a factory in outer London, after hours, in 1923. A heavy upright typewriter with a sheet of paper in it, a candlestick telephone, a wire tray of letters, and the typist's chair pushed back from the desk. One electric desk-lamp with a metal shade is lit, and it is the only light: it falls in a small pool on the typewriter keys and the paper. Everything beyond the desk is dark: rows of other desks with covered typewriters, a tall window with night outside. Nobody in the office.
+Placement: the lamp and the typewriter in the right-hand third, about halfway down. The pool of lamplight is the one bright thing and it is kept small. The left two-thirds is the dark office with nothing bright in it. Nothing on the paper can be read. Landscape, 3:2. No people, no lettering.
+```
+
+### 10. John Trembath: a message that outlived its sender
+
+```
+Same style. Subject: the instrument-room of a submarine cable station on a coral island in the Indian Ocean, at three in the morning, about 1910. A plain wooden room with open rafters. On a desk a large bound diary lies open with a pen across it, beside a brass telegraph instrument from which a narrow paper tape has run out and coiled on the floor. One oil lamp on the desk is lit, and it is the only light. The operator's chair is pushed back and empty. Through an open shuttered window, the black trunks of coconut palms. Nobody in the room.
+Placement: the lamp, the open diary and the instrument in the right-hand third, with the lamp about halfway down. The lamp is the one bright thing and it is small. The left two-thirds is the dark room, the rafters and the window, with nothing bright there. The pages of the diary are in shadow and nothing on them can be read. Landscape, 3:2. No people, no lettering.
+```
+
