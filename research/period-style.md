@@ -157,6 +157,16 @@ For "The Last Car but One" (Staniforth, *Pearson's Magazine*, 1899):
   God." Staniforth's rule against a moral is his own, not the
   magazine's.
 
+**Rewritten on 12 November 2026.** Chris found the first version
+detached and modern. The second is in the first person. For the voice I
+read the opening of Jerome K. Jerome's *Told After Supper* (1891,
+identifier `toldaftersupper00jerouoft`), which is the facetious,
+reader-addressing manner of *The Idler*, a magazine Staniforth also sold
+to. The story is now set in 1886, when he was still a Sheffield reporter,
+and the narrator was a child in Neepsend on the night of the flood, as
+Staniforth was. A neutral reporter was the wrong model for the period:
+the popular press of the 1890s was personal and opinionated.
+
 ## Still to do before each of the other seven writes
 
 The same reading, for that writer's own magazines. In order of need:

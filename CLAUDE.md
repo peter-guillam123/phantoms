@@ -26,6 +26,8 @@ It may grow into a meta narrative or ARG later. Nothing is decided.
 - `content/stories/` - the stories. One marked `draft: yes` appears only
   in the private preview, never on the public site. Remove that line to
   publish it, and only when Chris has read it and said so.
+- `images/PROMPTS.md` - a prompt for each picture named in a biography's
+  caption, for an AI image maker. No pictures are on the site yet.
 - `static/` - the stylesheet, one small script and the fonts.
 - `build.py` - turns `content/` into web pages in `_site/` (not kept in
   git). `python3 build.py --serve` builds and serves at localhost:8000.
@@ -76,9 +78,9 @@ It may grow into a meta narrative or ARG later. Nothing is decided.
 - A change to a story that is already public is shown to Chris in the
   preview first, and merged only when he says so.
 - Narration is fixed per writer and is part of what tells them apart:
-  first person for Lovegrove, Charlton, Tobin and Trembath; close third
-  for Tugwell, Protheroe and Gadd; a pressman's third for Staniforth; a
-  teller with listeners for Kenworthy; a file of documents for
+  first person for Lovegrove, Charlton, Tobin, Trembath and Staniforth
+  (a newspaper man talking straight to the reader); close third for
+  Tugwell, Protheroe and Gadd; a teller with listeners for Kenworthy; a file of documents for
   Dalgleish. Do not change it without saying so.
 - Before writing a story, read the persona's file in full, and the
   comparison table in `personas/README.md`, so the voice stays distinct

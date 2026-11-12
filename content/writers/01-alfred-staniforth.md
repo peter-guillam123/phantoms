@@ -37,7 +37,7 @@ That is the stated position, and the stories mostly bear it out. But read thirty
 
 ## The work
 
-The stories are short, between 2,000 and 3,500 words, and open like police reports: a time, a street, an occupation. The narrator is usually a pressman. The ghost is seen, solid, and described as a wanted man would be. The last line is a sting, often a verdict or a sum of money. There is no landscape, no reflection and no doubt that the thing happened.
+The stories run to 4,000 words at most and are told by a newspaper man, straight to the reader, in the easy, knowing manner of the comic papers he also wrote for. He begins by telling you how such things are faked, because he has faked them. Then he gives the facts as a reporter would: a time, a street, an occupation, a price. The ghost is seen, solid, and described as a wanted man would be. The last line is a sting, and it is often a sum of money. The manner depends on one effect, which is that the man who jokes about everything stops joking.
 
 > At ten minutes past eleven on the night of the fourteenth of November, the last car but one left the Nether Edge terminus with three passengers inside and none on top. The conductor, a steady man named Hobson with eleven years’ service, was prepared to swear to this before any coroner in England, and in the event he had to. For when the car reached Moorhead there were four inside; and the fourth had not paid.
 ^ From “The Last Car but One”, *Pearson’s Magazine*, 1899

@@ -75,6 +75,16 @@ confirmed this list ("that's pretty much the list", 11 Nov 2026).
 - **Motifs that all pay off.** Leave some details doing nothing.
 - **Unbroken restraint.** Let someone be foolish, sentimental or devout.
 - **Modern idiom.** "A kind of statement."
+- **The fronted punch sentence.** "Two of the houses I never set foot
+  in." Chris, 12 Nov 2026: "It may be period accurate, I don't know, but
+  it is a consistent tell of your natural speaking voice. It reads like
+  someone trying to turn a straightforward sentence into a more
+  interesting one, and failing." Put the sentence in its plain order.
+- **A figure that breaks when pushed.** "I speak as a manufacturer
+  speaks of his own goods" was meant to say he knows ghosts are faked.
+  But goods are real, so it says the opposite. Chris caught it and
+  offered a conjuror who knows his own tricks. Test every comparison by
+  asking what else it implies.
 
 Quick check: no paragraph of narration under nine words.
 
@@ -105,6 +115,29 @@ magazines did not do it.
 - He said yes when asked whether narration (first or third person) was
   being thought about. It is fixed per writer: see `CLAUDE.md`.
 
+- **A teller with a trade and a stake.** For Staniforth he liked the idea
+  of a cynic who has faked ghosts for a living and cannot explain this
+  one, who speaks straight to the reader, and who is told apart from the
+  other writers "more in terms of vocabulary than position". "The voice
+  is good." (12 Nov 2026)
+
+## What Chris has not liked
+
+- **Detachment.** On rereading "The Last Car but One" (12 Nov 2026) he
+  found it modern, and "detached in a way that makes sense superficially
+  ('he's a reporter!') but doesn't quite ring true for me for this
+  period and crucially leaves the story (which has a solid, scary idea)
+  too antiseptic and unaffecting." His instinct: the narrator should talk
+  directly to the reader, as one of life's cynics who cannot quite
+  explain this one away, and be told apart from the others "more in
+  terms of vocabulary than position".
+- My reading, to test: a story told as a bare record gives the reader
+  nobody to be frightened with. Fear needs a teller who has something at
+  stake. A neutral reporter is also wrong for the 1890s, when popular
+  journalism was personal, chatty and opinionated. And I measured the
+  symptom (sentences half the length of real *Pearson's* ones) and then
+  kept the form that caused it.
+
 ## Measured so far
 
 | Story | Words | Words per sentence (mean / middle) | Semicolons per 1,000 | Dashes per 1,000 |
@@ -116,9 +149,10 @@ magazines did not do it.
 | "The Diary at Direction Island" (Trembath) | 3,317 | 22 / 17 | 12 | 4 |
 | Real: a *Pearson's* story, 1898 | 4,751 | 20 / 16 | 7 | 12 |
 | Real: Cutcliffe Hyne in *Pearson's*, 1898 | 7,001 | 18 / 14 | 5 | 3 |
-| "The Last Car but One" (Staniforth) | 2255 | 13 / 10 | 5 | 10 |
+| "The Last Car but One" (Staniforth), first version | 2,255 | 13 / 10 | 5 | 10 |
+| "The Last Car but One" (Staniforth), rewritten | 3,962 | 18 / 15 | 9 | 3 |
 
-Staniforth's sentences are shorter than the real *Pearson's* ones, because so much of his story is question and answer. The first two of ours are light on dashes. Tugwell's and Trembath's middle
+Staniforth's first version had sentences far shorter than real *Pearson's* ones, and read as modern. The rewrite matches them. All three of ours are light on dashes. Tugwell's and Trembath's middle
 sentences are now nearly the same length, so what separates them is
 person, paragraph length and how much speech there is. Watch that the
 next writer differs on more than one count.
