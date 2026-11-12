@@ -105,6 +105,23 @@ magazines did not do it.
 - He said yes when asked whether narration (first or third person) was
   being thought about. It is fixed per writer: see `CLAUDE.md`.
 
+## What Chris has not liked
+
+- **Detachment.** On rereading "The Last Car but One" (12 Nov 2026) he
+  found it modern, and "detached in a way that makes sense superficially
+  ('he's a reporter!') but doesn't quite ring true for me for this
+  period and crucially leaves the story (which has a solid, scary idea)
+  too antiseptic and unaffecting." His instinct: the narrator should talk
+  directly to the reader, as one of life's cynics who cannot quite
+  explain this one away, and be told apart from the others "more in
+  terms of vocabulary than position".
+- My reading, to test: a story told as a bare record gives the reader
+  nobody to be frightened with. Fear needs a teller who has something at
+  stake. A neutral reporter is also wrong for the 1890s, when popular
+  journalism was personal, chatty and opinionated. And I measured the
+  symptom (sentences half the length of real *Pearson's* ones) and then
+  kept the form that caused it.
+
 ## Measured so far
 
 | Story | Words | Words per sentence (mean / middle) | Semicolons per 1,000 | Dashes per 1,000 |
