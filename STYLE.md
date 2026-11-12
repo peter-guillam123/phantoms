@@ -141,6 +141,13 @@ confirmed this list ("that's pretty much the list", 11 Nov 2026).
   Two exceptions, both agreed. Where the emptiness is the point, it
   stays: "Hobson had none" (a man with no answer). And a drop that lands
   on something specific is a joke and not this fault.
+- **The announcement.** "I went to that inquest in a thoroughly
+  comfortable frame of mind, and it is only right that I should tell you
+  what was in it." Chris, 12 Nov 2026: "What is meant by 'what was in
+  it'? In the inquest? In his frame of mind?" A clause that announces
+  what is about to be said, with a loose "it" for the reader to puzzle
+  over. The next sentence was already doing the job. Cut the
+  announcement and let the sentence that follows speak.
 - **A plain thing said in a tortuous way.** "I began my report of it
   with a certain sentence; and as I have not been able to better that
   sentence in thirteen years, I shall begin with it again." Chris,
