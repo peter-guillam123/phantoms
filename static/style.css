@@ -52,6 +52,7 @@
   color-scheme: light;
 }
 body, .row, .turn { --a: var(--accent); }
+:root { --faint: 0.13; --faint-up: 0.16; --faint-filter: none; }
 
 /* Dark values, twice: once for a dark system setting, once for a viewer
    that sets data-theme itself. An explicit choice wins either way. */
@@ -62,6 +63,7 @@ body, .row, .turn { --a: var(--accent); }
     --ink: #e8dfcd;
     --ink-soft: #b3a893;
     --rule: #3b352b;
+    --faint: 0.15; --faint-up: 0.19; --faint-filter: invert(1);
     color-scheme: dark;
   }
   :root:not([data-theme="light"]) :is(body, .row, .turn) { --a: var(--accent-night); }
@@ -72,6 +74,7 @@ body, .row, .turn { --a: var(--accent); }
   --ink: #e8dfcd;
   --ink-soft: #b3a893;
   --rule: #3b352b;
+  --faint: 0.15; --faint-up: 0.19; --faint-filter: invert(1);
   color-scheme: dark;
 }
 :root[data-theme="dark"] :is(body, .row, .turn) { --a: var(--accent-night); }
@@ -137,7 +140,34 @@ p { margin: 0 0 1.1em; text-wrap: pretty; }
 main { max-width: var(--wide); margin: 0 auto; padding: 0 var(--gutter); }
 
 /* ---------------------------------------------------------------- hero */
-.hero { padding: clamp(2.5rem, 9vw, 6rem) 0 clamp(2rem, 6vw, 4rem); }
+.hero { position: relative; isolation: isolate; padding: clamp(2.5rem, 9vw, 6rem) 0 clamp(2rem, 6vw, 4rem); }
+
+/* The biography pictures, very pale, behind the title. Each one comes up
+   with its writer's line and goes again, like print showing through from
+   the other side of the page. Kept pale enough that text over the
+   darkest part of a picture still passes 4.5:1. In the dark they are
+   shown as negatives, so that the paper of a drawing does not glare. */
+.hero-faint {
+  position: absolute; z-index: -1; pointer-events: none;
+  top: 0; bottom: 0; left: calc(-1 * var(--gutter)); right: calc(-1 * var(--gutter));
+  -webkit-mask-image: linear-gradient(to bottom, #000 35%, transparent 78%);
+  mask-image: linear-gradient(to bottom, #000 35%, transparent 78%);
+}
+.hero-faint img {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  object-fit: cover; object-position: 50% 30%;
+  opacity: 0; transition: opacity 1.8s ease;
+}
+.hero-faint img.is-shown { opacity: var(--faint); }
+.hero-faint img:not([src]) { visibility: hidden; }
+@media (min-width: 52rem) {
+  .hero-faint {
+    left: 34%;
+    -webkit-mask-image: linear-gradient(to right, transparent, #000 45%, #000 80%, transparent), linear-gradient(to bottom, #000 45%, transparent 92%);
+    mask-image: linear-gradient(to right, transparent, #000 45%, #000 80%, transparent), linear-gradient(to bottom, #000 45%, transparent 92%);
+    -webkit-mask-composite: source-in; mask-composite: intersect;
+  }
+}
 .eyebrow { color: var(--ink-soft); margin: 0 0 1rem; }
 .eyebrow a { text-decoration: none; display: inline-block; padding: 0.85rem 0; margin: -0.85rem 0; }
 .hero h1 {
@@ -168,18 +198,32 @@ main { max-width: var(--wide); margin: 0 auto; padding: 0 var(--gutter); }
 .intro p:first-child { font-size: 1.18em; line-height: 1.5; }
 
 /* ------------------------------------------------------- list of writers */
-.writers > h2, .also > h2, .stories > h2 {
+.writers > h2 {
   font-size: clamp(1.9rem, 5vw, 2.8rem);
   padding-top: 1.2rem; border-top: 3px double var(--ink); margin-bottom: 0.6rem;
 }
 .rows { list-style: none; margin: 0; padding: 0; }
 .row {
-  position: relative;
+  position: relative; isolation: isolate;
   display: grid; grid-template-columns: 2.6rem minmax(0, 1fr); gap: 0.2rem 0.4rem;
   padding: 1.5rem 0; border-bottom: 1px solid var(--rule);
   transition: background-color 0.25s ease;
 }
 .row:hover, .row:focus-within { background: color-mix(in srgb, var(--a) 7%, transparent); }
+/* Each writer's picture, pale, behind the name. It never sits under the
+   coloured text, which has less contrast to spare. */
+.row-faint {
+  position: absolute; z-index: -1; pointer-events: none;
+  top: 0; left: 0; width: 100%; height: min(100%, 10rem);
+  object-fit: cover; object-position: 50% 30%;
+  opacity: var(--faint);
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 30%, #000 80%, transparent), linear-gradient(to bottom, #000 25%, transparent);
+  mask-image: linear-gradient(to right, transparent, #000 30%, #000 80%, transparent), linear-gradient(to bottom, #000 25%, transparent);
+  -webkit-mask-composite: source-in; mask-composite: intersect;
+  transition: opacity 0.4s ease;
+}
+.row:hover .row-faint, .row:focus-within .row-faint { opacity: var(--faint-up); }
+.is-drawing { filter: var(--faint-filter); }
 .row-no { color: var(--a); padding-top: 0.65em; }
 .row h3 { font-size: clamp(1.6rem, 4.6vw, 2.15rem); }
 .row h3 a { text-decoration: none; }
@@ -190,18 +234,34 @@ main { max-width: var(--wide); margin: 0 auto; padding: 0 var(--gutter); }
 .row-theme { font-style: italic; font-size: 1.22em; line-height: 1.3; color: var(--a); margin: 0 0 0.4rem; }
 .row-theme .creed-lead { font-style: normal; color: var(--ink-soft); display: block; margin-bottom: 0.15rem; }
 .row-nuance { margin: 0; max-width: 34rem; }
+.row-editor .row-no { letter-spacing: 0.05em; }
+
+/* The link to a story sits above the link that covers the whole row. */
+.row-stories { position: relative; z-index: 1; margin-top: 1rem; max-width: 34rem; }
+.row-stories .creed-lead { color: var(--ink-soft); margin: 0; }
+.row-stories ul { list-style: none; margin: 0; padding: 0; }
+.row-stories a {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 0 0.7rem;
+  min-height: 2.75rem; padding: 0.35rem 0; text-decoration: none;
+}
+.row-story-title {
+  font-family: var(--display); font-size: 1.4em; line-height: 1.2;
+  text-decoration: underline; text-decoration-color: var(--a);
+  text-decoration-thickness: 1px; text-underline-offset: 0.2em;
+}
+.row-story-title::after { content: " \2192"; color: var(--a); display: inline-block; text-decoration: none; padding-left: 0.3em; transition: transform 0.25s ease; }
+.row-stories a:hover .row-story-title::after { transform: translateX(0.25em); }
+.row-story-where { color: var(--ink-soft); font-size: max(0.85em, 0.82rem); }
 @media (min-width: 52rem) {
   .row { grid-template-columns: 3.5rem minmax(0, 5fr) minmax(0, 8fr); gap: 0 2rem; padding: 1.9rem 0.6rem 1.9rem 0; }
   .row-ghost { grid-column: 3; margin-top: 0.25rem; }
+  .row-faint {
+    width: 44%; height: 100%;
+    -webkit-mask-image: linear-gradient(to right, transparent, #000 22%, #000 55%, transparent), linear-gradient(to bottom, transparent, #000 18%, #000 82%, transparent);
+    mask-image: linear-gradient(to right, transparent, #000 22%, #000 55%, transparent), linear-gradient(to bottom, transparent, #000 18%, #000 82%, transparent);
+  }
 }
 
-.also, .stories { margin-top: clamp(2.5rem, 7vw, 4.5rem); }
-.also-card { position: relative; max-width: 36rem; padding: 1rem 0 0; }
-.also-card h3 { font-size: clamp(1.6rem, 4.6vw, 2.15rem); }
-.also-card h3 a { text-decoration: none; }
-.also-card h3 a::after { content: ""; position: absolute; inset: 0; }
-.also-card p:last-child { margin-top: 0.8rem; }
-.empty { font-style: italic; color: var(--ink-soft); padding: 1rem 0 0; max-width: 36rem; }
 
 /* --------------------------------------------------------------- entries */
 .entry-head { padding: clamp(2rem, 7vw, 4.5rem) 0 clamp(1.5rem, 4vw, 2.5rem); max-width: 46rem; }
@@ -313,7 +373,6 @@ td:first-child { white-space: nowrap; }
   color: var(--a); border: 1px solid var(--a); border-radius: 2rem; padding: 0.1rem 0.7rem; vertical-align: middle;
 }
 .story-head .draft-flag { margin-bottom: 1.2rem; }
-.row-story .row-no { letter-spacing: 0.05em; }
 
 /* ----------------------------------------------------------------- pager */
 .pager { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; border-top: 3px double var(--ink); padding: 1.2rem 0 0; }
@@ -344,6 +403,6 @@ td:first-child { white-space: nowrap; }
 @keyframes draw { from { transform: scaleX(0); } }
 
 @media print {
-  .masthead nav, .pager, .turn-toggle, .skip { display: none; }
+  .masthead nav, .pager, .turn-toggle, .skip, .hero-faint, .row-faint { display: none; }
   body { background: #fff; color: #000; }
 }

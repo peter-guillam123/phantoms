@@ -19,6 +19,7 @@ signed: “A. Staniforth”, and “Paul Vane” for the ones he thought beneath
 sold: *The Idler*, *Pearson’s*, *The Royal*, *The Novel Magazine*, *Chambers’s Journal*
 image: alfred-staniforth.webp
 image_size: 1400x933
+image_kind: drawing
 image_alt: A pen-and-ink newspaper drawing on yellowed, folded newsprint. Ten men in shirtsleeves and waistcoats read proofs round a long table under hanging lamps, among paste-pots, scissors and spikes of paper. A wall clock shows eleven, and the dome of St Paul’s is in the window.
 ---
 

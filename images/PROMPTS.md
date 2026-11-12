@@ -39,6 +39,12 @@ people who cannot see it. A wide picture sits above the text and a tall
 one in the side column. A biography with no picture keeps the empty
 oval.
 
+After adding or changing a picture, run `python3 images/make_faint.py`.
+It makes the small grey copy that the home page shows, very pale, behind
+the title and the writer's name. If the picture is a drawing on white
+paper, add `image_kind: drawing` to the header, so that in dark mode it
+is shown as a negative and the paper does not glare.
+
 The sub-editors' room came out with ten men, not eleven, so the caption
 was changed to match the picture.
 

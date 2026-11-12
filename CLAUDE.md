@@ -29,7 +29,10 @@ It may grow into a meta narrative or ARG later. Nothing is decided.
 - `images/PROMPTS.md` - a prompt for each picture named in a biography's
   caption, for an AI image maker, and how finished pictures are added.
   The pictures themselves are in `static/images/`. The About page says
-  they are AI-made, and that line stays.
+  they are AI-made, and that line stays. The home page shows pale grey
+  copies behind the title and each name. Those are in
+  `static/images/faint/` and are made by `images/make_faint.py`: run it
+  after adding or changing a picture.
 - `static/` - the stylesheet, one small script and the fonts.
 - `build.py` - turns `content/` into web pages in `_site/` (not kept in
   git). `python3 build.py --serve` builds and serves at localhost:8000.
@@ -49,7 +52,14 @@ It may grow into a meta narrative or ARG later. Nothing is decided.
 - Chris views the site through a private preview page on claude.ai:
   https://claude.ai/artifact/URcMQYgf26vUQDk712TmPx. After a change he
   should see, run `python3 build.py --artifact` and republish
-  `_artifact/index.html` with the other twelve pages to that address.
+  `_artifact/index.html` with the other pages, and any new pictures, to
+  that address.
+- The home page is one list: the editor first, then the ten, each with a
+  link to their story where one exists. Chris asked for this on
+  12 November 2026. There is no separate list of stories.
+- Text over a pale picture must still pass 4.5:1 over the picture's
+  darkest part. That is why the pictures are capped at 13% strength on
+  light paper and kept out from under the coloured text in the rows.
 - Each writer has one colour, light and dark, set in the header of their
   content file. Any new colour must pass 4.5:1 contrast on both papers.
 - The About page diary is in Chris's voice, newest first. Add an entry

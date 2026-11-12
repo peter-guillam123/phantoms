@@ -275,7 +275,7 @@ def story_page(meta, body, author):
     return f"""<article class="story">
   <header class="story-head">
     {draft}
-    <p class="eyebrow"><a href="../../#stories">The stories</a> <span aria-hidden="true">·</span> {inline(meta["venue"])}, {meta["year"]}</p>
+    <p class="eyebrow"><a href="../../#writers">The writers</a> <span aria-hidden="true">·</span> {inline(meta["venue"])}, {meta["year"]}</p>
     <h1>{html.escape(meta["title"])}</h1>
     <p class="byline">{inline(meta["byline"])}</p>
   </header>
@@ -319,37 +319,60 @@ def simple_page(meta, body, side=""):
 </article>"""
 
 
-def index_page(meta, body, writers, editor, stories=()):
-    by_slug = {w["slug"]: w for w in writers}
-    if stories:
-        lis = []
-        for st in stories:
-            w = by_slug[st["author"]]
-            flag = ' <span class="draft-flag">Preview</span>' if st.get("draft") else ""
-            lis.append(f"""    <li class="row row-story" style="--accent:{w['accent']};--accent-night:{w['accent_night']}">
-      <span class="row-no" aria-hidden="true">{st['year']}</span>
-      <div class="row-who">
-        <h3><a href="stories/{st['slug']}/">{html.escape(st['title'])}</a>{flag}</h3>
-        <p class="row-meta">{html.escape(w['name'])}<br>{inline(st['venue'])}, {st['year']}</p>
-      </div>
-      <div class="row-ghost"><p class="row-nuance">{inline(st['summary'])}</p></div>
-    </li>""")
-        stories_html = '<ol class="rows">\n' + "\n".join(lis) + "\n  </ol>"
-    else:
-        stories_html = '<p class="empty">None yet. The first of them is being written, and will appear here.</p>'
+def faint(meta, slug):
+    """The pale copy of a picture that sits behind a row on the home page.
+    It is decoration, so it has no description and is hidden from screen
+    readers. A drawing is marked, because in the dark it is shown as a
+    negative: otherwise its white paper would glare."""
+    if not (STATIC / "images" / "faint" / f"{slug}.webp").exists():
+        return ""
+    kind = " is-drawing" if meta.get("image_kind") == "drawing" else ""
+    return (f'<img class="row-faint{kind}" src="static/images/faint/{slug}.webp" alt="" '
+            f'aria-hidden="true" loading="lazy" decoding="async">')
 
+
+def index_page(meta, body, writers, editor, stories=()):
     phrases = "\n".join(
         f'      <li data-by="{html.escape(w["name"])}, {html.escape(w["trade"].lower())}" '
-        f'data-accent="{w["accent"]}" data-accent-night="{w["accent_night"]}">'
+        f'data-accent="{w["accent"]}" data-accent-night="{w["accent_night"]}" '
+        f'data-faint="static/images/faint/{w["slug"]}.webp" data-kind="{w.get("image_kind", "photograph")}">'
         f'{inline(w["theme"])}</li>'
         for w in writers
     )
     first = writers[0]
-    rows = []
+    rows = [f"""    <li class="row row-editor" style="--accent:{editor['accent']};--accent-night:{editor['accent_night']}">
+      {faint(editor, 'george-ormiston')}
+      <span class="row-no" aria-hidden="true">Ed.</span>
+      <div class="row-who">
+        <h3><a href="editor/">{html.escape(editor['title'])}</a></h3>
+        <p class="row-meta">{inline(editor['dates']).replace(" · ", "<br>")}</p>
+      </div>
+      <div class="row-ghost">
+        <p class="row-theme"><span class="creed-lead">{inline(editor['creed_lead'])}</span> {inline(editor['creed'])}</p>
+        <p class="row-nuance">{inline(editor['teaser'])}</p>
+      </div>
+    </li>"""]
     numerals = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"]
     for w in writers:
         n = int(w["order"])
+        mine = [st for st in stories if st["author"] == w["slug"]]
+        links = ""
+        if mine:
+            label = "The story" if len(mine) == 1 else "The stories"
+            items = "".join(
+                f'<li><a href="stories/{st["slug"]}/"><span class="row-story-title">{html.escape(st["title"])}</span> '
+                f'<span class="row-story-where">{inline(st["venue"])}, {st["year"]}</span></a>'
+                + (' <span class="draft-flag">Preview</span>' if st.get("draft") else "")
+                + "</li>"
+                for st in mine
+            )
+            links = f"""
+        <div class="row-stories">
+          <p class="creed-lead">{label}</p>
+          <ul>{items}</ul>
+        </div>"""
         rows.append(f"""    <li class="row" style="--accent:{w['accent']};--accent-night:{w['accent_night']}">
+      {faint(w, w['slug'])}
       <span class="row-no" aria-hidden="true">{numerals[n-1]}</span>
       <div class="row-who">
         <h3><a href="writers/{w['slug']}/">{html.escape(w['name'])}</a></h3>
@@ -357,10 +380,14 @@ def index_page(meta, body, writers, editor, stories=()):
       </div>
       <div class="row-ghost">
         <p class="row-theme"><span class="creed-lead">A ghost is</span> {inline(w['theme'])}.</p>
-        <p class="row-nuance">{inline(w['nuance'])}</p>
+        <p class="row-nuance">{inline(w['nuance'])}</p>{links}
       </div>
     </li>""")
     return f"""<section class="hero" aria-labelledby="hero-title">
+  <div class="hero-faint" data-turn-faint aria-hidden="true">
+    <img src="static/images/faint/{first['slug']}.webp" alt="" class="is-shown{' is-drawing' if first.get('image_kind') == 'drawing' else ''}" decoding="async">
+    <img alt="" decoding="async">
+  </div>
   <p class="eyebrow">{SITE_TAGLINE}</p>
   <h1 id="hero-title">Phantoms</h1>
   <div class="turn" data-turn style="--accent:{first['accent']};--accent-night:{first['accent_night']}">
@@ -380,22 +407,10 @@ def index_page(meta, body, writers, editor, stories=()):
 {markdown(body)}
 </section>
 <section class="writers" id="writers" aria-labelledby="writers-title">
-  <h2 id="writers-title">The writers</h2>
+  <h2 id="writers-title">The editor and the ten</h2>
   <ol class="rows">
 {chr(10).join(rows)}
   </ol>
-</section>
-<section class="also" aria-labelledby="also-title">
-  <h2 id="also-title">The editor</h2>
-  <div class="also-card">
-    <h3><a href="editor/">{html.escape(editor['title'])}</a></h3>
-    <p class="row-meta">{inline(editor['dates'])}</p>
-    <p>{inline(editor['teaser'])}</p>
-  </div>
-</section>
-<section class="stories" id="stories" aria-labelledby="stories-title">
-  <h2 id="stories-title">The stories</h2>
-  {stories_html}
 </section>"""
 
 

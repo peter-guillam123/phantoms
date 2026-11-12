@@ -15,7 +15,31 @@
   var timer = null;
   var paused = false;
 
+  // The pale picture behind the title changes with the line. Two layers
+  // take turns, so no more than two pictures are ever held at once.
+  var layers = Array.prototype.slice.call(document.querySelectorAll("[data-turn-faint] img"));
+  var front = 0;
+
+  function showPicture(i) {
+    if (layers.length < 2) return;
+    var src = items[i].getAttribute("data-faint");
+    if (!src) return;
+    var incoming = layers[1 - front];
+    var outgoing = layers[front];
+    front = 1 - front;
+    function swap() {
+      if (layers[front] !== incoming) return;
+      incoming.classList.add("is-shown");
+      outgoing.classList.remove("is-shown");
+    }
+    incoming.classList.toggle("is-drawing", items[i].getAttribute("data-kind") === "drawing");
+    incoming.onload = swap;
+    incoming.setAttribute("src", src);
+    if (incoming.complete && incoming.naturalWidth) swap();
+  }
+
   function show(i) {
+    showPicture(i);
     phrase.innerHTML = items[i].innerHTML;
     by.textContent = items[i].getAttribute("data-by");
     turn.style.setProperty("--accent", items[i].getAttribute("data-accent"));
