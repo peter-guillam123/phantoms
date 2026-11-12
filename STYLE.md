@@ -106,6 +106,14 @@ confirmed this list ("that's pretty much the list", 11 Nov 2026).
   The test for the end of any sentence: what does this clause tell the
   reader that they did not already have? If one fact, put the fact where
   it belongs and stop. If nothing, cut it.
+- **The balanced sentence that ends on nothing.** "I got what I could
+  that night from the constable, which was the name and address, and
+  from the conductor, which was nothing at all." Chris, 12 Nov 2026: "I
+  recognise that you want to give the sense that there was little to go
+  on, but ending on the 'nothing at all' is a kind of dying fall into a
+  void." The matched halves are there for the rhythm, and the rhythm
+  lands on an empty word. Say who gave what in plain order, and let the
+  sentence end on something: a person, an action, a thing.
 - **A plain thing said in a tortuous way.** "I began my report of it
   with a certain sentence; and as I have not been able to better that
   sentence in thirteen years, I shall begin with it again." Chris,
