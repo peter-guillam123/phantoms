@@ -10,8 +10,9 @@ There are two layers, and a story needs both:
    magazines' house styles were, and the modern habits to keep out.
 2. **Author-specific: the writer's file in `personas/`.** That writer's
    voice rules, plus a "Period notes" section written after reading real
-   stories from their own magazines. Tugwell and Trembath have theirs.
-   The other eight do not, and must before they write.
+   stories from their own magazines. Tugwell, Trembath, Staniforth and
+   Kenworthy have theirs. The other six do not, and must before they
+   write.
 
 The evidence behind the general rules (what was read, the counts, the
 gaps) is in `research/period-style.md`.
@@ -269,11 +270,22 @@ agreed the calls.
 | Real: Cutcliffe Hyne in *Pearson's*, 1898 | 7,001 | 18 / 14 | 5 | 3 |
 | "The Last Car but One" (Staniforth), first version | 2,255 | 13 / 10 | 5 | 10 |
 | "The Last Car but One" (Staniforth), rewritten | 3,962 | 18 / 15 | 9 | 3 |
+| Real: Brierley, "Cast upon the World" (sample), 1880s | 4,811 | 25 / 20 | 10 | 4 |
+| "The Little Piecer" (Kenworthy), first draft | 3,230 | 18 / 16 | 12 | 1 |
+| "The Little Piecer" (Kenworthy), as shown to Chris | 3,290 | 14 / 12 | 4 | 1 |
 
 Staniforth's first version had sentences far shorter than real *Pearson's* ones, and read as modern. The rewrite matches them. All three of ours are light on dashes. Tugwell's and Trembath's middle
 sentences are now nearly the same length, so what separates them is
 person, paragraph length and how much speech there is. Watch that the
 next writer differs on more than one count.
+
+Kenworthy's first draft came out with the same middle sentence as
+Tugwell's and the same count of semicolons, and with the jokes reported
+in the teller's words. It read like the others with a flat cap on. The
+second pass broke the compound sentences into spoken ones and gave the
+jokes back to the men who made them, in dialect. Lesson: measure the
+draft against the other stories before showing it, not only against
+the real magazine.
 
 ## What a detector made of them
 

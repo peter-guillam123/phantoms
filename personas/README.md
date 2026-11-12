@@ -71,7 +71,7 @@ their trade on the job (Staniforth, Gadd, Trembath).
 
 | Writer | Who tells it | Is the ghost seen? | How it ends | Words |
 |---|---|---|---|---|
-| Staniforth | A pressman, third person | Yes, described like a wanted man | A sting in the last line | 2,000–3,500 |
+| Staniforth | A newspaper man, first person, talking to the reader | Yes, described like a wanted man | A sting in the last line | 2,000–3,500 |
 | Tugwell | Close third on a powerless outsider | Almost never | Someone pours tea | 4,000–6,000 |
 | Lovegrove | An old soldier, first person | Yes, plainly, in daylight | An entry in a book | 2,500–4,000 |
 | Charlton | A scholar, first person | Felt in the body: thirst, cold | The debt paid, at a cost | 5,000–7,000 |

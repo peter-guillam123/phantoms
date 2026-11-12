@@ -171,9 +171,16 @@ the popular press of the 1890s was personal and opinionated.
 
 The same reading, for that writer's own magazines. In order of need:
 
-1. **Kenworthy.** A real dialect sketch from the *Cotton Factory Times*
-   or *Ben Brierley's Journal*. His spelling of the dialect is from
-   memory and is the least safe thing in the project.
+1. **Kenworthy.** Partly done on 12 November 2026. Read: Ben Brierley,
+   *Tales and Sketches of Lancashire Life* (Archive identifier
+   `talesandsketche01briegoog`), which tells in standard English and
+   gives the talk in dialect, and has two chapters in a mule room. His
+   spelling now follows Brierley's. Still unread: anything from the
+   *Cotton Factory Times* itself, which the Archive does not seem to
+   have, and a *Chambers's* number from 1905 (the house style is taken
+   from 1899–1900). A 4,800-word sample of Brierley measured: mean
+   sentence 25 words, middle 20, ten semicolons and four dashes per
+   1,000.
 2. **Protheroe.** Her spare, Bible-cadenced voice may be thirty years
    ahead of its time. It is closer to Caradoc Evans (1915) than to
    anything I know from the 1890s. Read *Wales* and Allen Raine, then
