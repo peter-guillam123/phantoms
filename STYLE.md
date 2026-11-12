@@ -148,6 +148,15 @@ confirmed this list ("that's pretty much the list", 11 Nov 2026).
   what is about to be said, with a loose "it" for the reader to puzzle
   over. The next sentence was already doing the job. Cut the
   announcement and let the sentence that follows speak.
+  On reflection he put it down to the phrase itself: "in it" is "a
+  strange way to refer to 'what was in my frame of mind'".
+- **Asides to the reader, as a tic.** Chris asked for Staniforth to talk
+  to the reader. The rewrite had thirteen asides ("I may say", "I must
+  tell you", "you will want to know") in under 4,000 words, and several
+  were announcements. Agreed 12 Nov 2026: ration them. Keep the ones
+  that admit something ("I will confess that I had a hand in the wording
+  of the bill"), set out his stance, or mark a change of form. Cut the
+  ones that only clear the throat. It now has eight.
 - **A plain thing said in a tortuous way.** "I began my report of it
   with a certain sentence; and as I have not been able to better that
   sentence in thirteen years, I shall begin with it again." Chris,

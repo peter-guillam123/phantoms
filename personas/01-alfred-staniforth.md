@@ -82,7 +82,10 @@ earlier rules (a neutral pressman, no reflection, no doubt, never the
 victim) were the cause and are withdrawn.
 
 - **Narration:** first person. A newspaper man talking straight to the
-  reader: "you will want to know", "I may say", "I will confess".
+  reader. Asides to the reader are rationed, to about one in every 500
+  words, and each must admit something, set out his stance or mark a
+  change of form. "I will confess" earns its place. "I must tell you"
+  does not.
 - **Stance:** a cynic by trade. He has written up ghosts for money for
   twenty years and invented some of them, so he knows how each one is
   got up and what it fetches. He tests every witness for a motive. The
