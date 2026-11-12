@@ -64,6 +64,30 @@ House style belongs to the magazine, not the writer.
 
 ## Tells to keep out
 
+**How to use this list.** It is not a blanket ban. Applied equally to
+all ten writers it would press them into one careful plain style, and
+the experiment would fail from the other side. Two rules, both agreed
+with Chris on 12 Nov 2026:
+
+1. **A high bar, with a reason.** Many of these habits are true to the
+   period and are also mine. A reader today hears me before they hear
+   1899. So each one is rationed hard, and each use needs a reason that
+   can be stated. "The dog I made myself, in the train between Sheffield
+   and Chesterfield" earns its place: it lands on something specific and
+   absurd, and that drop is the comic papers' main instrument.
+2. **Ask which writer it is wrong for.** The short paragraph and the
+   sting are wrong for Tugwell and right for Staniforth. Bathos is his
+   tool and nobody else's.
+
+**The test behind most of them.** Chris: the construction "signalled
+importance, but as I got to the end of the clause I realised I wasn't
+sure what was important, went back to re-read and concluded there was
+nothing important there. This leaves the reader with either an
+impression of synthetic writing or a human doing style over substance."
+So: never let the shape of a sentence promise weight that its content
+does not carry. If a sentence signals that something matters, the thing
+that matters must be in it, and nameable.
+
 Chris found "The Reader" "a little modern or classic Claude" and
 confirmed this list ("that's pretty much the list", 11 Nov 2026).
 
@@ -114,6 +138,9 @@ confirmed this list ("that's pretty much the list", 11 Nov 2026).
   void." The matched halves are there for the rhythm, and the rhythm
   lands on an empty word. Say who gave what in plain order, and let the
   sentence end on something: a person, an action, a thing.
+  Two exceptions, both agreed. Where the emptiness is the point, it
+  stays: "Hobson had none" (a man with no answer). And a drop that lands
+  on something specific is a joke and not this fault.
 - **A plain thing said in a tortuous way.** "I began my report of it
   with a certain sentence; and as I have not been able to better that
   sentence in thirteen years, I shall begin with it again." Chris,
