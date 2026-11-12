@@ -119,6 +119,11 @@ Factory Acts. See `STYLE.md` and `research/period-style.md`.
   were crushed when a minder mistook another man's lad for his own.
 - *Chambers's* printed dialect speech inside its usual single quotation
   marks, apostrophes and all. Seen in a Scots story of January 1900.
+- Looked for on 12 November 2026 and only partly found: a half-hour for
+  breakfast in the morning turn is given in the 1911 *Encyclopaedia
+  Britannica* (seen in a search summary, not read), and so is the
+  minder paying his piecers out of his own wage. The clock time and the
+  half-timer's wage were not found.
 - Not checked, and used in the story: that the engine stopped for
   breakfast from eight to half-past; that a half-timer earned about
   half-a-crown in 1873; that a firm might pay piecers at its own window

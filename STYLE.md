@@ -240,6 +240,15 @@ agreed the calls.
   own money is slow and gives no more than he must) and because it is in
   Staniforth's coin: he puts everything in terms of money.
 
+- **"The Little Piecer" (Kenworthy).** "It's great!" (12 Nov 2026), on
+  the version shown to him, with no notes. He had been asked about three
+  things and objected to none: dialect in the talk only and kept
+  readable; a tall, comic court scene; and three beats after the climax
+  (what became of everyone, the teller's confession, his dry last
+  word). My reading, not his words: a story can be funny for most of its
+  length and still land, and the period's long tidy ending did not feel
+  like three endings to him. One story is thin evidence for a rule.
+
 ## What Chris has not liked
 
 - **Detachment.** On rereading "The Last Car but One" (12 Nov 2026) he
