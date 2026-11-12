@@ -77,6 +77,12 @@ It may grow into a meta narrative or ARG later. Nothing is decided.
   `STYLE.md`. Check every story against it before showing it to him.
 - A change to a story that is already public is shown to Chris in the
   preview first, and merged only when he says so.
+- When Chris gives notes on a story, do not simply comply. He said on
+  12 November 2026: "if you disagree on any point, do push back. Also if
+  you're not sure why I dislike or like something, do ask me for
+  clarification. I may be struggling to articulate the important bit!"
+  Say where a note risks a cost, and ask what is behind a reaction
+  before turning it into a rule.
 - Narration is fixed per writer and is part of what tells them apart:
   first person for Lovegrove, Charlton, Tobin, Trembath and Staniforth
   (a newspaper man talking straight to the reader); close third for

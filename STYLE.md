@@ -64,6 +64,30 @@ House style belongs to the magazine, not the writer.
 
 ## Tells to keep out
 
+**How to use this list.** It is not a blanket ban. Applied equally to
+all ten writers it would press them into one careful plain style, and
+the experiment would fail from the other side. Two rules, both agreed
+with Chris on 12 Nov 2026:
+
+1. **A high bar, with a reason.** Many of these habits are true to the
+   period and are also mine. A reader today hears me before they hear
+   1899. So each one is rationed hard, and each use needs a reason that
+   can be stated. "The dog I made myself, in the train between Sheffield
+   and Chesterfield" earns its place: it lands on something specific and
+   absurd, and that drop is the comic papers' main instrument.
+2. **Ask which writer it is wrong for.** The short paragraph and the
+   sting are wrong for Tugwell and right for Staniforth. Bathos is his
+   tool and nobody else's.
+
+**The test behind most of them.** Chris: the construction "signalled
+importance, but as I got to the end of the clause I realised I wasn't
+sure what was important, went back to re-read and concluded there was
+nothing important there. This leaves the reader with either an
+impression of synthetic writing or a human doing style over substance."
+So: never let the shape of a sentence promise weight that its content
+does not carry. If a sentence signals that something matters, the thing
+that matters must be in it, and nameable.
+
 Chris found "The Reader" "a little modern or classic Claude" and
 confirmed this list ("that's pretty much the list", 11 Nov 2026).
 
@@ -71,7 +95,11 @@ confirmed this list ("that's pretty much the list", 11 Nov 2026).
   stops. Fold it into its neighbour.
 - **The aphorism**, as a habit. See below for the exception.
 - **Lists of three.**
-- **"Not this, but that."**
+- **"Not this, but that."** It is the empty kind that is the tell. Where
+  the contrast is the point, it can stay: Chris minded "They were not
+  looking at the dead man... They were looking at the water" less,
+  because "at least here it's meaningful that they weren't looking at
+  the obvious thing." (12 Nov 2026)
 - **Motifs that all pay off.** Leave some details doing nothing.
 - **Unbroken restraint.** Let someone be foolish, sentimental or devout.
 - **Modern idiom.** "A kind of statement."
@@ -80,6 +108,67 @@ confirmed this list ("that's pretty much the list", 11 Nov 2026).
   it is a consistent tell of your natural speaking voice. It reads like
   someone trying to turn a straightforward sentence into a more
   interesting one, and failing." Put the sentence in its plain order.
+- **The tail that adds weight but no content.** A last clause that
+  sounds like a point being made and is not one. Two kinds so far, both
+  from "The Last Car but One", both caught by Chris on 12 Nov 2026.
+  - The vague one: "...the only one that I ever got for nothing, and
+    have never been able to do anything with since." Chris: "It feels
+    like an attempt to add profundity to a sentence but without any real
+    weight. And it can be confusing. Reading it cold, I find myself
+    consuming it and then going back to it to clarify it." It also
+    contradicted the story, in which he is paid.
+  - The echo: "...and fifty people were standing round to watch it do
+    so." Chris: "That final leg actually only contains one new thing
+    (the number of the crowd) and then repeats the fact that the crowd
+    were looking. It feels like an important or profound point being
+    added, but the content isn't."
+  Not every hint is this fault. Chris did not mind "and then I went to
+  bed, and I may say that I slept", which is short, clear and paid off
+  later. He did want "I should be an easier man to-day" and "the only
+  money I ever had out of a ghost that I did not have to work for"
+  changed.
+  The test for the end of any sentence: what does this clause tell the
+  reader that they did not already have? If one fact, put the fact where
+  it belongs and stop. If nothing, cut it.
+- **The balanced sentence that ends on nothing.** "I got what I could
+  that night from the constable, which was the name and address, and
+  from the conductor, which was nothing at all." Chris, 12 Nov 2026: "I
+  recognise that you want to give the sense that there was little to go
+  on, but ending on the 'nothing at all' is a kind of dying fall into a
+  void." The matched halves are there for the rhythm, and the rhythm
+  lands on an empty word. Say who gave what in plain order, and let the
+  sentence end on something: a person, an action, a thing.
+  Two exceptions, both agreed. Where the emptiness is the point, it
+  stays: "Hobson had none" (a man with no answer). And a drop that lands
+  on something specific is a joke and not this fault.
+- **The announcement.** "I went to that inquest in a thoroughly
+  comfortable frame of mind, and it is only right that I should tell you
+  what was in it." Chris, 12 Nov 2026: "What is meant by 'what was in
+  it'? In the inquest? In his frame of mind?" A clause that announces
+  what is about to be said, with a loose "it" for the reader to puzzle
+  over. The next sentence was already doing the job. Cut the
+  announcement and let the sentence that follows speak.
+  On reflection he put it down to the phrase itself: "in it" is "a
+  strange way to refer to 'what was in my frame of mind'".
+- **Asides to the reader, as a tic.** Chris asked for Staniforth to talk
+  to the reader. The rewrite had thirteen asides ("I may say", "I must
+  tell you", "you will want to know") in under 4,000 words, and several
+  were announcements. Agreed 12 Nov 2026: ration them. Keep the ones
+  that admit something ("I will confess that I had a hand in the wording
+  of the bill"), set out his stance, or mark a change of form. Cut the
+  ones that only clear the throat. It now has eight.
+- **A plain thing said in a tortuous way.** "I began my report of it
+  with a certain sentence; and as I have not been able to better that
+  sentence in thirteen years, I shall begin with it again." Chris,
+  12 Nov 2026: "The idea is fine, it's just randomly complex." It became
+  "This is how my report of it began."
+- **The narrator vouching for the writing.** The same sentence claimed
+  that what followed could not be bettered. Chris: "is it really so good
+  he couldn't improve it? ... the first sentence just says there were
+  people in the car and no one on the top deck." Do not have a narrator
+  tell the reader that a line is fine, neat or beyond improving. If it
+  is good the reader will see it, and if it is ordinary the claim shows
+  it up.
 - **A figure that breaks when pushed.** "I speak as a manufacturer
   speaks of his own goods" was meant to say he knows ghosts are faked.
   But goods are real, so it says the opposite. Chris caught it and
@@ -120,6 +209,13 @@ magazines did not do it.
   one, who speaks straight to the reader, and who is told apart from the
   other writers "more in terms of vocabulary than position". "The voice
   is good." (12 Nov 2026)
+
+- **A figure that is the writer's own.** "He gave his evidence as though
+  every word of it were coming out of his own pocket." Chris, 12 Nov
+  2026: "I actually like this sentence. It's a nice, characterful
+  detail." It works because it holds when pushed (a man paying out his
+  own money is slow and gives no more than he must) and because it is in
+  Staniforth's coin: he puts everything in terms of money.
 
 ## What Chris has not liked
 
