@@ -11,6 +11,9 @@ born: 1862, the Canongate, Edinburgh
 died: 1934, Portobello
 work: W. & R. Chambers, 339 High Street, 1877–1929: reader’s boy, manuscript reader, and from 1896 assistant editor
 wrote: Nothing under his own name
+image: george-ormiston.webp
+image_size: 933x1400
+image_alt: A close photograph of the corner of an old handwritten page, with a rusty pin-hole and the faint ring of a cup. The writing is too blurred to read. In the left margin, in pencil, are a struck-out word, a question mark, a long vertical stroke, and at the foot the initials G. O., underlined.
 ---
 
 ## The Journal
