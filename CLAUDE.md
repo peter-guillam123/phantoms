@@ -27,7 +27,9 @@ It may grow into a meta narrative or ARG later. Nothing is decided.
   in the private preview, never on the public site. Remove that line to
   publish it, and only when Chris has read it and said so.
 - `images/PROMPTS.md` - a prompt for each picture named in a biography's
-  caption, for an AI image maker. No pictures are on the site yet.
+  caption, for an AI image maker, and how finished pictures are added.
+  The pictures themselves are in `static/images/`. The About page says
+  they are AI-made, and that line stays.
 - `static/` - the stylesheet, one small script and the fonts.
 - `build.py` - turns `content/` into web pages in `_site/` (not kept in
   git). `python3 build.py --serve` builds and serves at localhost:8000.

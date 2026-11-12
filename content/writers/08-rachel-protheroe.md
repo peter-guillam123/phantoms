@@ -17,6 +17,9 @@ work: Pupil-teacher at 13; elementary schoolmistress, 1889–1928
 wrote: About thirty short tales, 1892–1925
 signed: “R. Protheroe”
 sold: *Wales*, *Young Wales*, the *Cardiff Times*, *The Welsh Outlook*, *Chambers’s Journal*
+image: rachel-protheroe.webp
+image_size: 1400x933
+image_alt: A grey photograph on a dark card mount. About thirty children sit and stand in rows outside a low stone schoolhouse with a slate roof, and a boy in the front holds a slate. At the right-hand edge stands a woman in a dark dress, her head turned towards the children and her face blurred.
 ---
 
 ## Life

@@ -17,6 +17,9 @@ work: City typist from 1910; from 1915 a clerk at the Ilford photographic plate 
 wrote: About thirty-five stories, 1921–1931
 signed: “W. Gadd”
 sold: Evening newspapers, *20-Story Magazine*, *Hutchinson’s Mystery-Story Magazine*, *Chambers’s Journal*
+image: winifred-gadd.webp
+image_size: 1400x933
+image_alt: A snapshot with a white border. A crowd of young women in cloche hats, and a few men in caps, laugh beside an open charabanc on a seaside promenade with a pier behind. One woman’s raised hand hides a face, another figure is a blur, and a man’s face is cut off by the edge of the picture.
 ---
 
 ## Life

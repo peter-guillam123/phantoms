@@ -15,15 +15,19 @@ I got the idea from the British Library’s collections of forgotten ghost stori
 
 Almost everything around them is real. *Chambers’s Journal* was a real magazine with a real office on the High Street in Edinburgh, and the other magazines named are real too. The Sheffield flood, the murder at Road Hill House, the battle of Maiwand, Coventina’s Well, the burning of Bridget Cleary, the ghost who gave evidence in 1754, the Welsh Fasting Girl, the Wheal Owles disaster and the Thompson and Bywaters case all happened as described, as far as I have been able to check. The “Further reading” links on each page go to real sources about those real things.
 
+**The pictures are made up as well.** They were produced by an AI image maker from written descriptions, in the manner of old photographs and drawings. Nobody in them ever lived, and no such print or sketch exists.
+
 So each page is a made-up life laid carefully over true history. If you find yourself half believing in one of them, that is the idea. But please don’t cite them.
 
 ## How it is made
 
 I am not a programmer or a historian. I describe what I want and an AI, Anthropic’s Claude, does the research, the drafting and the typing, and then we argue about it. The research has limits, and I would sooner say so. Much of it was checked against Wikipedia and a few archives and museums, some of it only against search results, and a few details come from the model’s memory and still need confirming. The working notes say which is which.
 
-The site is plain web pages, built by a short script. It sets no cookies and tracks nobody. The typeface is Libre Caslon, a free revival of the letter most Victorian printers reached for.
+The pictures were made with ChatGPT’s image maker, from descriptions that Claude wrote. The site is plain web pages, built by a short script. It sets no cookies and tracks nobody. The typeface is Libre Caslon, a free revival of the letter most Victorian printers reached for.
 
 ## Diary
+
+**12 November 2026. Faces, or the lack of them.** *Milestone.* Every biography had a caption for a picture that did not exist: a group photograph he is thought to be in, a staff portrait where she is hidden behind somebody’s hat, a wedding picture lost in a house move. I had Claude write a description of each and gave them to ChatGPT’s image maker. They came back better than I expected, and they are now on the pages. They are fakes of old photographs of people who never lived, and the note above says so. In the one of the cathedral choir, look at the upstairs window on the right.
 
 **12 November 2026. Line by line.** I went through the Staniforth rewrite sentence by sentence and sent notes, and it was worth doing, because the same fault kept turning up in different clothes. A clause would sound as though it was making a point, I would go back to find the point, and there was none. We ended up with a test for it: the shape of a sentence must not promise more weight than its content carries. About a dozen lines changed. I was also argued with, usefully. Strip every such flourish from every writer and they all end up sounding alike, so some stay where they are doing a job.
 

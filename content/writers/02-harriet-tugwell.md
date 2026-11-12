@@ -17,6 +17,9 @@ work: None paid, except the writing
 wrote: About twenty-five stories, 1878–1905
 signed: “H. L. T.”, or nothing
 sold: *Temple Bar*, *The Argosy*, *Belgravia*, *Longman’s*, *Chambers’s Journal*
+image: harriet-tugwell.webp
+image_size: 1400x933
+image_alt: A faded brown photograph on a cream card mount. About twenty men and boys in white surplices stand and sit on stone steps beside a medieval church doorway, with old stone houses behind. One small boy in the front row is a blur. At an upper window on the right, behind a lace curtain, there is a pale shape.
 ---
 
 ## Life

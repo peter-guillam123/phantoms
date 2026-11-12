@@ -10,6 +10,18 @@ gives one figure pride of place, ask for it again.
 When pictures go on the site, the About page must say they were made by
 an AI image model. They are invented pictures of invented people.
 
+## Where the pictures go
+
+Finished pictures live in `static/images/`, named after the writer
+(`harriet-tugwell.webp`), at 1,400 pixels on the long side. Each
+biography names its picture in its header, with a description for
+people who cannot see it. A wide picture sits above the text and a tall
+one in the side column. A biography with no picture keeps the empty
+oval.
+
+The sub-editors' room came out with ten men, not eleven, so the caption
+was changed to match the picture.
+
 ## Things to check in each result
 
 - The number of people, which image models often get wrong.
