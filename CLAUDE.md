@@ -78,9 +78,9 @@ It may grow into a meta narrative or ARG later. Nothing is decided.
 - A change to a story that is already public is shown to Chris in the
   preview first, and merged only when he says so.
 - Narration is fixed per writer and is part of what tells them apart:
-  first person for Lovegrove, Charlton, Tobin and Trembath; close third
-  for Tugwell, Protheroe and Gadd; a pressman's third for Staniforth; a
-  teller with listeners for Kenworthy; a file of documents for
+  first person for Lovegrove, Charlton, Tobin, Trembath and Staniforth
+  (a newspaper man talking straight to the reader); close third for
+  Tugwell, Protheroe and Gadd; a teller with listeners for Kenworthy; a file of documents for
   Dalgleish. Do not change it without saying so.
 - Before writing a story, read the persona's file in full, and the
   comparison table in `personas/README.md`, so the voice stays distinct

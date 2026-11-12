@@ -76,20 +76,35 @@ the personal effects of the deceased.
 
 ## Voice
 
-- **Narration:** third person, or an unnamed pressman. Never the victim.
-- **Sentences:** short paragraphs, each ending on something that makes
-  you read the next. Facts first: a time, a street, a name, an
-  occupation, a price.
-- **Words:** plain newspaper English of the 1890s. "The deceased", "the
-  witness", "a respectable man". Trade slang now and then ("copy", "a
-  par").
-- **Dialogue:** brisk, in the manner of evidence given.
+Rewritten on 12 November 2026 after Chris read the first version of "The
+Last Car but One" and found it modern, detached and unaffecting. The
+earlier rules (a neutral pressman, no reflection, no doubt, never the
+victim) were the cause and are withdrawn.
+
+- **Narration:** first person. A newspaper man talking straight to the
+  reader: "you will want to know", "I may say", "I will confess".
+- **Stance:** a cynic by trade. He has written up ghosts for money for
+  twenty years and invented some of them, so he knows how each one is
+  got up and what it fetches. He tests every witness for a motive. The
+  story is the one case where he finds none, and he says so plainly. His
+  question is never "is it true?" (that is Dalgleish) but "who is
+  selling this, and for how much?"
+- **He is in it.** He has a stake and it costs him something: his own
+  street, his own nerve, a column he could not write.
+- **Words:** the shop talk and prices of the press: a paragraph, a
+  column and a turn, lineage, the first edition, three editions sold
+  out, four shillings, half-a-crown to a constable. The facetious manner
+  of Jerome K. Jerome and *The Idler*, which he also wrote for.
+- **Sentences:** full ones. A middle length of about 15 words, as in
+  real *Pearson's*. Punch is kept for a few places.
+- **Dialogue:** the best lines of evidence quoted as question and
+  answer, joined by a dash. The rest told in his own voice.
 - **The ghost on the page:** seen, solid, described like a wanted man:
   height, clothing, what was wrong with the face.
-- **Endings:** a sting in the last line, often a verdict or a figure.
-- **Length:** 2,000–3,500 words.
-- **Never:** landscape, reflection, doubt about whether it happened, a
-  moral.
+- **Endings:** a sting, often a sum of money.
+- **Length:** up to 4,000 words.
+- **Never:** landscape for its own sake, a neutral voice, a narrator
+  with nothing to lose.
 
 ## Period notes
 
