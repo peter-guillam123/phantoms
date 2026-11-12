@@ -80,6 +80,15 @@ confirmed this list ("that's pretty much the list", 11 Nov 2026).
   it is a consistent tell of your natural speaking voice. It reads like
   someone trying to turn a straightforward sentence into a more
   interesting one, and failing." Put the sentence in its plain order.
+- **The trailing clause of vague weight.** "...the only one that I ever
+  got for nothing, and have never been able to do anything with since."
+  Chris, 12 Nov 2026: "This kind of construction always feels a little
+  synthetic. It feels like an attempt to add profundity to a sentence
+  but without any real weight. And it can be confusing. Reading it cold,
+  I find myself consuming it and then going back to it to clarify it."
+  It also contradicted the story, in which he is paid. Say the plain
+  thing the clause was hinting at, and check it against the facts of the
+  story.
 - **A figure that breaks when pushed.** "I speak as a manufacturer
   speaks of his own goods" was meant to say he knows ghosts are faked.
   But goods are real, so it says the opposite. Chris caught it and
