@@ -184,6 +184,28 @@ For him they stay. Chris: "Don't worry about the style - go with what
 you have." (11 Nov 2026) The list above is for the writers whose
 magazines did not do it.
 
+## The first two stories, read against this list
+
+On 12 Nov 2026 "The Reader" and "The Diary at Direction Island", both
+written before most of the list existed, were read against it. Chris
+agreed the calls.
+
+- "The Reader": six lines changed. One claim was untrue to the story
+  ("the one thing which she ever said upon the subject", when she speaks
+  of it again at breakfast). Two tails went, and two phrases the reader
+  had to decode were said plainly. Four lines of the same shape were
+  kept, each for a reason: it states the story's subject, it lands on
+  something specific, it is a servant hinting in character, or it marks
+  a real gap.
+- "The Diary at Direction Island": two tails cut. It was much the
+  cleaner of the two, which fits how Chris and the detector took it.
+  Trembath's two announcements stay ("I am particular as to these dates,
+  because a great deal hangs by them"): both are true, and fussing over
+  what matters is who he is.
+- A check worth keeping from this: **is the sentence true to the rest of
+  the story?** Twice now a line written for its sound has contradicted
+  the plot.
+
 ## What Chris has liked
 
 - He loved the first two "for their delicacy", and then asked for "a
