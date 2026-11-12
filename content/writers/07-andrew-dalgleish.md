@@ -10,7 +10,7 @@ nuance: He never asks whether it is true, only what it proves. Under the lawyer 
 summary: An Edinburgh solicitor whose practice was the estates of the dead and whose hobby was other people’s trials, above all one of 1754 in which the chief witness for the Crown was a ghost.
 accent: #2f3f7a
 accent_night: #a6b4ea
-plate: He would not be photographed. A caricature in a legal paper of 1902 may be of him, or of any of forty others.
+plate: He would not be photographed. A legal paper caricatured him in 1902 all the same, and had to draw him from behind. He kept a copy.
 born: 1854, a Free Church manse in Midlothian
 died: 1926, Edinburgh
 work: Solicitor before the Supreme Courts, 1879–1921

@@ -10,7 +10,7 @@ nuance: She held that the dead do not come: the living send for them, and someth
 summary: A clerk at a photographic plate works who lost a brother in 1917, sat through her mother’s séances, lived ten minutes from the most talked-about murder of 1922, and wrote for ten years under a name that hid her sex.
 accent: #8a2d55
 accent_night: #eba0bf
-plate: She destroyed her photographs. A works outing picture of 1926 survives with her name pencilled on the back, and no cross to show which face is hers.
+plate: She burned her photographs. This one, from a works outing in 1926, was in someone else’s album. She is the one with her hand up.
 born: 1894, East Ham
 died: 1971, Seven Kings, Ilford
 work: City typist from 1910; from 1915 a clerk at the Ilford photographic plate works

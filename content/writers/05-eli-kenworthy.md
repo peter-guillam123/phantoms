@@ -10,7 +10,7 @@ nuance: His boggarts come back for sixpence, a week’s pay, a good name. They d
 summary: A mule spinner who went into the mill at eight and came out at 68, played tenor horn on Whit Fridays, and for 34 years wrote dialect sketches for the papers the cotton workers read.
 accent: #8a3a22
 accent_night: #e59c80
-plate: The only known picture is of a brass band on Whit Friday, 1899. He is said to be the tenor horn.
+plate: The only known picture: the band on Whit Friday, 1899. He is the tenor horn standing behind the drum.
 born: 1857, Mossley, on the Yorkshire side
 died: 1929, Mossley
 work: Cotton mill, from the age of eight
