@@ -71,7 +71,11 @@ confirmed this list ("that's pretty much the list", 11 Nov 2026).
   stops. Fold it into its neighbour.
 - **The aphorism**, as a habit. See below for the exception.
 - **Lists of three.**
-- **"Not this, but that."**
+- **"Not this, but that."** It is the empty kind that is the tell. Where
+  the contrast is the point, it can stay: Chris minded "They were not
+  looking at the dead man... They were looking at the water" less,
+  because "at least here it's meaningful that they weren't looking at
+  the obvious thing." (12 Nov 2026)
 - **Motifs that all pay off.** Leave some details doing nothing.
 - **Unbroken restraint.** Let someone be foolish, sentimental or devout.
 - **Modern idiom.** "A kind of statement."
@@ -94,6 +98,11 @@ confirmed this list ("that's pretty much the list", 11 Nov 2026).
     (the number of the crowd) and then repeats the fact that the crowd
     were looking. It feels like an important or profound point being
     added, but the content isn't."
+  Not every hint is this fault. Chris did not mind "and then I went to
+  bed, and I may say that I slept", which is short, clear and paid off
+  later. He did want "I should be an easier man to-day" and "the only
+  money I ever had out of a ghost that I did not have to work for"
+  changed.
   The test for the end of any sentence: what does this clause tell the
   reader that they did not already have? If one fact, put the fact where
   it belongs and stop. If nothing, cut it.

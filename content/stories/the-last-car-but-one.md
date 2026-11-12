@@ -20,7 +20,7 @@ At ten minutes past eleven on the night of the fourteenth of November, the last 
 
 You will want to know how I came by it. I was walking home across Moorhead from a smoking-concert, of which I had a notice to write, and the concert had been of a kind that made me in no hurry to begin, when I saw a crowd of some fifty people about the Nether Edge car. I have never in my life gone past a crowd. A crowd means that something has happened to somebody else, which is the whole of what newspapers are for; and this was a crowd of a sort that I knew from a good way off, for it was perfectly quiet, and everybody in it was looking the same way.
 
-The dead man was inside the car, where they could not see him. They were watching the water, which was coming out from under the door and dripping off the step into the road, on a night that was as dry as a bone and freezing hard.
+They were not looking at the dead man, who was inside the car and out of their sight. They were looking at the water, which was coming out from under the door and dripping off the step into the road, on a night that was as dry as a bone and freezing hard.
 
 The dead man was a Mr. Josiah Marples, a retired pawnbroker, of Nether Edge, fifty-one years of age and stout. He was sitting in the far corner on the left-hand side, under the lamp, with his eyes shut and his hat on. I had seen a fair number of people who had died suddenly, and I should have said that this one had been badly frightened first; but I did not put that in, because a reporter who gives opinions in the first edition is generally found giving explanations in the second.
 
@@ -94,7 +94,7 @@ After that the Inspector read out the list of what had been found upon the decea
 
 I will confess that I had a hand in the wording of the bill, the Inspector being a better policeman than he was a writer. “WANTED, to give evidence,” it began, and then came Hobson’s description, ear and all. It was out that night at every police-station and car-shed in Sheffield.
 
-In the week that followed that man was seen, by my own count, upon nine cars, in two public-houses, and at Rotherham. I interviewed most of the people who saw him, and I may say that if I had come away from the inquest as easy in my mind as I came away from them, I should be an easier man to-day. They were the kind of witness that I understood. Each of them had seen a little more than the last, and two of them asked me what the paper paid. We sold out three editions on the Thursday, and I made four pounds eleven in lineage from the London papers, which was more than I had ever made in a week before.
+In the week that followed that man was seen, by my own count, upon nine cars, in two public-houses, and at Rotherham. I interviewed most of the people who saw him, and I came away from every one of them easier in my mind than I had come away from the inquest. They were the kind of witness that I understood. Each of them had seen a little more than the last, and two of them asked me what the paper paid. We sold out three editions on the Thursday, and I made four pounds eleven in lineage from the London papers, which was more than I had ever made in a week before.
 
 The room was fuller on the second day than on the first, and the police had nothing to report. Then an elderly woman, who had sat through the whole of the first day at the back of the court, stood up and said that she wished to be heard.
 
@@ -148,4 +148,4 @@ I did not write the column. I told my editor that nothing had happened, which wa
 
 I have explained a great many things in three-and-twenty years, and I could explain this. I could say that Hobson miscounted, and that a milliner’s girl of two-and-twenty will see whatever she is afraid of, and that an old woman with a long memory read a bill in a shop window. I have written it out in that form more than once. It reads very well, and I do not believe a word of it.
 
-I have the two pennies still. They are the only money I ever had out of a ghost that I did not have to work for.
+I have the two pennies still. I have never liked to spend them.
