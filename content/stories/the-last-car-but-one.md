@@ -14,7 +14,7 @@ I HAVE been a newspaper man for three-and-twenty years, and in that time I have 
 
 A ghost, in my trade, is a thing that comes in during a slack week. It is commonly brought by a landlady, or by a constable who would be glad of half-a-crown, and it is worth to the man who writes it up about a penny-farthing a line, and something more if London takes it. I have never known one that would bear looking into, and I have never looked into one that I was not paid for. I say all this without shame. It is as well that you should have it before you, because I am now going to tell you of one that I had no hand in making, and that I cannot explain.
 
-It happened at Sheffield, in the November of 1886, when I was eight-and-twenty and on the staff of an evening paper there. I began my report of it with a certain sentence; and as I have not been able to better that sentence in thirteen years, I shall begin with it again.
+It happened at Sheffield, in the November of 1886, when I was eight-and-twenty and on the staff of an evening paper there. This is how my report of it began.
 
 At ten minutes past eleven on the night of the fourteenth of November, the last car but one left the Nether Edge terminus with three passengers inside and none on top. The conductor, a steady man named Hobson with eleven years’ service, was prepared to swear to this before any coroner in England, and in the event he had to. For when the car reached Moorhead there were four inside; and the fourth had not paid.
 
@@ -24,7 +24,7 @@ They were not looking at the dead man, who was inside the car and out of their s
 
 The dead man was a Mr. Josiah Marples, a retired pawnbroker, of Nether Edge, fifty-one years of age and stout. He was sitting in the far corner on the left-hand side, under the lamp, with his eyes shut and his hat on. I had seen a fair number of people who had died suddenly, and I should have said that this one had been badly frightened first; but I did not put that in, because a reporter who gives opinions in the first edition is generally found giving explanations in the second.
 
-I got what I could that night from the constable, which was the name and address, and from the conductor, which was nothing at all. Hobson was sitting on the kerb with his head in his hands, and when I asked him the usual question he looked up at me and did not answer. I took him to be in drink. I went to the office and wrote my paragraph, with the sentence that I have given you at the head of it, and I thought it a tolerably neat thing, and worth perhaps four shillings; and then I went to bed, and I may say that I slept.
+I got what I could that night from the constable, which was the name and address, and from the conductor, which was nothing at all. Hobson was sitting on the kerb with his head in his hands, and when I asked him the usual question he looked up at me and did not answer. I took him to be in drink. I went to the office and wrote the paragraph that I have given you, and I thought it a tolerably neat thing, and worth perhaps four shillings; and then I went to bed, and I may say that I slept.
 
 * * *
 
@@ -34,7 +34,7 @@ I went to that inquest in a thoroughly comfortable frame of mind, and it is only
 
 Hobson was called first. He was a spare, grizzled man, with something of the old soldier about him, and he gave his evidence as though every word of it were coming out of his own pocket. He said that he had three inside at the terminus, and punched three twopenny tickets; that Mr. Marples had taken out his watch as they started, and remarked that they were to their time; and that the car did not stop anywhere between Nether Edge and Moorhead, the night being cold and nobody about. Coming down Cemetery Road he looked in through the glass of the door, to count his passengers against his way-bill, as the rule was; and there were four.
 
-I shall give you the next part as it stands in my note-book, question and answer, for I have never found the way to improve upon it.
+I shall give you the next part as it stands in my note-book, question and answer.
 
 “Where was the fourth sitting?”—“In the far corner, sir. Next to Mr. Marples, on the near side of him. Close up.”
 

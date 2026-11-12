@@ -89,6 +89,18 @@ confirmed this list ("that's pretty much the list", 11 Nov 2026).
   It also contradicted the story, in which he is paid. Say the plain
   thing the clause was hinting at, and check it against the facts of the
   story.
+- **A plain thing said in a tortuous way.** "I began my report of it
+  with a certain sentence; and as I have not been able to better that
+  sentence in thirteen years, I shall begin with it again." Chris,
+  12 Nov 2026: "The idea is fine, it's just randomly complex." It became
+  "This is how my report of it began."
+- **The narrator vouching for the writing.** The same sentence claimed
+  that what followed could not be bettered. Chris: "is it really so good
+  he couldn't improve it? ... the first sentence just says there were
+  people in the car and no one on the top deck." Do not have a narrator
+  tell the reader that a line is fine, neat or beyond improving. If it
+  is good the reader will see it, and if it is ordinary the claim shows
+  it up.
 - **A figure that breaks when pushed.** "I speak as a manufacturer
   speaks of his own goods" was meant to say he knows ghosts are faked.
   But goods are real, so it says the opposite. Chris caught it and
