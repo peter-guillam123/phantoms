@@ -10,7 +10,7 @@ nuance: The dead in her stories do not care whether you are good. They want what
 summary: A solicitor’s daughter from the Roman Wall who read classics at Cambridge when Cambridge would not give a woman a degree, taught Greek for 33 years, and wrote a dozen stories her colleagues never knew about.
 accent: #2b6156
 accent_night: #8ec9ba
-plate: She appears in the college staff photograph for 1904, in the back row, mostly hidden by another woman’s hat.
+plate: The college staff photograph for 1904. She is in the back row, second from the left, with the brim of her hat down over her eyes.
 born: 1862, Hexham, Northumberland
 died: 1938, Corbridge
 work: Schoolmistress; resident lecturer in classics, Royal Holloway College, 1889–1922
@@ -19,7 +19,7 @@ signed: “H. C.”
 sold: Her college magazine, *The Cornhill*, *Blackwood’s*, *Chambers’s Journal*
 image: hester-charlton.webp
 image_size: 1400x933
-image_alt: A grey photograph on a grey card mount. Fourteen women in dark academic gowns, in two rows, in front of an ornate brick and stone building. Three wear large flowered hats. In the back row, towards the right, one woman is almost wholly hidden behind the hat of the woman seated in front of her.
+image_alt: A grey photograph on a grey card mount. Fourteen women in dark academic gowns, in two rows, in front of an ornate brick and stone building. Three wear large flowered hats. In the back row, second from the left, the brim of one woman’s hat puts her eyes in shadow. Further along the row another woman is almost wholly hidden behind a colleague’s hat.
 ---
 
 ## Life

@@ -16,7 +16,7 @@ the site can carry that once. Trembath's verandah has it. The others:
 | Staniforth | He said the sketch was made up |
 | Tugwell | Not in the picture |
 | Lovegrove | Found by the dash in his own list of names |
-| Charlton | Behind another woman's hat |
+| Charlton | Her own hat brim over her eyes |
 | Kenworthy | Pointed out plainly, behind the drum |
 | Tobin | The portrait is lost |
 | Dalgleish | Drawn from behind, because he would not sit |
