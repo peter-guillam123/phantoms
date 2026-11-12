@@ -10,7 +10,7 @@ nuance: No malice and no mystery, only a soldier nobody stood down. Behind it is
 summary: A carter’s son from the Berkshire downs who enlisted as a private, walked back from the defeat at Maiwand, rose as far as a ranker could, and began to write at 48 because a young officer asked him to.
 accent: #5f5720
 accent_night: #cdc27a
-plate: A photograph of the sergeants’ mess at Athlone, 1886, is thought to include him. Nobody can now say which man he is.
+plate: The sergeants’ mess at Athlone, 1886. The names are on the back in his own hand, row by row. Where his should come he put a dash: back row, second from the right.
 born: 1858, East Garston, Berkshire
 died: 1927, Reading
 work: Soldier, 1877–1906, 66th Foot, later 2nd Battalion Royal Berkshire Regiment

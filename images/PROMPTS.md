@@ -3,9 +3,29 @@
 One prompt for each picture named in a biography's caption, written for
 ChatGPT's image maker. Each is complete on its own: paste it as it is.
 
-The idea to protect: in every picture the writer cannot be picked out.
-They are one of many, or hidden, or turned away, or missing. If a result
-gives one figure pride of place, ask for it again.
+The idea to protect: no picture gives a writer a clear face. They are
+hidden, or turned away, or missing, or one small figure among many. If a
+result gives one figure pride of place, ask for it again.
+
+Each caption gets there by a different road. Chris said on 12 November
+2026 that too many rested on "nobody knows which one he is", and that
+the site can carry that once. Trembath's verandah has it. The others:
+
+| Writer | How the caption handles it |
+|---|---|
+| Staniforth | He said the sketch was made up |
+| Tugwell | Not in the picture |
+| Lovegrove | Found by the dash in his own list of names |
+| Charlton | Her own hat brim over her eyes |
+| Kenworthy | Pointed out plainly, behind the drum |
+| Tobin | The portrait is lost |
+| Dalgleish | Drawn from behind, because he would not sit |
+| Protheroe | At the edge, turned to the children |
+| Gadd | Her own hand in front of her face |
+| Trembath | One of nine, and he never said which |
+| Ormiston | Only his handwriting |
+
+A new caption must not repeat one of these.
 
 When pictures go on the site, the About page must say they were made by
 an AI image model. They are invented pictures of invented people.

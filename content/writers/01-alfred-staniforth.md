@@ -10,7 +10,7 @@ nuance: He said he believed in nothing and wrote for the money. But his ghosts a
 summary: A Sheffield file-cutter’s son who learned his trade at inquests, went to Fleet Street in the year of the Whitechapel murders, and for twenty years sold frights to the sixpenny magazines at so much a thousand words.
 accent: #4a4640
 accent_night: #c4bcae
-plate: No photograph is known. A sketch of the sub-editors’ room at his paper, drawn in 1904, shows ten men in shirtsleeves. None is named.
+plate: No photograph is known. His paper printed this sketch of its sub-editors’ room in 1904. He said the artist had never been in the room, and that you could not see St Paul’s from it.
 born: January 1858, Neepsend, Sheffield
 died: 1931, Herne Hill, London
 work: Compositor’s apprentice, reporter, sub-editor
