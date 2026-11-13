@@ -15,7 +15,7 @@ I got the idea from the British Library’s collections of forgotten ghost stori
 
 Almost everything around them is real. *Chambers’s Journal* was a real magazine with a real office on the High Street in Edinburgh, and the other magazines named are real too. The Sheffield flood, the murder at Road Hill House, the battle of Maiwand, Coventina’s Well, the burning of Bridget Cleary, the ghost who gave evidence in 1754, the Welsh Fasting Girl, the Wheal Owles disaster and the Thompson and Bywaters case all happened as described, as far as I have been able to check. The “Further reading” links on each page go to real sources about those real things.
 
-**The pictures are made up as well.** They were produced by an AI image maker from written descriptions, in the manner of old photographs and drawings. Nobody in them ever lived, and no such print or sketch exists. The dark pictures at the top of the front page were made the same way.
+**The pictures are made up as well.** They were produced by an AI image maker from written descriptions, in the manner of old photographs and drawings. Nobody in them ever lived, and no such print or sketch exists. The dark pictures at the top of the front page, and at the head of each story, were made the same way. They are not from the magazines the stories are set in.
 
 So each page is a made-up life laid carefully over true history. If you find yourself half believing in one of them, that is the idea. But please don’t cite them.
 

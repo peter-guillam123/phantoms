@@ -104,6 +104,31 @@ their trade on the job (Staniforth, Gadd, Trembath).
   events lie ahead and cannot be stopped. Lovegrove's lie behind and can
   be put right.
 
+## Where the dread could sit
+
+Chris, 13 November 2026, after four stories: "I do want to make sure
+some of our corpus has a real sense of dread or malevolence or threat."
+
+What follows is a proposal put to him that day. It is not agreed.
+
+The first four are a delicate one, a steady one, a fright that ends in
+pity and a funny one. None has a ghost that means harm. That comes from
+how the ten were built: each ghost has a reason (a wage, a debt, a
+message), and a ghost with a reason is hard to be afraid of. Of the six
+still to write:
+
+| Writer | What it could carry | How |
+|---|---|---|
+| Charlton | Malevolence | Something old that is owed and collects. It is not angry, which is worse. Somebody should be hurt, in the body. |
+| Gadd | Threat | The thing that answers is not the one who was sent for, and it wants in. |
+| Tobin | Menace from the living | No harm from the dead at all. A kitchen full of neighbours who are sure. |
+| Protheroe | Dread | The death is known a week ahead and cannot be stopped. |
+| Dalgleish | Cold dread | A double of a living man, on paper, where he has never been. |
+| Lovegrove | None | His dead are comrades. He is the relief. |
+
+So three of the six would be written to frighten in earnest, each in a
+different way, and two more to leave a chill.
+
 ## Places where their lives could cross
 
 None of this is needed. It is here in case the project grows a story of

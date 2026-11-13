@@ -6,6 +6,8 @@ byline: By John Trembath
 venue: Chambers’s Journal
 year: 1911
 order: 2
+picture: john-trembath
+picture_alt: A dark picture, in the manner of an engraving, of a wooden room at night. An oil lamp burns on a desk beside an open book with a pen across it and a telegraph instrument, from which paper tape has run out and coiled on the floor. The chair is pushed back and empty, and palm trees show through an open shutter.
 summary: A cable operator takes over the night watch on a coral island, reads back through the station’s log, and finds it has been kept for three weeks in the handwriting of a man he saw board a ship for England.
 note: First printed in *Chambers’s Journal*, 1911. The *Journal*’s spelling and punctuation are kept: single quotation marks, “Mr” without a point, “cocoa-nut”, “any one”.
 ---

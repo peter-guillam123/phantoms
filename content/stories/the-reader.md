@@ -6,6 +6,8 @@ byline: By H. L. T.
 venue: Chambers’s Journal
 year: 1900
 order: 1
+picture: harriet-tugwell
+picture_alt: A dark picture, in the manner of an engraving, of a drawing-room at night. A small lamp burns on a round table beside a low buttoned chair with a closed book on its seat. Across the hearth-rug a high-backed armchair stands empty, with a shawl over its arm.
 summary: A paid companion reads aloud each evening to an old lady, and is stopped each evening at the same line, for leaving out a passage that is not in the book.
 note: First printed in *Chambers’s Journal*, 1900, signed “H. L. T.” The *Journal*’s spelling and punctuation are kept: single quotation marks, “Mr” and “Mrs” without a point, “to-night”, “any one”.
 ---

@@ -249,6 +249,12 @@ agreed the calls.
   length and still land, and the period's long tidy ending did not feel
   like three endings to him. One story is thin evidence for a rule.
 
+- **Dread, malevolence, threat.** After four stories (13 Nov 2026): "I
+  love the ones we have so far, but I do want to make sure some of our
+  corpus has a real sense of dread or malevolence or threat." None of the
+  first four has a ghost that means harm. See `personas/README.md` for
+  where that could sit among the six still to write.
+
 ## What Chris has not liked
 
 - **Detachment.** On rereading "The Last Car but One" (12 Nov 2026) he

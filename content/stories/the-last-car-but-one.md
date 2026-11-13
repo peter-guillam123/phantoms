@@ -6,6 +6,8 @@ byline: By A. Staniforth
 venue: Pearson’s Magazine
 year: 1899
 order: 3
+picture: alfred-staniforth
+picture_alt: A dark picture, in the manner of an engraving, of the inside of an empty horse tram at night. A long slatted bench runs under the windows to the far corner, where an oil lamp burns on the wall. Two pennies lie on the seat beneath it.
 summary: A late tram leaves the terminus with three passengers and reaches the town with four. One of the three is dead in his seat. The reporter who tells it has faked ghosts for a living, and this is the one he could not explain.
 note: First printed in *Pearson’s Magazine*, 1899. The magazine’s spelling and punctuation are kept: double quotation marks, “Mr.” with a point, “grey”, “anyone”. Questions and answers are joined by a dash, as inquests were reported in the newspapers.
 ---
