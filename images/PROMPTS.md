@@ -140,15 +140,15 @@ The originals go in `images/ghosts/`, named after the writer
 
 ## Placement, the same for all ten
 
-The title and the line sit on the left of the plate, and a phone shows
-only the right-hand part of the picture. So:
+On a wide screen the title and the line sit on the left of the plate,
+over the picture. On a phone the whole picture sits above the words. So:
 
 - Landscape, 3:2.
 - One small bright thing, in the right-hand third, between a quarter
   and two-thirds of the way down. Nothing else bright.
 - The left two-thirds dark and quiet: no highlights, no pale shapes.
 - Nothing that matters in the top or bottom tenth, which wide screens
-  cut off, or in the left third, which phones cut off.
+  cut off.
 - Nobody in it, and no reflection or shadow of anybody.
 - No lettering that can be read.
 

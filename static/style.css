@@ -161,16 +161,6 @@ main { max-width: var(--wide); margin: 0 auto; padding: 0 var(--gutter); }
     linear-gradient(to right, rgb(15 13 10 / 0.82), rgb(15 13 10 / 0.4) 45%, transparent 72%),
     linear-gradient(to top, rgb(15 13 10 / 0.7), transparent 45%);
 }
-/* On a phone the small line above the title runs the full width, so the
-   top of the picture is shaded as well. */
-@media (max-width: 51.99rem) {
-  .hero-plate::after {
-    background:
-      linear-gradient(to right, rgb(15 13 10 / 0.82), rgb(15 13 10 / 0.4) 45%, transparent 72%),
-      linear-gradient(to top, rgb(15 13 10 / 0.7), transparent 45%),
-      linear-gradient(to bottom, rgb(15 13 10 / 0.85), rgb(15 13 10 / 0.6) 22%, transparent 38%);
-  }
-}
 .hero-plate img {
   position: absolute; inset: 0; width: 100%; height: 100%;
   object-fit: cover; object-position: 85% 40%;
@@ -178,6 +168,19 @@ main { max-width: var(--wide); margin: 0 auto; padding: 0 var(--gutter); }
 }
 .hero-plate img.is-shown { opacity: 0.55; }
 .hero-plate img:not([srcset]) { visibility: hidden; }
+
+/* On a phone or a narrow tablet there is no room beside the words, so
+   the picture goes above them instead: the whole of it, uncropped, in a
+   band across the top of the plate, fading into the dark where the
+   title starts. */
+@media (max-width: 51.99rem) {
+  .hero { padding-top: 52vw; }
+  .hero-plate::after {
+    background: linear-gradient(to bottom, transparent 0, transparent 40vw, rgb(15 13 10 / 0.75) 56vw, var(--plate) 66.7vw);
+  }
+  .hero-plate img { inset: 0 0 auto 0; height: auto; aspect-ratio: 3 / 2; object-position: 50% 50%; }
+  .hero-plate img.is-shown { opacity: 0.7; }
+}
 .hero .eyebrow, .hero .turn-lead, .hero .turn-by { color: var(--plate-soft); }
 .hero .turn { --a: var(--accent-night); border-top-color: var(--plate-rule); }
 .hero .turn-toggle { color: var(--plate-soft); border-color: var(--plate-rule); }

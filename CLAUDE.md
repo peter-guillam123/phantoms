@@ -65,9 +65,10 @@ It may grow into a meta narrative or ARG later. Nothing is decided.
   12 November 2026. There is no separate list of stories.
 - The top of the home page is a dark plate in both themes, with the
   ghost picture for whichever writer's line is showing. Chris chose the
-  dark style on 12 November 2026. The words sit on the left, so each
-  picture keeps its one bright thing in the right-hand third. A writer
-  with no picture yet gets a plain dark plate.
+  dark style on 12 November 2026. On a wide screen the words sit on the
+  left, so each picture keeps its one bright thing in the right-hand
+  third. On a phone the whole picture sits in a band above the words. A
+  writer with no picture yet gets a plain dark plate.
 - Text over a picture must pass 4.5:1 (3:1 for the title and the big
   line) over the brightest or darkest part behind it. That is why the
   row pictures are capped at 13% strength on light paper and kept out
