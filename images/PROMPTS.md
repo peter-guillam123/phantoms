@@ -188,9 +188,13 @@ Placement: the well, the lantern and the coins in the right-hand third, with the
 
 ### 5. Eli Kenworthy: a wage owing
 
+The first result (in use) is busier and paler than the rest of the set,
+the machine is not quite a mule, and the clogs look like a girl's
+strapped shoes. Second prompt, written after the story:
+
 ```
-Same style. Subject: the spinning room of a Lancashire cotton mill, about 1895, empty, with the machines stopped. A long spinning mule runs away into the dark: hundreds of upright spindles in a row on a low wheeled carriage, over bare oily floorboards, with iron pillars holding up the ceiling. One gas jet burns on a wall bracket, and it is the only light. Under it, set neatly against the wall, is a small pair of child's wooden-soled clogs, and on the floor beside the machine lies a short hand-brush. Nobody in the room.
-Placement: the gas jet, the clogs and the brush in the right-hand third, with the gas jet about a third of the way down. The gas jet is the one bright thing and it is small. The long row of spindles runs off to the left into darkness, with nothing bright in it. Landscape, 3:2. No people, no lettering.
+Same style, and as dark and quiet as the others in the set: nearly all black, with one small light. Subject: a corner of the spinning room of a Lancashire cotton mill before dawn, about 1873, empty, with the machines stopped. A spinning mule: a long, low wooden carriage on small iron wheels, standing on rails on the floor and drawn out about five feet from a fixed frame. Along the top of the carriage is a single row of slim upright spindles, and a flat sheet of fine threads runs from them across the gap to the frame. The carriage runs away into the dark and is only just visible. Bare oily floorboards. One gas jet burns on a wall bracket, and it is the only light. Under it, against the wall, stands one small pair of boy's clogs: like little ankle boots, with plain leather uppers and thick wooden soles, no strap across the foot and no heel. On the floor beside the end of the carriage lies a short hand-brush. Nobody in the room.
+Placement: the gas jet, the clogs and the brush in the right-hand third, with the gas jet about a third of the way down. The gas jet is the one bright thing and it is small. Everything to the left is very dark: the carriage and its spindles are dim grey shapes with no pale or white parts. Landscape, 3:2. No people, no lettering.
 ```
 
 ### 6. Nora Tobin: a neighbour in need of a favour
@@ -209,9 +213,12 @@ Placement: the looking-glass and the candle in the right-hand third, with the fl
 
 ### 8. Rachel Protheroe: a warning that comes first
 
+The first result (in use) has a moon, which the prompt ruled out, and a
+flame only a few pixels high, which vanishes on the page. Second prompt:
+
 ```
-Same style. Subject: a narrow sunken lane between high hedge-banks in the hills of west Wales, on a moonless night, about 1896. Some way down the lane, low over the mud and about the height of a hand, a single small pale flame is moving along by itself. Nobody is carrying it and it lights almost nothing. A field gate, bare thorn trees, and far off the dark shape of a farmhouse with no light in it.
-Placement: the small flame in the right-hand third, a little below halfway down. It is the one bright thing and it is very small. The left two-thirds is hedge-bank and black sky with nothing bright in it. Landscape, 3:2. No people, no lettering.
+Same style. Subject: a narrow sunken lane between high hedge-banks in the hills of west Wales, at night, about 1896. There is no moon and no light in the sky at all: the sky is plain black. Some way down the lane, low over the ruts, a single pale flame is travelling along by itself, like a candle flame with no candle and nobody carrying it. It must be easy to see: about the size a real candle flame would look from six feet away, with a soft glow that just touches the mud beneath it and the nearest part of the hedge-bank. It is the only light in the picture. A field gate, bare thorn trees against the black, and far off the dark shape of a farmhouse with no light in it.
+Placement: the flame in the right-hand third, a little below halfway down. It is the one bright thing. No moon, no stars, no pale sky. The left two-thirds is hedge-bank and darkness with nothing bright in it. Landscape, 3:2. No people, no lettering.
 ```
 
 ### 9. Winifred Gadd: a wish with nowhere to go

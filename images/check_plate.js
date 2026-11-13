@@ -44,12 +44,15 @@ function luminance([r, g, b]) {
     for (let i = 0; i < count; i++) {
       if (i > 0) await page.click("[data-turn-toggle]");
       const who = await page.textContent("[data-turn-by]");
-      const has = await page.evaluate((n) => !!document.querySelectorAll(".turn-source li")[n].getAttribute("data-ghost"), i);
-      if (!has) continue;
-      await page.waitForFunction(() => {
-        const img = document.querySelector("[data-turn-plate] img.is-shown");
-        return img && img.complete && img.naturalWidth > 0;
-      });
+      const set = await page.evaluate((n) => document.querySelectorAll(".turn-source li")[n].getAttribute("data-ghost"), i);
+      if (!set) continue;
+      // Wait until this writer's own picture is the one showing, and only
+      // that one: the layer before it stays up until the new one loads.
+      const slug = set.split("/").pop().split(".")[0].replace("-small", "");
+      await page.waitForFunction((want) => {
+        const shown = document.querySelectorAll("[data-turn-plate] img.is-shown");
+        return shown.length === 1 && shown[0].complete && shown[0].naturalWidth > 0 && shown[0].currentSrc.includes(want);
+      }, slug);
       // Where each piece of text is, and what colour it is.
       const boxes = await page.evaluate((texts) => texts.map(([sel, need]) => {
         const el = document.querySelector(sel);
