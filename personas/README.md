@@ -109,7 +109,9 @@ their trade on the job (Staniforth, Gadd, Trembath).
 Chris, 13 November 2026, after four stories: "I do want to make sure
 some of our corpus has a real sense of dread or malevolence or threat."
 
-What follows is a proposal put to him that day. It is not agreed.
+What follows was put to him that day as a proposal. He agreed to all
+of it: "I like the suggestions here and think we should do them all."
+Charlton's is written first.
 
 The first four are a delicate one, a steady one, a fright that ends in
 pity and a funny one. None has a ghost that means harm. That comes from

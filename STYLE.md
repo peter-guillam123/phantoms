@@ -10,8 +10,8 @@ There are two layers, and a story needs both:
    magazines' house styles were, and the modern habits to keep out.
 2. **Author-specific: the writer's file in `personas/`.** That writer's
    voice rules, plus a "Period notes" section written after reading real
-   stories from their own magazines. Tugwell, Trembath, Staniforth and
-   Kenworthy have theirs. The other six do not, and must before they
+   stories from their own magazines. Tugwell, Trembath, Staniforth,
+   Kenworthy and Charlton have theirs. The other five do not, and must before they
    write.
 
 The evidence behind the general rules (what was read, the counts, the
@@ -288,6 +288,8 @@ agreed the calls.
 | Real: Brierley, "Cast upon the World" (sample), 1880s | 4,811 | 25 / 20 | 10 | 4 |
 | "The Little Piecer" (Kenworthy), first draft | 3,230 | 18 / 16 | 12 | 1 |
 | "The Little Piecer" (Kenworthy), as shown to Chris | 3,290 | 14 / 12 | 4 | 1 |
+| Real: M. R. James, "Count Magnus", 1904 | 5,514 | 24 / 20 | 6 | 6 |
+| "The Well at the Mile-Castle" (Charlton), as shown to Chris | 4,173 | 23 / 19 | 8 | 1 |
 
 Staniforth's first version had sentences far shorter than real *Pearson's* ones, and read as modern. The rewrite matches them. All three of ours are light on dashes. Tugwell's and Trembath's middle
 sentences are now nearly the same length, so what separates them is

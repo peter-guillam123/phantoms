@@ -190,6 +190,11 @@ The same reading, for that writer's own magazines. In order of need:
 4. **Tobin.** *The Irish Monthly* and a Rosa Mulholland story.
 5. **Dalgleish, Lovegrove, Trembath, Charlton.** *Blackwood's* and *The
    Cornhill*, both of which the Archive appears to have.
+   For Charlton, M. R. James's *Ghost Stories of an Antiquary* (1904) was
+   read on 13 November 2026 and two stories measured: "Count Magnus",
+   5,514 words, mean sentence 24, middle 20, six semicolons and six
+   dashes per 1,000; "Oh, Whistle", 8,403 words, mean 29, middle 24,
+   eight semicolons and six dashes. *The Cornhill* is still unread.
 
 Two limits. The Archive's text is machine-read and full of small errors,
 so it is good for style and poor for exact quotation. And I have read
