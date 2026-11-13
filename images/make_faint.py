@@ -36,10 +36,18 @@ for path in sorted(SRC.glob("*.webp")):
     print(path.name, im.size, (OUT / path.name).stat().st_size // 1024, "KB")
 
 GHOSTS = ROOT / "images" / "ghosts"
+# A picture that came out much darker than the rest of the set can be
+# lifted a little here, so that it shows at the same strength as the
+# others. 1 leaves it alone; a smaller number lifts the shadows more.
+# The original in images/ghosts/ is never changed.
+LIFT = {"eli-kenworthy": 0.72}
 GHOSTS_OUT = SRC / "ghosts"
 GHOSTS_OUT.mkdir(exist_ok=True)
 for path in sorted(GHOSTS.glob("*.webp")):
     im = Image.open(path).convert("L")
+    gamma = LIFT.get(path.stem, 1)
+    if gamma != 1:
+        im = im.point([round(255 * (v / 255) ** gamma) for v in range(256)])
     for width, suffix, quality in ((1200, "", 48), (760, "-small", 50)):
         copy = im.copy()
         copy.thumbnail((width, width), Image.LANCZOS)

@@ -188,9 +188,11 @@ Placement: the well, the lantern and the coins in the right-hand third, with the
 
 ### 5. Eli Kenworthy: a wage owing
 
-The first result (in use) is busier and paler than the rest of the set,
-the machine is not quite a mule, and the clogs look like a girl's
-strapped shoes. Second prompt, written after the story:
+The first result was busier and paler than the rest of the set, the
+machine was not quite a mule, and the clogs looked like a girl's
+strapped shoes. This second prompt, written after the story, made the
+picture now in use. It came out darker than the others, so
+`make_faint.py` lifts its shadows a little.
 
 ```
 Same style, and as dark and quiet as the others in the set: nearly all black, with one small light. Subject: a corner of the spinning room of a Lancashire cotton mill before dawn, about 1873, empty, with the machines stopped. A spinning mule: a long, low wooden carriage on small iron wheels, standing on rails on the floor and drawn out about five feet from a fixed frame. Along the top of the carriage is a single row of slim upright spindles, and a flat sheet of fine threads runs from them across the gap to the frame. The carriage runs away into the dark and is only just visible. Bare oily floorboards. One gas jet burns on a wall bracket, and it is the only light. Under it, against the wall, stands one small pair of boy's clogs: like little ankle boots, with plain leather uppers and thick wooden soles, no strap across the foot and no heel. On the floor beside the end of the carriage lies a short hand-brush. Nobody in the room.
@@ -213,8 +215,9 @@ Placement: the looking-glass and the candle in the right-hand third, with the fl
 
 ### 8. Rachel Protheroe: a warning that comes first
 
-The first result (in use) has a moon, which the prompt ruled out, and a
-flame only a few pixels high, which vanishes on the page. Second prompt:
+The first result had a moon, which the prompt ruled out, and a flame
+only a few pixels high, which vanished on the page. This second prompt
+made the picture now in use:
 
 ```
 Same style. Subject: a narrow sunken lane between high hedge-banks in the hills of west Wales, at night, about 1896. There is no moon and no light in the sky at all: the sky is plain black. Some way down the lane, low over the ruts, a single pale flame is travelling along by itself, like a candle flame with no candle and nobody carrying it. It must be easy to see: about the size a real candle flame would look from six feet away, with a soft glow that just touches the mud beneath it and the nearest part of the hedge-bank. It is the only light in the picture. A field gate, bare thorn trees against the black, and far off the dark shape of a farmhouse with no light in it.
