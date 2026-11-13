@@ -91,6 +91,52 @@ night.
 - **Never:** a gentleman's point of view, fine writing, pity for a
   master, Latin.
 
+## Period notes
+
+Added on 12 November 2026 after reading Ben Brierley's *Tales and
+Sketches of Lancashire Life* (the chapters of "Cast upon the World" set
+in a mule room) and the Wikipedia pages on the spinning mule and the
+Factory Acts. See `STYLE.md` and `research/period-style.md`.
+
+- Brierley is the model for the form Ormiston asked for: the telling in
+  standard English and the talk in dialect. But Brierley's own telling is
+  literary and long (a middle sentence of 20 words). Kenworthy's is a
+  man talking: a middle sentence of about 12, few semicolons, short
+  paragraphs. That is what sets him apart from the other writers on the
+  page, along with the dialect.
+- Spelling of the dialect follows Brierley, with the puzzles left out:
+  "thou", "thee", "thy" and "thou's", "thou'll" (not "tha"); "con",
+  "connot"; "mun"; "nobbut"; "noan"; "nawe" for no; "wheer", "theer",
+  "ther's"; "goo"; "wark"; "deead"; "hauf"; "maister"; "nob'dy";
+  "i'th'"; "fro'"; "han" for have; "they'n"; "yo'". "I", not "aw".
+  "Were" where Brierley has "wur". "As" for that, as in the specimen.
+- Mill words seen in Brierley: "little piecer", "big piecer", "jenny
+  gate", "putting-up", "stop thoose wheels", and a piecer "on his bare
+  feet". From the mule page: minder, side piecer, roller-beam,
+  headstock, creel, fly, and the way a carriage was cleaned (wheels
+  stopped, carriage out, both piecers under the threads with a brush and
+  a cloth, the minder not setting on until he has seen both out). Boys
+  were crushed when a minder mistook another man's lad for his own.
+- *Chambers's* printed dialect speech inside its usual single quotation
+  marks, apostrophes and all. Seen in a Scots story of January 1900.
+- Looked for on 12 November 2026 and only partly found: a half-hour for
+  breakfast in the morning turn is given in the 1911 *Encyclopaedia
+  Britannica* (seen in a search summary, not read), and so is the
+  minder paying his piecers out of his own wage. The clock time and the
+  half-timer's wage were not found.
+- Not checked, and used in the story: that the engine stopped for
+  breakfast from eight to half-past; that a half-timer earned about
+  half-a-crown in 1873; that a firm might pay piecers at its own window
+  and stop the money off the minder's book (the usual way was for the
+  minder to pay them himself); the forfeit rule on the notice, which is
+  invented; forty shillings as the fine for a child at work in the
+  meal-time.
+- "The Little Piecer" is written, as a draft:
+  `content/stories/the-little-piecer.md`. The teller is Kenworthy at
+  about 48, in an engine-house in the dinner-hour, telling a lad of an
+  accident in 1873 when he was sixteen. The listeners are heard only
+  through what he says to them.
+
 ## Specimen
 
 > Owd Jonty Schofield allus said he'd no objection to a boggart as paid

@@ -15,7 +15,35 @@
   var timer = null;
   var paused = false;
 
+  // The dark picture behind the title changes with the line. Two layers
+  // take turns, so no more than two pictures are ever held at once. A
+  // writer with no picture yet leaves the plate plain.
+  var layers = Array.prototype.slice.call(document.querySelectorAll("[data-turn-plate] img"));
+  var front = 0;
+
+  function showPicture(i) {
+    if (layers.length < 2) return;
+    var set = items[i].getAttribute("data-ghost");
+    var incoming = layers[1 - front];
+    var outgoing = layers[front];
+    front = 1 - front;
+    function swap() {
+      if (layers[front] !== incoming) return;
+      incoming.classList.add("is-shown");
+      outgoing.classList.remove("is-shown");
+    }
+    if (!set) {
+      incoming.classList.remove("is-shown");
+      outgoing.classList.remove("is-shown");
+      return;
+    }
+    incoming.onload = swap;
+    incoming.setAttribute("srcset", set);
+    if (incoming.complete && incoming.naturalWidth) swap();
+  }
+
   function show(i) {
+    showPicture(i);
     phrase.innerHTML = items[i].innerHTML;
     by.textContent = items[i].getAttribute("data-by");
     turn.style.setProperty("--accent", items[i].getAttribute("data-accent"));

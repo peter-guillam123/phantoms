@@ -3,7 +3,9 @@ title: George Ormiston
 eyebrow: The editor
 dates: 1862–1934 · Assistant editor, *Chambers’s Journal*, Edinburgh
 summary: The one thing the ten writers had in common. For 33 years he read what came in to *Chambers’s Journal*, and at one time or another he asked each of them for a story. He published nothing himself and appears in no history of the firm.
-teaser: Assistant editor of *Chambers’s Journal*, Edinburgh. He asked each of the ten for a story, at one time or another, and is the only thing that connects them.
+teaser: He asked each of the ten for a story, at one time or another, and is the only thing that connects them.
+creed_lead: He would take
+creed: any ghost that had cost the teller something.
 accent: #7b2d26
 accent_night: #e3a394
 plate: No photograph is known. His handwriting survives in the margins of other people’s work, where he signed himself “G. O.”
@@ -13,6 +15,7 @@ work: W. & R. Chambers, 339 High Street, 1877–1929: reader’s boy, manuscript
 wrote: Nothing under his own name
 image: george-ormiston.webp
 image_size: 933x1400
+image_kind: drawing
 image_alt: A close photograph of the corner of an old handwritten page, with a rusty pin-hole and the faint ring of a cup. The writing is too blurred to read. In the left margin, in pencil, are a struck-out word, a question mark, a long vertical stroke, and at the foot the initials G. O., underlined.
 ---
 

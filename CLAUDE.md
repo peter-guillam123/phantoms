@@ -29,7 +29,16 @@ It may grow into a meta narrative or ARG later. Nothing is decided.
 - `images/PROMPTS.md` - a prompt for each picture named in a biography's
   caption, for an AI image maker, and how finished pictures are added.
   The pictures themselves are in `static/images/`. The About page says
-  they are AI-made, and that line stays.
+  they are AI-made, and that line stays. The home page shows pale grey
+  copies behind each name. Those are in `static/images/faint/`.
+- `images/ghosts/` - the dark pictures behind the title on the home
+  page, one for each writer's idea of a ghost, named after the writer.
+  Chris makes these himself in ChatGPT, in a style he worked out there.
+  `images/PROMPTS.md` has the subject and placement for each.
+- `images/make_faint.py` makes the web copies of both sets. Run it after
+  adding or changing a picture, then `node images/check_plate.js`, which
+  checks that the words on the dark plate can still be read over every
+  picture.
 - `static/` - the stylesheet, one small script and the fonts.
 - `build.py` - turns `content/` into web pages in `_site/` (not kept in
   git). `python3 build.py --serve` builds and serves at localhost:8000.
@@ -49,7 +58,22 @@ It may grow into a meta narrative or ARG later. Nothing is decided.
 - Chris views the site through a private preview page on claude.ai:
   https://claude.ai/artifact/URcMQYgf26vUQDk712TmPx. After a change he
   should see, run `python3 build.py --artifact` and republish
-  `_artifact/index.html` with the other twelve pages to that address.
+  `_artifact/index.html` with the other pages, and any new pictures, to
+  that address.
+- The home page is one list: the editor first, then the ten, each with a
+  link to their story where one exists. Chris asked for this on
+  12 November 2026. There is no separate list of stories.
+- The top of the home page is a dark plate in both themes, with the
+  ghost picture for whichever writer's line is showing. Chris chose the
+  dark style on 12 November 2026. On a wide screen the words sit on the
+  left, so each picture keeps its one bright thing in the right-hand
+  third. On a phone the whole picture sits in a band above the words. A
+  writer with no picture yet gets a plain dark plate.
+- Text over a picture must pass 4.5:1 (3:1 for the title and the big
+  line) over the brightest or darkest part behind it. That is why the
+  row pictures are capped at 13% strength on light paper and kept out
+  from under the coloured text, and why the plate has a shade laid over
+  its left side. `images/check_plate.js` tests the plate.
 - Each writer has one colour, light and dark, set in the header of their
   content file. Any new colour must pass 4.5:1 contrast on both papers.
 - The About page diary is in Chris's voice, newest first. Add an entry

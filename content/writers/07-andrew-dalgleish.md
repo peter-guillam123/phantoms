@@ -19,6 +19,7 @@ signed: Nothing in *Blackwood’s*; “A. D.” elsewhere
 sold: *Blackwood’s Magazine*, *Chambers’s Journal*
 image: andrew-dalgleish.webp
 image_size: 933x1400
+image_kind: drawing
 image_alt: A pen-and-ink caricature on yellowed paper. A stooping man in a top hat and a long overcoat climbs stone steps, seen from behind, with a tin deed-box under one arm and an umbrella under the other. Only the tip of his nose and the rim of his spectacles show.
 ---
 
