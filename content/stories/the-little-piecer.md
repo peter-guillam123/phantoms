@@ -6,7 +6,6 @@ byline: By Eli Kenworthy
 venue: Chambers’s Journal
 year: 1905
 order: 4
-draft: yes
 summary: An old spinner tells a cheeky lad about Joe Garside, nine years old, who was killed cleaning under a spinning mule in 1873, had his last week’s wage stopped for it, and came back every breakfast-time to go on cleaning.
 note: First printed in *Chambers’s Journal*, 1905. The *Journal*’s spelling and punctuation are kept: single quotation marks and “Mr” without a point. The talk is in the dialect of the Lancashire and Yorkshire border, as he wrote it. A boggart is a ghost, “wick” is alive, “addling” is earning and “hoo” is she.
 ---
