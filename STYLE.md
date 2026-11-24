@@ -10,8 +10,8 @@ There are two layers, and a story needs both:
    magazines' house styles were, and the modern habits to keep out.
 2. **Author-specific: the writer's file in `personas/`.** That writer's
    voice rules, plus a "Period notes" section written after reading real
-   stories from their own magazines. Tugwell, Trembath, Staniforth and
-   Kenworthy have theirs. The other six do not, and must before they
+   stories from their own magazines. Tugwell, Trembath, Staniforth,
+   Kenworthy and Charlton have theirs. The other five do not, and must before they
    write.
 
 The evidence behind the general rules (what was read, the counts, the
@@ -249,6 +249,18 @@ agreed the calls.
   length and still land, and the period's long tidy ending did not feel
   like three endings to him. One story is thin evidence for a rule.
 
+- **"The Well at the Mile-Castle" (Charlton), revised.** "Go for it! It's
+  great!" (24 Nov 2026). He gave no notes on the text, and none on the
+  first draft either, so what he would have said of the drier version is
+  not known. The revision he approved has the long night, the sister who
+  acts, the Latin read out and a quiet last line.
+
+- **Dread, malevolence, threat.** After four stories (13 Nov 2026): "I
+  love the ones we have so far, but I do want to make sure some of our
+  corpus has a real sense of dread or malevolence or threat." None of the
+  first four has a ghost that means harm. See `personas/README.md` for
+  where that could sit among the six still to write.
+
 ## What Chris has not liked
 
 - **Detachment.** On rereading "The Last Car but One" (12 Nov 2026) he
@@ -282,6 +294,10 @@ agreed the calls.
 | Real: Brierley, "Cast upon the World" (sample), 1880s | 4,811 | 25 / 20 | 10 | 4 |
 | "The Little Piecer" (Kenworthy), first draft | 3,230 | 18 / 16 | 12 | 1 |
 | "The Little Piecer" (Kenworthy), as shown to Chris | 3,290 | 14 / 12 | 4 | 1 |
+| Real: M. R. James, "Count Magnus", 1904 | 5,514 | 24 / 20 | 6 | 6 |
+| "The Well at the Mile-Castle" (Charlton), first draft | 4,173 | 23 / 19 | 8 | 1 |
+| The same plot written by another model, Neon | 6,624 | 21 / 18 | 6 | 7 |
+| "The Well at the Mile-Castle" (Charlton), revised | 4,619 | 23 / 19 | 8 | 4 |
 
 Staniforth's first version had sentences far shorter than real *Pearson's* ones, and read as modern. The rewrite matches them. All three of ours are light on dashes. Tugwell's and Trembath's middle
 sentences are now nearly the same length, so what separates them is
@@ -295,6 +311,37 @@ second pass broke the compound sentences into spoken ones and gave the
 jokes back to the men who made them, in dialect. Lesson: measure the
 draft against the other stories before showing it, not only against
 the real magazine.
+
+## What a second model showed
+
+On 24 November 2026 Chris gave another AI model, Neon, a one-page brief
+for "The Well at the Mile-Castle" with the plot of the draft included
+(`briefs/`). Its version is kept beside the brief. Chris then asked for
+the draft here to be revised.
+
+What Neon did better, and the draft here had got wrong:
+
+- **It staged what the draft summarised.** The draft reported the worst
+  night of the narrator's life in one paragraph. Keeping a dry voice is
+  not a reason to thin the horror. Give the body room: the central
+  physical experience of a story should be the longest scene in it.
+- **Minor people existed.** The sister had a napkin and a way of eating.
+  In the draft she was a name on three letters. A silent character
+  still needs two or three things done on the page.
+- **It gave the Latin.** A story about reading aloud should let the
+  reader hear what was read.
+- **It used the dash as the period did.** Every story here has been
+  light on dashes. Count them before showing a story.
+- **It caught an error.** The draft's Wall bent the wrong way to take in
+  the well. A second telling of the same plot is a cheap check on the
+  first one's logic.
+
+What Neon got wrong, which is what the brief and this file are for: a
+fifth of it was speech where the writer's rule is little dialogue; it
+explained the thing in an aphorism; it ran half as long again as the
+magazine printed; and it could have been handed to a different writer.
+Its slips were of the kind already listed above: a line untrue to the
+rest of the story (seven lines of Latin, later eleven).
 
 ## What a detector made of them
 

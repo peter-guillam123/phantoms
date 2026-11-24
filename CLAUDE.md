@@ -39,6 +39,10 @@ It may grow into a meta narrative or ARG later. Nothing is decided.
   adding or changing a picture, then `node images/check_plate.js`, which
   checks that the words on the dark plate can still be read over every
   picture.
+- `briefs/` - a self-contained brief for one story, written so that it
+  can be handed to another AI model to compare its writing with what is
+  here. It holds the persona, the house style and the habits to keep
+  out, and an optional plot at the end. The site does not use it.
 - `static/` - the stylesheet, one small script and the fonts.
 - `build.py` - turns `content/` into web pages in `_site/` (not kept in
   git). `python3 build.py --serve` builds and serves at localhost:8000.

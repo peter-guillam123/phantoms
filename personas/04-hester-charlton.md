@@ -96,6 +96,50 @@ steamers, dry heat, thirst.
 - **Length:** 5,000–7,000 words.
 - **Never:** vicars, Christian comfort, comic rustics, a moral.
 
+## Period notes
+
+Added on 13 November 2026, before "The Well at the Mile-Castle". Read:
+M. R. James, *Ghost Stories of an Antiquary* (1904; Archive identifier
+`ghoststoriesana00jamegoog`), as the nearest real thing to her manner.
+See `STYLE.md` and `research/period-style.md`.
+
+- James measured: "Count Magnus" has a mean sentence of 24 words and a
+  middle one of 20; "Oh, Whistle" 29 and 24. Six to eight semicolons and
+  six dashes per 1,000 words. Paragraphs are long. He opens by saying how
+  the papers came to him and what kind of thing they are, before any
+  event. So her long, qualified sentences are right for the period, and
+  hers should run longer than anyone else's in the set.
+- James explains the history and never the thing. That is the way to get
+  dread past the period's taste for tidy endings, and it is the rule for
+  this story.
+- *Chambers's* ran single stories of 3,200 to 4,300 words. Her brief says
+  5,000 to 7,000, which is her *Cornhill* and *Blackwood's* length. For
+  Ormiston she writes to his.
+- She asked Ormiston not to print her name, so the byline is "By H. C."
+- Real, and used in the story: the Lydney tablet (a lost ring; half its
+  value given to the god Nodens; no health to the thief "until he brings
+  it to the temple of Nodens"), found before 1812 and discussed in print
+  in the 1880s; the Bath tablet found in 1880, which asks that whoever
+  carried off Vilbia become "as liquid as water". Both seen in search
+  summaries of the Roman Inscriptions of Britain and Wikipedia pages,
+  not read in full. The Coronation of 9 August 1902, put off from June.
+- Checked and found: no well was known in a mile-castle in 1903. One has
+  been found since, near the fort of Magna. The narrator says he knows
+  of no other, which is true to his date.
+- From memory and not checked: that the Newcastle antiquaries' museum
+  was at the Black Gate (the story says only "the Society's museum at
+  Newcastle"); the size of a mile-castle; "third brass" as the collector's
+  name for a small coin of Tetricus; Bardon Mill station; a wet summer in
+  1902; testing for sugar as the way a doctor of 1902 looked for
+  diabetes; the *Classical Review* (founded 1887).
+- Invented: Harlow Rigg, Mr Forster, the well, its eleven tablets and
+  their Latin, the bed of quartz pebbles, the Wall bending to take the
+  well in, and the custom of leaving something at a Wall well.
+- The story is written as a draft:
+  `content/stories/the-well-at-the-mile-castle.md`. It is the first of
+  the set meant to carry real malevolence. Nothing is seen. The thing is
+  never named: its name is beaten out of every tablet.
+
 ## Specimen
 
 > The tablet is of lead, four inches by rather less than three, and had

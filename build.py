@@ -272,6 +272,17 @@ def story_page(meta, body, author):
         content, count=1,
     )
     draft = '<p class="draft-flag">Preview. Not yet published.</p>' if meta.get("draft") else ""
+    # A story may name one of the dark ghost pictures. It sits between
+    # the title and the text, on a dark plate of its own, so that it reads
+    # as the site's picture and not as part of the magazine page.
+    plate = ""
+    pic = meta.get("picture")
+    if pic and (STATIC / "images" / "ghosts" / f"{pic}.webp").exists():
+        base = f"../../static/images/ghosts/{pic}"
+        plate = (f'<figure class="story-plate"><img src="{base}.webp" '
+                 f'srcset="{base}-small.webp 760w, {base}.webp 1200w" '
+                 f'sizes="(min-width: 46rem) 44rem, 100vw" width="1200" height="800" '
+                 f'alt="{html.escape(meta.get("picture_alt", ""))}" decoding="async"></figure>')
     return f"""<article class="story">
   <header class="story-head">
     {draft}
@@ -279,6 +290,7 @@ def story_page(meta, body, author):
     <h1>{html.escape(meta["title"])}</h1>
     <p class="byline">{inline(meta["byline"])}</p>
   </header>
+  {plate}
   <div class="prose story-text">
 {content}
   </div>
