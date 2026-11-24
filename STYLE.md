@@ -289,7 +289,9 @@ agreed the calls.
 | "The Little Piecer" (Kenworthy), first draft | 3,230 | 18 / 16 | 12 | 1 |
 | "The Little Piecer" (Kenworthy), as shown to Chris | 3,290 | 14 / 12 | 4 | 1 |
 | Real: M. R. James, "Count Magnus", 1904 | 5,514 | 24 / 20 | 6 | 6 |
-| "The Well at the Mile-Castle" (Charlton), as shown to Chris | 4,173 | 23 / 19 | 8 | 1 |
+| "The Well at the Mile-Castle" (Charlton), first draft | 4,173 | 23 / 19 | 8 | 1 |
+| The same plot written by another model, Neon | 6,624 | 21 / 18 | 6 | 7 |
+| "The Well at the Mile-Castle" (Charlton), revised | 4,619 | 23 / 19 | 8 | 4 |
 
 Staniforth's first version had sentences far shorter than real *Pearson's* ones, and read as modern. The rewrite matches them. All three of ours are light on dashes. Tugwell's and Trembath's middle
 sentences are now nearly the same length, so what separates them is
@@ -303,6 +305,37 @@ second pass broke the compound sentences into spoken ones and gave the
 jokes back to the men who made them, in dialect. Lesson: measure the
 draft against the other stories before showing it, not only against
 the real magazine.
+
+## What a second model showed
+
+On 24 November 2026 Chris gave another AI model, Neon, a one-page brief
+for "The Well at the Mile-Castle" with the plot of the draft included
+(`briefs/`). Its version is kept beside the brief. Chris then asked for
+the draft here to be revised.
+
+What Neon did better, and the draft here had got wrong:
+
+- **It staged what the draft summarised.** The draft reported the worst
+  night of the narrator's life in one paragraph. Keeping a dry voice is
+  not a reason to thin the horror. Give the body room: the central
+  physical experience of a story should be the longest scene in it.
+- **Minor people existed.** The sister had a napkin and a way of eating.
+  In the draft she was a name on three letters. A silent character
+  still needs two or three things done on the page.
+- **It gave the Latin.** A story about reading aloud should let the
+  reader hear what was read.
+- **It used the dash as the period did.** Every story here has been
+  light on dashes. Count them before showing a story.
+- **It caught an error.** The draft's Wall bent the wrong way to take in
+  the well. A second telling of the same plot is a cheap check on the
+  first one's logic.
+
+What Neon got wrong, which is what the brief and this file are for: a
+fifth of it was speech where the writer's rule is little dialogue; it
+explained the thing in an aphorism; it ran half as long again as the
+magazine printed; and it could have been handed to a different writer.
+Its slips were of the kind already listed above: a line untrue to the
+rest of the story (seven lines of Latin, later eleven).
 
 ## What a detector made of them
 
