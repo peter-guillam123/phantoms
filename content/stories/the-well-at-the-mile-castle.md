@@ -8,7 +8,6 @@ year: 1903
 order: 5
 picture: hester-charlton
 picture_alt: A dark picture, in the manner of an engraving, of a round stone well on a moor at night. A lantern burns on the rim, with a few coins beside it. A rope hangs into the well from a wooden windlass, and a bucket and a spade stand against the stones.
-draft: yes
 summary: A scholar is asked north to read some lead tablets taken from a Roman well on the Wall. The workmen have been dropping their own pennies into it, and will not say why. Then he reads the last tablet aloud.
 note: First printed in *Chambers’s Journal*, 1903, over the initials she used. The *Journal*’s spelling and punctuation are kept: single quotation marks, “Mr” without a point, “gray”. The tablets from Lydney and Bath that the narrator mentions are real. The well, the mile-castle and its eleven tablets are not.
 ---

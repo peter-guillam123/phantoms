@@ -249,6 +249,12 @@ agreed the calls.
   length and still land, and the period's long tidy ending did not feel
   like three endings to him. One story is thin evidence for a rule.
 
+- **"The Well at the Mile-Castle" (Charlton), revised.** "Go for it! It's
+  great!" (24 Nov 2026). He gave no notes on the text, and none on the
+  first draft either, so what he would have said of the drier version is
+  not known. The revision he approved has the long night, the sister who
+  acts, the Latin read out and a quiet last line.
+
 - **Dread, malevolence, threat.** After four stories (13 Nov 2026): "I
   love the ones we have so far, but I do want to make sure some of our
   corpus has a real sense of dread or malevolence or threat." None of the
